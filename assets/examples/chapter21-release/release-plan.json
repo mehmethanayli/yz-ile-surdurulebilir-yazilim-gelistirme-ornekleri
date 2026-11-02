@@ -1,0 +1,199 @@
+{
+  "record_id": "YK-21-01",
+  "schema_version": 1,
+  "record_type": "teaching_plan",
+  "deployment_performed": false,
+  "release_approved": false,
+  "candidate": {
+    "source_revision": null,
+    "artifact_digest": null,
+    "dependency_record": null
+  },
+  "environment": {
+    "provider": null,
+    "staging_id": null,
+    "production_id": null,
+    "real_domain": null
+  },
+  "decisions": {
+    "acceptable_interruption": null,
+    "acceptable_data_loss": null,
+    "observation_window": null,
+    "assigned_operator": null,
+    "operator_role": "Yayın yürütücüsü",
+    "decision_role": "Yetkili yayın sorumlusu"
+  },
+  "prerequisite_records": [
+    "GO-14-01",
+    "AS-08-01",
+    "TS-18-01",
+    "Gİ-19-01",
+    "VLS-20-01"
+  ],
+  "pre_release_gates": [
+    {
+      "id": "K01",
+      "title": "Kapsam ve kararlar",
+      "required_evidence": "Kritik açık sözleşme kararlarının çözümlenmesi",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "K02",
+      "title": "Hedef ortam",
+      "required_evidence": "Runtime, ağ ve kaynak kimliklerinin doğrulanması",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "K03",
+      "title": "Yayın çıktısı",
+      "required_evidence": "Kaynak, bağımlılık ve artifact kimliğinin eşleştirilmesi",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "K04",
+      "title": "Test ve güvenlik",
+      "required_evidence": "Gerçek adaya bağlı gereken kontroller",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "K05",
+      "title": "Yapılandırma",
+      "required_evidence": "Ayar, sır sağlama ve erişim düzeni",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "K06",
+      "title": "DNS ve TLS",
+      "required_evidence": "Gerçek ad, uç nokta ve yenileme davranışı",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "K07",
+      "title": "Şema uyumu",
+      "required_evidence": "Migration provası ve eski-yeni kod uyumu",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "K08",
+      "title": "Kurtarma",
+      "required_evidence": "Yedek ve geri yükleme provası",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "K09",
+      "title": "Geri dönüş",
+      "required_evidence": "Uyumlu dönüş veya ileri düzeltme yolu",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "K10",
+      "title": "Gözlem",
+      "required_evidence": "Günlük, sağlık ve müdahale yolu",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "K11",
+      "title": "Veri ve lisans",
+      "required_evidence": "VLS-20-01 açık işlerinin değerlendirilmesi",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "id": "K12",
+      "title": "Yayın yetkisi",
+      "required_evidence": "Yetkili karar ve uygulama sorumlusu",
+      "status": "pending",
+      "evidence": null
+    }
+  ],
+  "rollback_scenarios": [
+    {
+      "id": "R21-01",
+      "situation": "Yeni süreç trafik öncesi hazır olamıyor",
+      "planned_response": "Trafik geçişini durdur; mevcut hizmetin durumunu doğrula; nedeni incele.",
+      "prerequisite": "Önceki hizmet hâlâ kullanılabilir olmalı; yapılmış şema değişiklikleri ayrıca görülmeli.",
+      "rehearsal_status": "not_run"
+    },
+    {
+      "id": "R21-02",
+      "situation": "Trafik sonrası uygulama hatası",
+      "planned_response": "Mevcut şemayla uyum kanıtı varsa önceki artifact ve yönlendirme seçeneğini değerlendir.",
+      "prerequisite": "Önceki artifact erişilebilir; veri/şema ve ayarlar eski kodla uyumlu olmalı.",
+      "rehearsal_status": "not_run"
+    },
+    {
+      "id": "R21-03",
+      "situation": "Şema veya veri eski kodla uyumsuz",
+      "planned_response": "Otomatik kod rollback yapma; ileri düzeltme veya kontrollü kurtarma kararı için etkiyi incele.",
+      "prerequisite": "Yeni yazmalar, olası veri kaybı, yetkili karar ve kurtarma kanıtı değerlendirilmiş olmalı.",
+      "rehearsal_status": "not_run"
+    }
+  ],
+  "post_release_checks": [
+    {
+      "id": "S01",
+      "purpose": "Etkin artifact ve dış HTTPS uç noktasını doğrulamak",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "S02",
+      "purpose": "Yetkili deneme hesabıyla oturum ve gerekli okuma akışını sınamak",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "S03",
+      "purpose": "Sentetik A/B görev erişim ayrımını sınamak",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "S04",
+      "purpose": "Günlük, hata ve önceden kararlaştırılmış gözlemi değerlendirmek",
+      "status": "not_run",
+      "evidence": null
+    }
+  ],
+  "dns_examples": {
+    "documentation_only": true,
+    "complete_zone": false,
+    "records": [
+      {
+        "name": "crm.example.com",
+        "type": "A",
+        "value": "192.0.2.10"
+      },
+      {
+        "name": "alias.example.com",
+        "type": "CNAME",
+        "value": "crm.example.com"
+      },
+      {
+        "name": "_review.example.com",
+        "type": "TXT",
+        "value": "documentation-only"
+      }
+    ]
+  },
+  "next_step": "Gerçek uygulama ve hedef ortam hazırlandığında kanıtları topla; yapılmamış kontrolü başarılı sayma.",
+  "migration": {
+    "target": null,
+    "compatibility_evidence": null,
+    "rehearsal_status": "not_run"
+  },
+  "recovery": {
+    "backup_reference": null,
+    "restore_rehearsal_status": "not_run"
+  }
+}

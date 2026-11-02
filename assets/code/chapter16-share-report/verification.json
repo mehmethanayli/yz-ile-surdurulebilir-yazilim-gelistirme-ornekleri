@@ -1,0 +1,33 @@
+{
+  "verified_on": "2026-10-03",
+  "python_version": "3.13.7",
+  "platform": "Windows",
+  "contexts": [
+    "Installed Python 3.13.7",
+    "Separate Python 3.13.7 venv created with --without-pip"
+  ],
+  "unique_test_methods": 15,
+  "retained_test_methods": 9,
+  "new_test_methods": 6,
+  "review_examples_rejected": [
+    "full_report",
+    "shallow_selection",
+    "mutating_selection"
+  ],
+  "chapter14_baseline_unchanged": true,
+  "external_dependencies_added": false,
+  "not_verified": [
+    "Python 3.14 runtime",
+    "Django/PostgreSQL integration",
+    "CI/CD",
+    "AI-CRM application behavior",
+    "General anonymization"
+  ],
+  "sha256": {
+    "scripts/inspect_environment.py": "2d0c78fcc9d64dce27306c89347abd09ab06b63463a69945ecd266a151c8072a",
+    "tests/test_environment.py": "e2d31764e3f77d68f9ccdf8efc0c36cf216fe3c89cc9244da02a74ea734a36ed",
+    "tests/test_share_report.py": "81d18cdbd826f157e8d5cd73c1bfcfe3dbe78143179967ddb21c12f0126dd2d7",
+    "verify_review_examples.py": "edfe9b740d5252a939ff7ac09ed425c9568261065f24e00367eb87b0d7faec61"
+  },
+  "hash_input": "UTF-8 text with CRLF and CR normalized to LF"
+}

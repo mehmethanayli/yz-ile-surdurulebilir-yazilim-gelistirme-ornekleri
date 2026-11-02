@@ -1,0 +1,41 @@
+{
+  "verified_on": "2026-10-04",
+  "python_version": "3.13.7",
+  "sqlite_version": "3.50.4",
+  "platform": "Windows",
+  "unique_test_methods": 14,
+  "test_groups": {
+    "ownership_and_state": 8,
+    "parameterized_sqlite_query": 4,
+    "html_text_output": 2
+  },
+  "contexts": [
+    "Installed Python 3.13.7",
+    "Separate Python 3.13.7 venv without pip"
+  ],
+  "external_packages_added": false,
+  "database": "SQLite in-memory, synthetic rows only",
+  "trusted_input_assumption": "Actor and Task are trusted, validated server-side records; no authentication layer is implemented",
+  "previous_chapter_hashes_verified": [
+    16,
+    17,
+    18
+  ],
+  "not_verified": [
+    "Python 3.14 runtime",
+    "Django/PostgreSQL",
+    "HTTP authentication and session lifecycle",
+    "CSRF and browser XSS defenses",
+    "Password storage infrastructure",
+    "Real concurrency and transactions",
+    "Rate limiting and load behavior",
+    "Dependency vulnerability scan",
+    "CI/CD and deployment",
+    "Full product security or ASVS conformance"
+  ],
+  "hash_input": "UTF-8 text with CRLF and CR normalized to LF",
+  "sha256": {
+    "security_example.py": "706871c45a89935722fbc6c804957d12cc3879d0aa83ab139db2c555c2aa0b8a",
+    "tests/test_security_example.py": "6c682ccd816df04e5f6cfd448a1f9c89a0fc51b5ee3aa759b17a497bb3ecf5b3"
+  }
+}

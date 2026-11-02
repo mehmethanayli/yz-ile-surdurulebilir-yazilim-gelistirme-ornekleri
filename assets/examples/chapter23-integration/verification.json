@@ -1,0 +1,50 @@
+{
+  "record_id": "UÇ-23-01",
+  "verified_on": "2026-10-04",
+  "python_version": "3.13.7",
+  "result": "passed",
+  "check_scope": "Belge kimlikleri, izlenebilirlik, paket bağımlılıkları, açık durumlar ve sentetik veri ilişkileri",
+  "requirement_count": 5,
+  "note_criterion_count": 5,
+  "decision_group_count": 12,
+  "package_count": 6,
+  "acceptance_scenario_count": 16,
+  "cross_cutting_check_count": 3,
+  "scenario_count_by_package": {
+    "P02": 4,
+    "P03": 3,
+    "P04": 5,
+    "P05": 3,
+    "P06": 1
+  },
+  "executed_product_scenarios": 0,
+  "checks": [
+    "Kimlik benzersizliği ve sırası",
+    "Beş FG ve beş KM kapsamının belge eşleşmesi",
+    "Paket bağımlılıklarında döngü bulunmaması",
+    "Karar ve paket referanslarının varlığı",
+    "Not-run, açık karar ve boş gerçek kanıt alanları",
+    "A/B/S/D rol ve etkinlik fixture bilgisi",
+    "Aynı adlı ayrı müşteriler, not müşterisi/yazarı ve görev sahipleri",
+    "Sentetik tarihlerin ayrıştırılması",
+    "Önceki örneklerin kayıtlı özetlerinin korunması"
+  ],
+  "previous_chapter_hashes_verified": 25,
+  "not_executed": [
+    "Gerçek ürün geliştirme veya kabul testi",
+    "Django/Python 3.14/PostgreSQL hedef kurulumu",
+    "HTTP, parola, oturum, CSRF veya tarayıcı testi",
+    "Veritabanı migration, transaction veya eşzamanlılık testi",
+    "Yeni uygulama deposu, commit veya push",
+    "CI/CD, deployment, production kontrolü veya restore",
+    "Gerçek kullanıcı araştırması veya bakım izlemesi"
+  ],
+  "hash_input": "UTF-8 text with CRLF and CR normalized to LF",
+  "sha256": {
+    "integration-plan.json": "cf30a6569ebf524c115e678dddcd17eb357767c401f9f31904a2a71a8967eb83",
+    "acceptance-cases.json": "235eb9a13c4d97c6836da17baf63af4f0450cd042475b4ce99e6a0a4bf1e84bc",
+    "synthetic-data.json": "70c00e33bf47be809e4f996cbb7c181bd7cef2a95f0170759a07a3624dd872a5",
+    "implementation-sequence.md": "abc689ee7b371186a4eb1e69ce8d5718c30fde16e15172f420ee3ac64fe22547",
+    "README.md": "139fb06bc44ec76159c7e9d35ff0714c436241e7b74e53281be2faf8cd7ac976"
+  }
+}

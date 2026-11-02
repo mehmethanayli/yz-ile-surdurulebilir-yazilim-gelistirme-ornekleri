@@ -1,0 +1,145 @@
+{
+  "synthetic": true,
+  "not_a_database_dump": true,
+  "id_note": "Aynı yerel kimlikler yalnız kapsam hatası üretmek için seçilmiştir; üretim PK tasarımı seçilmedi.",
+  "organizations": [
+    {
+      "id": "K-A",
+      "name": "Örnek Kurum A"
+    },
+    {
+      "id": "K-B",
+      "name": "Örnek Kurum B"
+    }
+  ],
+  "users": [
+    {
+      "id": "A",
+      "active": true,
+      "platform_roles": []
+    },
+    {
+      "id": "B",
+      "active": true,
+      "platform_roles": []
+    },
+    {
+      "id": "C",
+      "active": true,
+      "platform_roles": []
+    },
+    {
+      "id": "S",
+      "active": true,
+      "platform_roles": [
+        "account_operator"
+      ]
+    },
+    {
+      "id": "D",
+      "active": false,
+      "platform_roles": []
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "K-A",
+      "user_id": "A",
+      "active": true,
+      "roles": [
+        "team_member"
+      ]
+    },
+    {
+      "organization_id": "K-B",
+      "user_id": "A",
+      "active": true,
+      "roles": [
+        "team_member",
+        "organization_admin"
+      ]
+    },
+    {
+      "organization_id": "K-A",
+      "user_id": "B",
+      "active": true,
+      "roles": [
+        "team_member"
+      ]
+    },
+    {
+      "organization_id": "K-B",
+      "user_id": "C",
+      "active": true,
+      "roles": [
+        "team_member"
+      ]
+    },
+    {
+      "organization_id": "K-A",
+      "user_id": "D",
+      "active": true,
+      "roles": [
+        "team_member"
+      ]
+    }
+  ],
+  "customers": [
+    {
+      "organization_id": "K-A",
+      "local_id": "101",
+      "name": "Deniz Kaya"
+    },
+    {
+      "organization_id": "K-B",
+      "local_id": "101",
+      "name": "Deniz Kaya"
+    }
+  ],
+  "tasks": [
+    {
+      "organization_id": "K-A",
+      "local_id": "701",
+      "customer_local_id": "101",
+      "owner_id": "A",
+      "status": "open",
+      "title": "Teklifi gözden geçir",
+      "due_day": "2026-10-05"
+    },
+    {
+      "organization_id": "K-A",
+      "local_id": "702",
+      "customer_local_id": "101",
+      "owner_id": "B",
+      "status": "open",
+      "title": "Teklifi gözden geçir",
+      "due_day": "2026-10-05"
+    },
+    {
+      "organization_id": "K-B",
+      "local_id": "701",
+      "customer_local_id": "101",
+      "owner_id": "C",
+      "status": "open",
+      "title": "Teklifi gözden geçir",
+      "due_day": "2026-10-05"
+    }
+  ],
+  "provider_event_examples": [
+    {
+      "environment": "synthetic_test",
+      "provider_account": "provider-demo",
+      "event_id": "evt-demo-1",
+      "organization_id": "K-A",
+      "delivery_number": 1
+    },
+    {
+      "environment": "synthetic_test",
+      "provider_account": "provider-demo",
+      "event_id": "evt-demo-1",
+      "organization_id": "K-A",
+      "delivery_number": 2
+    }
+  ],
+  "provider_note": "Bunlar gerçek sağlayıcı payload veya imzaları değildir; API çağrısı yapılmaz."
+}

@@ -1,0 +1,224 @@
+{
+  "record_id": "İB-22-01",
+  "kind": "teaching_plan",
+  "prepared_on": "2026-10-04",
+  "predecessors": [
+    "GO-14-01",
+    "AS-08-01",
+    "YK-21-01"
+  ],
+  "production_monitored": false,
+  "restore_performed": false,
+  "updates_deployed": false,
+  "incident_occurred": false,
+  "goals": {
+    "sli_definition": null,
+    "sli_window": null,
+    "slo_target": null,
+    "rpo": null,
+    "rto": null,
+    "recovery_start_event": null,
+    "recovery_end_event": null
+  },
+  "environment": {
+    "provider": null,
+    "artifact_id": null,
+    "exact_runtime_versions": null,
+    "telemetry_tool": null,
+    "backup_method": null,
+    "backup_location": null,
+    "last_successful_backup_at": null,
+    "retention_policy": null,
+    "restore_target": null
+  },
+  "observations": [
+    {
+      "id": "O01",
+      "question": "Kapsama giren istekler başarılı mı?",
+      "signal": "Başarılı ve uygun istek sayısı; işlem sınıfı ve zaman penceresi",
+      "missing_data_response": "Trafik yokluğu ile toplama kesintisini ayır; payda sıfırsa oran verme.",
+      "owner_role": "İşletim",
+      "owner_person": null,
+      "threshold": null,
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "id": "O02",
+      "question": "İşlem sürelerinin dağılımı nasıl?",
+      "signal": "Süre dağılımı; birim, örnek sayısı ve hesap yöntemi",
+      "missing_data_response": "Güncelliği ve örnek kapsamını kontrol et; son değeri yeni ölçüm sayma.",
+      "owner_role": "İşletim",
+      "owner_person": null,
+      "threshold": null,
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "id": "O03",
+      "question": "Kaynak sınırına yaklaşılıyor mu?",
+      "signal": "İşçi, bağlantı, bellek ve kuyruk gözlemleri",
+      "missing_data_response": "Kaynak ve toplayıcı durumunu araştır; bilinmeyeni düşük kullanım sayma.",
+      "owner_role": "İşletim",
+      "owner_person": null,
+      "threshold": null,
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "id": "O04",
+      "question": "Beklenmeyen hatalar hangi davranışı etkiliyor?",
+      "signal": "Hata grubu, sınırlı olay bilgisi ve etkin sürüm",
+      "missing_data_response": "Olay yokluğunu düzeltme kanıtı sayma; trafik ve toplama kapsamını kontrol et.",
+      "owner_role": "İşletim",
+      "owner_person": null,
+      "threshold": null,
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "id": "O05",
+      "question": "Kurtarma için gereken yedek güncel ve erişilebilir mi?",
+      "signal": "Son başarılı yedek zamanı, kapsamı ve prova kaydı",
+      "missing_data_response": "Başarı kaydı yoksa yedek varlığını varsayma; kapsam ve erişimi araştır.",
+      "owner_role": "İşletim",
+      "owner_person": null,
+      "threshold": null,
+      "status": "planned",
+      "evidence": null
+    }
+  ],
+  "restore_criteria": [
+    {
+      "id": "R01",
+      "criterion": "Hedefin üretimden ayrılığı",
+      "required_evidence": "Bağlantı hedefi, veritabanı ve yetki kontrol kaydı",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "R02",
+      "criterion": "Yedek ve araçların kullanılabilirliği",
+      "required_evidence": "Yedek, gerekli anahtar, biçim ve sürüm uyumu",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "R03",
+      "criterion": "İçe aktarım sonucunun incelenmesi",
+      "required_evidence": "Araç sonucu, hata kaydı ve yarım kalma değerlendirmesi",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "R04",
+      "criterion": "Şema ve veri tutarlılığı",
+      "required_evidence": "Müşteri/not ilişkisi, görev sahibi ve gerekli nesneler",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "R05",
+      "criterion": "Uygulama davranışının doğrulanması",
+      "required_evidence": "Giriş, etkin hesap, liste, not ve A/B özel görev sınırı",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "R06",
+      "criterion": "Süre ve kapanışın kaydı",
+      "required_evidence": "Tanımlı başlangıç/bitiş, ölçülen süre, RTO/RPO değerlendirmesi",
+      "status": "not_run",
+      "evidence": null
+    }
+  ],
+  "incident_steps": [
+    {
+      "id": "I01",
+      "title": "Fark et ve değerlendir",
+      "expected_record": "Belirti, etki ve bilinmeyen kapsam",
+      "owner_role": "İşletim",
+      "owner_person": null,
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "id": "I02",
+      "title": "Koordine et",
+      "expected_record": "Roller, yetki ve ortak zaman çizgisi",
+      "owner_role": "Olay koordinasyonu",
+      "owner_person": null,
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "id": "I03",
+      "title": "Sınırlandır",
+      "expected_record": "Etkiyi azaltan müdahale ve gerekçesi",
+      "owner_role": "Teknik müdahale",
+      "owner_person": null,
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "id": "I04",
+      "title": "Toparla",
+      "expected_record": "Uyumlu değişiklik ve gözlenen sonuç",
+      "owner_role": "Teknik müdahale",
+      "owner_person": null,
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "id": "I05",
+      "title": "Doğrula ve bildir",
+      "expected_record": "Kullanıcı davranışı kanıtı ve durum açıklaması",
+      "owner_role": "İşletim ve iletişim",
+      "owner_person": null,
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "id": "I06",
+      "title": "Öğren ve takip et",
+      "expected_record": "Katkıda bulunan koşullar, takip işleri ve kapanış",
+      "owner_role": "Olay koordinasyonu",
+      "owner_person": null,
+      "status": "planned",
+      "evidence": null
+    }
+  ],
+  "incident_note": "Sıra öğretim iskeletidir; iletişim olay boyunca sürer. Gerçek olay kaydı değildir.",
+  "privacy": {
+    "data_kind": "synthetic_or_plan_only",
+    "real_logs_included": false,
+    "secrets_included": false,
+    "customer_data_sent_to_ai": false
+  },
+  "open_decisions": [
+    "Hedef kurulumu GO-14-01 kapsamında doğrulamak",
+    "AS-08-01 ürün sözleşmesini tamamlamak",
+    "Sorumlu kişileri ve görev devrini belirlemek",
+    "SLI kapsamı, pencere ve SLO hedefini seçmek",
+    "Yedek kapsamı, RPO/RTO, süre sınırları ve saklama düzenini kararlaştırmak",
+    "Telemetri kaynağını ve veri yokluğu uyarısını kurup doğrulamak",
+    "İzole restore provasında altı ölçüt için gerçek kanıt toplamak"
+  ],
+  "next_step": "Ürün ve hedef ortam hazırlığından sonra işletim kararlarını yetkili rollerle somutlaştırmak; bu öğretim kaydını üretim kanıtına çevirmemek.",
+  "telemetry_fields": {
+    "status": "proposed",
+    "purpose": "Sınırlı olay incelemesi; tam denetim sistemi değildir",
+    "fields": [
+      "event",
+      "outcome",
+      "request_id",
+      "release_id"
+    ],
+    "excluded": [
+      "Parola ve sırlar",
+      "Oturum çerezi",
+      "Gereksiz müşteri/not gövdesi"
+    ],
+    "schema_approved": false
+  }
+}

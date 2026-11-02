@@ -1,0 +1,79 @@
+{
+  "kind": "arithmetic_only",
+  "formula": "100 * (baseline_total - candidate_total) / baseline_total; baseline_total > 0",
+  "warning": "Paralel süreler bu yöntemle toplanmaz. Toplam süre, insan emeği ve araç maliyeti ayrı ölçülür. Kalite sonucu çıkarılmaz.",
+  "examples": [
+    {
+      "id": "M26-01",
+      "synthetic": true,
+      "unit": "minutes",
+      "timing": "sequential_nonoverlapping_elapsed",
+      "baseline": {
+        "production": 80,
+        "review": 20,
+        "rework": 10,
+        "validation": 10
+      },
+      "candidate": {
+        "production": 40,
+        "review": 40,
+        "rework": 25,
+        "validation": 15
+      },
+      "expected_baseline_total": 120,
+      "expected_candidate_total": 120,
+      "expected_reduction_percent": 0,
+      "comparison_status": "comparable_synthetic",
+      "quality_evidence": null,
+      "actual_measurement": null
+    },
+    {
+      "id": "M26-02",
+      "synthetic": true,
+      "unit": "minutes",
+      "timing": "sequential_nonoverlapping_elapsed",
+      "baseline": {
+        "production": 80,
+        "review": 20,
+        "rework": 10,
+        "validation": 10
+      },
+      "candidate": {
+        "production": 35,
+        "review": 25,
+        "rework": 20,
+        "validation": 10
+      },
+      "expected_baseline_total": 120,
+      "expected_candidate_total": 90,
+      "expected_reduction_percent": 25,
+      "comparison_status": "comparable_synthetic",
+      "quality_evidence": null,
+      "actual_measurement": null
+    },
+    {
+      "id": "M26-03",
+      "synthetic": true,
+      "unit": "minutes",
+      "timing": "sequential_nonoverlapping_elapsed",
+      "baseline": {
+        "production": 0,
+        "review": 0,
+        "rework": 0,
+        "validation": 0
+      },
+      "candidate": {
+        "production": 10,
+        "review": 5,
+        "rework": 3,
+        "validation": 2
+      },
+      "expected_baseline_total": 0,
+      "expected_candidate_total": 20,
+      "expected_reduction_percent": null,
+      "comparison_status": "no_valid_baseline",
+      "quality_evidence": null,
+      "actual_measurement": null
+    }
+  ]
+}

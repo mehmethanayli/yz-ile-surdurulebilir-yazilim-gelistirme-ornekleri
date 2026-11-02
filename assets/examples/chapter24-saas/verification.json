@@ -1,0 +1,40 @@
+{
+  "record_id": "SG-24-01",
+  "verified_on": "2026-10-04",
+  "python_version": "3.13.7",
+  "result": "passed",
+  "check_scope": "Yalnız belge kimlikleri, ilişkiler, durumlar ve metin dosyası özetleri",
+  "decision_count": 12,
+  "stage_count": 6,
+  "planned_scenario_count": 18,
+  "executed_product_scenarios": 0,
+  "checks": [
+    "Kimlik benzersizliği ve senaryo sırası",
+    "Açık kararlar, planlı aşamalar ve boş gerçek kanıt alanları",
+    "Aşama bağımlılıklarının döngüsüz olması",
+    "Karar ve aşama referanslarının geçerliliği",
+    "Kurum-kullanıcı-üyelik ilişkileri ve birleşik rol",
+    "Aynı yerel kimlikli ayrı kurum müşterileri",
+    "Görevlerin aynı kurum müşterisi ve sahibiyle ilişkisi",
+    "Kapalı genel hesap ve iş üyeliği olmayan platform aktörü",
+    "Sentetik tekrarlı olay teslimi",
+    "Önceki 30 kaynak dosya özetinin korunması"
+  ],
+  "previous_chapter_hashes_verified": 30,
+  "not_executed": [
+    "Django veya PostgreSQL uygulaması ve RLS testi",
+    "Gerçek HTTP, üyelik, önbellek veya izolasyon testi",
+    "Ödeme, webhook imzası veya sağlayıcı API çağrısı",
+    "E-posta, DNS, broker, worker veya scheduler işlemi",
+    "Dosya yükleme, tarama veya imzalı URL üretimi",
+    "Migration, CI/CD, yayın, yük testi veya restore",
+    "Kullanıcı görüşmesi veya gerçek pilot"
+  ],
+  "hash_input": "UTF-8 text with CRLF and CR normalized to LF",
+  "sha256": {
+    "README.md": "afe6213d8330a41158e0df640fb2d3f0fc1a6cefa7439db286bf8e07a9e2a369",
+    "transition-plan.json": "5a35cabc69484484902be862c260278d2a6da2397fae12e723ec87543610de74",
+    "synthetic-data.json": "2754d68624270c9e82f14f29a4793a95145df9df12f1797820d4c99024e7a620",
+    "acceptance-cases.json": "b132199219baae0093a5192542bef293e37c68da25f2f0e0f2c895534a6933ac"
+  }
+}

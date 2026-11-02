@@ -1,0 +1,65 @@
+{
+  "kind": "synthetic_offline_arithmetic",
+  "record_id": "İB-22-01",
+  "cases": [
+    {
+      "id": "M22-01",
+      "purpose": "Ayrık pencereleri aynı tanımlı istek paydasıyla birleştirmek",
+      "windows": [
+        {
+          "id": "W1",
+          "eligible": 1000,
+          "good": 990
+        },
+        {
+          "id": "W2",
+          "eligible": 10,
+          "good": 10
+        }
+      ],
+      "assumptions": [
+        "Aynı uygunluk ve başarı tanımı",
+        "Ayrık, çakışmayan pencereler",
+        "Eksiksiz sentetik sayımlar"
+      ],
+      "actual_time_window": null
+    },
+    {
+      "id": "M22-02",
+      "purpose": "Sıfır payda için tanımsız oran",
+      "eligible": 0,
+      "good": 0,
+      "note": "Sıfır istek aritmetiği; telemetri kesintisinin simülasyonu değildir."
+    },
+    {
+      "id": "M22-03",
+      "purpose": "Süre dağılımının farklı özetleri",
+      "latencies_ms": [
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        500,
+        1000
+      ],
+      "percentile": 0.95,
+      "method": "nearest_rank",
+      "one_based_rank_formula": "ceil(percentile * sample_count)",
+      "note": "İstek oranı örneğinden bağımsız sentetik veri kümesi; yük testi değildir."
+    }
+  ]
+}

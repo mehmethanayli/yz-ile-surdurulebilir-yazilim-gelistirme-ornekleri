@@ -1,0 +1,31 @@
+{
+  "weak_checks_passed_on_faulty": 4,
+  "selected_statement_start_lines": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "selected_lines_reached": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "selected_line_reach_percent": 100,
+  "independent_check_rejected_faulty": true,
+  "independent_check_passed_fixed": true,
+  "scope": "One function body; not branch, path, product or coverage.py measurement"
+}

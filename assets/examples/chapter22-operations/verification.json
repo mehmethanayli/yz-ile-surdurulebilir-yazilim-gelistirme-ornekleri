@@ -1,0 +1,63 @@
+{
+  "record_id": "İB-22-01",
+  "verified_on": "2026-10-04",
+  "python_version": "3.13.7",
+  "check_scope": "Öğretim planının açık durumları, dosya yapısı ve üç sentetik aritmetik örneği",
+  "result": "passed",
+  "observation_count": 5,
+  "restore_criterion_count": 6,
+  "incident_step_count": 6,
+  "synthetic_case_count": 3,
+  "calculations": [
+    {
+      "id": "M22-01",
+      "good_total": 1000,
+      "eligible_total": 1010,
+      "ratio_exact": "100/101",
+      "percent_rounded_4dp": 99.0099,
+      "incorrect_unweighted_percent": 99.5
+    },
+    {
+      "id": "M22-02",
+      "eligible": 0,
+      "good": 0,
+      "ratio": null,
+      "status": "no_observations"
+    },
+    {
+      "id": "M22-03",
+      "sample_count": 20,
+      "sum_ms": 2400,
+      "mean_ms": 120,
+      "median_ms": 50.0,
+      "p95_ms": 500,
+      "method": "nearest_rank",
+      "one_based_rank": 19
+    }
+  ],
+  "checks": [
+    "Kimlik sırası ve sayıları",
+    "Hedef, ortam ve kişi alanlarının açık kalması",
+    "Çalıştırılmamış restore ve işletim durumları",
+    "Pay/payda toplamıyla ağırlıklı oran",
+    "Sıfır paydanın tanımsız sonucu",
+    "En yakın sıra yüzdeliği ve dağılım özetleri",
+    "Önceki bölüm dosyalarının değişmemiş özetleri"
+  ],
+  "previous_chapter_hashes_verified": 22,
+  "not_executed": [
+    "Gerçek monitoring veya uyarı",
+    "Veritabanı backup, restore veya migration",
+    "Uygulama ya da bağımlılık güncellemesi",
+    "Hedef Python 3.14/Django/PostgreSQL testi",
+    "Yük ve eşzamanlılık testi",
+    "Gerçek CI/CD veya deployment",
+    "Incident müdahalesi veya kullanıcı bildirimi"
+  ],
+  "hash_input": "UTF-8 text with CRLF and CR normalized to LF",
+  "sha256": {
+    "operations-plan.json": "e9018d31d43d3782f18464fd8adce1248c80fbdb88d9535da55fb94366fe8a86",
+    "measurement-examples.json": "e1226cb36318f554b774c049941d4a5a2e66982df08d05b85a473c915a4224da",
+    "README.md": "9203835d732b959b963dcac0263d9dd94c57eccc806b68c6d1957c4c9071c54f"
+  }
+}

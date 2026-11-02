@@ -1,0 +1,59 @@
+{
+  "kind": "unassessed_learning_plan",
+  "exercises": [
+    {
+      "id": "L26-01",
+      "competency": "Problem tanımı",
+      "task": "Görev kapsamını ve kabul ölçütünü yaz.",
+      "expected_artifact": "Ortak müşteri ile kişisel görev sınırını doğru ayıran gereksinim.",
+      "status": "not_assessed",
+      "learner_artifact": null,
+      "assessment": null
+    },
+    {
+      "id": "L26-02",
+      "competency": "Kod okuma",
+      "task": "Atama ve toggle davranışını iki tekrar isteğiyle açıkla.",
+      "expected_artifact": "Tekrarda aynı tamamlanmış duruma ulaşan davranış açıklaması.",
+      "status": "not_assessed",
+      "learner_artifact": null,
+      "assessment": null
+    },
+    {
+      "id": "L26-03",
+      "competency": "Veri ilişkisi",
+      "task": "Notun müşteri, yazar ve zaman kaynaklarını göster.",
+      "expected_artifact": "Müşteri path, yazar doğrulanmış aktör, zaman sunucu olarak işaretli ilişki çizimi.",
+      "status": "not_assessed",
+      "learner_artifact": null,
+      "assessment": null
+    },
+    {
+      "id": "L26-04",
+      "competency": "Test tasarımı",
+      "task": "Etkin ve ekip erişimi olan B kullanıcısının, A kullanıcısının görevini sorgulama karşı örneğini oluştur.",
+      "expected_artifact": "Beklenen 404 ile yanıt ve kayıt etkisini ayrı inceleyen test taslağı.",
+      "status": "not_assessed",
+      "learner_artifact": null,
+      "assessment": null
+    },
+    {
+      "id": "L26-05",
+      "competency": "Kaynak değerlendirme",
+      "task": "Bir verimlilik iddiasının kaynağını ve sınırını incele.",
+      "expected_artifact": "Örneklem, tarih, görev, ölçü ve genelleme sınırını belirten açıklama.",
+      "status": "not_assessed",
+      "learner_artifact": null,
+      "assessment": null
+    },
+    {
+      "id": "L26-06",
+      "competency": "Yayın sorumluluğu",
+      "task": "Kod geri dönüşü ve veri kurtarmayı ayır.",
+      "expected_artifact": "Hangi kanıtın deployment, hangisinin restore için gerektiğini açıklayan plan.",
+      "status": "not_assessed",
+      "learner_artifact": null,
+      "assessment": null
+    }
+  ]
+}

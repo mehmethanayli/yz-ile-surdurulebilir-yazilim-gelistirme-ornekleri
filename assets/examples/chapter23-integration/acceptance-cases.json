@@ -1,0 +1,377 @@
+{
+  "record_id": "UÇ-23-01",
+  "kind": "planned_product_acceptance",
+  "cases": [
+    {
+      "id": "K23-01",
+      "package": "P02",
+      "requirements": [
+        "FG-01"
+      ],
+      "note_criteria": [],
+      "title": "Etkin hesapla giriş",
+      "given": "A etkin ve ekip üyesi; gerçek hedef oturum altyapısı kurulmuş",
+      "action": "Geçerli kimlik bilgileriyle giriş ve korunan okuma",
+      "expected": "Oturum doğrulanır; izinli içerik alınır",
+      "decision_dependencies": [
+        "D07",
+        "D08",
+        "D09",
+        "D10"
+      ],
+      "execution_status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K23-02",
+      "package": "P02",
+      "requirements": [
+        "FG-01"
+      ],
+      "note_criteria": [],
+      "title": "Çıkış sonrası ret",
+      "given": "A geçerli oturumla giriş yapmış",
+      "action": "Çıkış yap; önceki oturumla korunan işlem iste",
+      "expected": "İşlem reddedilir; içerik veya yeni iş kaydı oluşmaz",
+      "decision_dependencies": [
+        "D09",
+        "D10"
+      ],
+      "execution_status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K23-03",
+      "package": "P02",
+      "requirements": [
+        "FG-01"
+      ],
+      "note_criteria": [],
+      "title": "Devre dışı hesabın eski oturumu",
+      "given": "A giriş yapmış; hesap yetkili işlemle devre dışı bırakılmış",
+      "action": "Önceden açılmış oturumla korunan istek gönder",
+      "expected": "Yeni istek reddedilir; iş verisi değişmez",
+      "decision_dependencies": [
+        "D09",
+        "D10"
+      ],
+      "execution_status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K23-04",
+      "package": "P02",
+      "requirements": [
+        "FG-01",
+        "FG-03",
+        "FG-05"
+      ],
+      "note_criteria": [],
+      "title": "Yönetim rolü iş verisi yetkisi değildir",
+      "given": "S hesabı etkin, yalnız hesap yönetimi rolünde; A görev sahibi",
+      "action": "S ile müşteri okuma ve A görevi değiştirme girişimi yap",
+      "expected": "İş yetkisi verilmez; yalnız yönetim rolü yeterli değildir",
+      "decision_dependencies": [
+        "D09",
+        "D10"
+      ],
+      "execution_status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K23-05",
+      "package": "P03",
+      "requirements": [
+        "FG-02",
+        "FG-03"
+      ],
+      "note_criteria": [],
+      "title": "Müşteri oluşturma ve yeniden okuma",
+      "given": "A ve B etkin ekip üyeleri",
+      "action": "A geçerli ad ve boş iletişimle kayıt açar; A ve B yeniden okur",
+      "expected": "Müşteri oluşur, ayrı kimlik alır ve ortak kapsamda okunur",
+      "decision_dependencies": [
+        "D01",
+        "D02",
+        "D06",
+        "D09"
+      ],
+      "execution_status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K23-06",
+      "package": "P03",
+      "requirements": [
+        "FG-02"
+      ],
+      "note_criteria": [],
+      "title": "Boş müşteri adı",
+      "given": "A yetkili; müşteri sayısı biliniyor",
+      "action": "Boş ad ve seçilecek kurala göre boşluk girdisi gönder",
+      "expected": "Alan hatası; müşteri sayısı değişmez",
+      "decision_dependencies": [
+        "D01",
+        "D09"
+      ],
+      "execution_status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K23-07",
+      "package": "P03",
+      "requirements": [
+        "FG-03"
+      ],
+      "note_criteria": [],
+      "title": "Aynı adlı müşteri ve arama",
+      "given": "101 ve 102 aynı görünür ada sahip; ayrı kimlikli",
+      "action": "Listele, adla ara ve 102 kaydını aç",
+      "expected": "Kimlikler birleşmez; sözleşmedeki arama ve sayfa sırası korunur",
+      "decision_dependencies": [
+        "D03",
+        "D05",
+        "D09"
+      ],
+      "execution_status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K23-08",
+      "package": "P04",
+      "requirements": [
+        "FG-04"
+      ],
+      "note_criteria": [
+        "KM-01",
+        "KM-04"
+      ],
+      "title": "Notun doğru müşteride okunması",
+      "given": "A yetkili; 101 ve 102 erişilebilir",
+      "action": "102 yoluna geçerli not ekle; iki müşterinin notlarını oku",
+      "expected": "Not yalnız 102 ile ilişkilidir; yazar A, zaman sunucudandır; yeniden okunur",
+      "decision_dependencies": [
+        "D01",
+        "D04",
+        "D05",
+        "D06",
+        "D09"
+      ],
+      "execution_status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K23-09",
+      "package": "P04",
+      "requirements": [
+        "FG-04"
+      ],
+      "note_criteria": [
+        "KM-02"
+      ],
+      "title": "Boş not reddi",
+      "given": "A yetkili; not sayısı biliniyor",
+      "action": "Boş ve kararlaştırılacak Unicode boşluk girdisini ayrı gönder",
+      "expected": "422 alan hatası; yeni not oluşmaz",
+      "decision_dependencies": [
+        "D01",
+        "D06",
+        "D09"
+      ],
+      "execution_status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K23-10",
+      "package": "P04",
+      "requirements": [
+        "FG-04"
+      ],
+      "note_criteria": [
+        "KM-03"
+      ],
+      "title": "Oturumsuz not isteği",
+      "given": "İstemcide doğrulanmış oturum yok",
+      "action": "Not oluşturma isteği gönder",
+      "expected": "403 ret; müşteri içeriği açığa çıkmaz; not oluşmaz",
+      "decision_dependencies": [
+        "D09"
+      ],
+      "execution_status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K23-11",
+      "package": "P04",
+      "requirements": [
+        "FG-04"
+      ],
+      "note_criteria": [
+        "KM-05"
+      ],
+      "title": "Yanıt kaybında belirsizlik",
+      "given": "Yetkili kayıt gönderilmiş; istemci yanıtı alamamış",
+      "action": "Arayüz durumunu ve sonuç doğrulama yolunu gözle",
+      "expected": "Kesin başarı/başarısızlık uydurulmaz; otomatik yeni kayıt isteği başlamaz",
+      "decision_dependencies": [
+        "D06",
+        "D09"
+      ],
+      "execution_status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K23-12",
+      "package": "P04",
+      "requirements": [
+        "FG-04"
+      ],
+      "note_criteria": [
+        "KM-01",
+        "KM-05"
+      ],
+      "title": "Tekrar ve ayrı eylem",
+      "given": "Aynı eylem ile ayrı eylemin anahtar kapsamı kararlaştırılmış",
+      "action": "Aynı anahtar/içerik, farklı içerik, eşzamanlı tekrar ve yeni eylemi ayrı dene",
+      "expected": "Aynı eylem ek not üretmez; farklı içerik çatışır; ayrı eylemin aynı metni geçerlidir",
+      "decision_dependencies": [
+        "D06",
+        "D09"
+      ],
+      "execution_status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K23-13",
+      "package": "P05",
+      "requirements": [
+        "FG-05"
+      ],
+      "note_criteria": [],
+      "title": "Kişisel görev oluşturma",
+      "given": "A yetkili; 102 erişilebilir; gün yorumu kararlaştırılmış",
+      "action": "Geçmiş hedef günle görev aç; sahip seçme alanıyla karşı deneme yap",
+      "expected": "Sahip A olur; geçmiş gün tek başına ret değildir; başka sahip kabul edilmez",
+      "decision_dependencies": [
+        "D01",
+        "D04",
+        "D06",
+        "D09"
+      ],
+      "execution_status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K23-14",
+      "package": "P05",
+      "requirements": [
+        "FG-05"
+      ],
+      "note_criteria": [],
+      "title": "A/B görev ayrımı",
+      "given": "701 A, 702 B görevidir; ikisi aynı müşteride olabilir",
+      "action": "A ve B ile liste, tekil okuma ve diğerinin görevini tamamlama iste",
+      "expected": "Her biri yalnız kendi görevini görür; diğer görevin tekil yolu 404; veri değişmez",
+      "decision_dependencies": [
+        "D05",
+        "D09"
+      ],
+      "execution_status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K23-15",
+      "package": "P05",
+      "requirements": [
+        "FG-05"
+      ],
+      "note_criteria": [],
+      "title": "Tamamlamanın tekrarı ve dar alan kümesi",
+      "given": "701 açık ve A sahibidir",
+      "action": "A completed isteğini iki kez gönderir; open veya owner alanını ayrı dener",
+      "expected": "Completed korunur; ikinci çağrı tersine çevirmez; kapsam dışı alan/durum reddedilir",
+      "decision_dependencies": [
+        "D09"
+      ],
+      "execution_status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K23-16",
+      "package": "P06",
+      "requirements": [
+        "FG-01",
+        "FG-02",
+        "FG-03",
+        "FG-04",
+        "FG-05"
+      ],
+      "note_criteria": [],
+      "title": "Adayın hedef ortamda uçtan uca kontrolü",
+      "given": "İncelenmiş aday ve yetkili sentetik kontrol düzeni hazır",
+      "action": "Giriş, müşteri, not, kişisel görev, çıkış ve veri güncelliği kontrolünü yürüt",
+      "expected": "Etkin adayla beklenen akış kanıtlanır; kapsam dışı yük/restore iddiası üretilmez",
+      "decision_dependencies": [
+        "D09",
+        "D11",
+        "D12"
+      ],
+      "execution_status": "not_run",
+      "actual": null,
+      "evidence": null
+    }
+  ],
+  "cross_cutting_checks": [
+    {
+      "id": "X01",
+      "topic": "CSRF",
+      "packages": [
+        "P02",
+        "P04",
+        "P05"
+      ],
+      "expected": "Geçerli oturumla eksik/geçersiz CSRF yazmaları reddedilir; veri değişmez. Gerçek tarayıcı akışı ayrıca incelenir.",
+      "execution_status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "X02",
+      "topic": "Günlük ve hata minimizasyonu",
+      "packages": [
+        "P02",
+        "P04",
+        "P05"
+      ],
+      "expected": "Parola, oturum çerezi ve gereksiz müşteri/not gövdesi kaydedilmez.",
+      "execution_status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "X03",
+      "topic": "Hedef veritabanı ve eşzamanlılık",
+      "packages": [
+        "P03",
+        "P04",
+        "P05"
+      ],
+      "expected": "PostgreSQL migration, ilişki ve gerçek eşzamanlı tekrar koşulları ayrı çalıştırılır.",
+      "execution_status": "not_run",
+      "evidence": null
+    }
+  ]
+}

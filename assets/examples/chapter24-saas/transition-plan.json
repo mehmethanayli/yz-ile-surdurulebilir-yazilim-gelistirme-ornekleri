@@ -1,0 +1,196 @@
+{
+  "record_id": "SG-24-01",
+  "scope": "future_saas_design_only",
+  "created_on": "2026-10-04",
+  "product_implemented": false,
+  "product_tests_run": false,
+  "payment_executed": false,
+  "production_deployed": false,
+  "prior_mvp_scope_changed": false,
+  "prior_records": [
+    "AS-08-01",
+    "GO-14-01",
+    "YK-21-01",
+    "İB-22-01",
+    "UÇ-23-01"
+  ],
+  "teaching_assumptions": [
+    "Tenant kurumu temsil eder.",
+    "Bir kullanıcı birden çok kurumda üyelik taşıyabilir.",
+    "Ekip üyesi yalnız etkin kurumun ortak müşteri ve notlarını kullanır.",
+    "Kişisel görevi yalnız etkin üyeliği olan sahibi okuyup tamamlar.",
+    "Kurum yöneticiliği başkasının kişisel görevini açmaz.",
+    "Platform hesap yönetimi tek başına iş verisi izni değildir.",
+    "Kullanıcı adına başlatılan dışa aktarım yürütmede ve indirmede güncel yetkiyle değerlendirilir."
+  ],
+  "decisions": [
+    {
+      "id": "D24-01",
+      "topic": "SaaS hedef kitlesi, araştırma ve pilot kapsamı",
+      "status": "open",
+      "value": null,
+      "owner": null
+    },
+    {
+      "id": "D24-02",
+      "topic": "Kurum kimliği seçimi, üyelik ve davet yaşam döngüsü",
+      "status": "open",
+      "value": null,
+      "owner": null
+    },
+    {
+      "id": "D24-03",
+      "topic": "Fiziksel veri yerleşimi, tenant bağlamı, ilişki kısıtları ve RLS",
+      "status": "open",
+      "value": null,
+      "owner": null
+    },
+    {
+      "id": "D24-04",
+      "topic": "Yeni SaaS API sözleşmesi, roller ve yetki iptalinin yansıma süresi",
+      "status": "open",
+      "value": null,
+      "owner": null
+    },
+    {
+      "id": "D24-05",
+      "topic": "Plan, kota, hak, iptal ve erişim politikası",
+      "status": "open",
+      "value": null,
+      "owner": null
+    },
+    {
+      "id": "D24-06",
+      "topic": "Ödeme sağlayıcısı, test ortamı, eşleştirme ve olay uzlaştırma",
+      "status": "open",
+      "value": null,
+      "owner": null
+    },
+    {
+      "id": "D24-07",
+      "topic": "Bildirim alıcısı, tercihler, sağlayıcı ve DNS",
+      "status": "open",
+      "value": null,
+      "owner": null
+    },
+    {
+      "id": "D24-08",
+      "topic": "Broker, worker, tekrar anahtarı ve yan etki belirsizliği",
+      "status": "open",
+      "value": null,
+      "owner": null
+    },
+    {
+      "id": "D24-09",
+      "topic": "Zaman dilimi, takvim, kaçırılan ve çakışan iş politikası",
+      "status": "open",
+      "value": null,
+      "owner": null
+    },
+    {
+      "id": "D24-10",
+      "topic": "Önbellek kapsamı, geçersizleştirme ve izin eskiliği",
+      "status": "open",
+      "value": null,
+      "owner": null
+    },
+    {
+      "id": "D24-11",
+      "topic": "Dosya, imzalı URL, tarama, audit ve saklama politikası",
+      "status": "open",
+      "value": null,
+      "owner": null
+    },
+    {
+      "id": "D24-12",
+      "topic": "Veri geçişi, CI/CD, kapasite, SLO, kurtarma ve sorumlular",
+      "status": "open",
+      "value": null,
+      "owner": null
+    }
+  ],
+  "stages": [
+    {
+      "id": "G01",
+      "title": "Mevcut MVP kanıtı ve SaaS ihtiyacı",
+      "depends_on": [],
+      "decisions": [
+        "D24-01"
+      ],
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "id": "G02",
+      "title": "Kurum, üyelik ve izin sözleşmesi",
+      "depends_on": [
+        "G01"
+      ],
+      "decisions": [
+        "D24-02",
+        "D24-03",
+        "D24-04"
+      ],
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "id": "G03",
+      "title": "Gerçek izolasyon ve veri geçişi",
+      "depends_on": [
+        "G02"
+      ],
+      "decisions": [
+        "D24-03",
+        "D24-04",
+        "D24-10",
+        "D24-12"
+      ],
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "id": "G04",
+      "title": "Abonelik ve ödeme denemeleri",
+      "depends_on": [
+        "G03"
+      ],
+      "decisions": [
+        "D24-05",
+        "D24-06"
+      ],
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "id": "G05",
+      "title": "İş, dosya ve işletim hata yolları",
+      "depends_on": [
+        "G04"
+      ],
+      "decisions": [
+        "D24-07",
+        "D24-08",
+        "D24-09",
+        "D24-10",
+        "D24-11",
+        "D24-12"
+      ],
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "id": "G06",
+      "title": "Kontrollü pilot ve değerlendirme",
+      "depends_on": [
+        "G05"
+      ],
+      "decisions": [
+        "D24-01",
+        "D24-12"
+      ],
+      "status": "planned",
+      "evidence": null
+    }
+  ]
+}

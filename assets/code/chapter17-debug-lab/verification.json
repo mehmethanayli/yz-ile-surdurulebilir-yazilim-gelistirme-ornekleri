@@ -1,0 +1,33 @@
+{
+  "verified_on": "2026-10-03",
+  "python_version": "3.13.7",
+  "platform": "Windows",
+  "unique_test_methods": 12,
+  "contexts": [
+    "Installed Python 3.13.7",
+    "Separate Python 3.13.7 venv without pip"
+  ],
+  "pdb": {
+    "installed_interpreter": "Failed before example logic: readline.backend AttributeError; not repaired",
+    "clean_venv": "Post-mortem inspected raw_debug and debug successfully",
+    "raw_debug": "false",
+    "debug": true
+  },
+  "chapter16_files_unchanged": true,
+  "fixed_function_matches_chapter16": true,
+  "not_verified": [
+    "Python 3.14",
+    "Browser behavior",
+    "Django/PostgreSQL integration",
+    "AI-CRM application",
+    "CI/CD and deployment"
+  ],
+  "hash_input": "UTF-8 text with CRLF and CR normalized to LF",
+  "sha256": {
+    "minimal_repro.py": "244f5edada93c02240384d980c7cb526eca5e50f4d3745df0281a279c62fa86c",
+    "reproduce.py": "fd9d192632b8d2a6197a5aed4dc8de2ca931925f780d8f9eeb17a993d661f832",
+    "settings_faulty.py": "9afbbb62ef1b5fbbbc15b3ede86f65194a1b0e70b026cf9d87032ae3ba692100",
+    "settings_fixed.py": "484c789960d977b56bf4c0547a21067e9b5533bffe00e9cb50e4015104a0f2c1",
+    "tests/test_debug_lab.py": "5d3b769e84a06c7bcd027746f37c3773cf72cd0f28f737f2259e27a9028cd523"
+  }
+}

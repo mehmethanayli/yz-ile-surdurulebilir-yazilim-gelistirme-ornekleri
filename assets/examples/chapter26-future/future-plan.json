@@ -1,0 +1,73 @@
+{
+  "record_id": "GÖ-26-01",
+  "title": "Gelecek, Ölçüm ve Öğrenme Kaydı",
+  "kind": "teaching_plan",
+  "as_of": "2026-10-04",
+  "scope": "Geliştirme yöntemleri; ilk MVP ürün kapsamını değiştirmez.",
+  "scenarios_are_mandatory_sequence": false,
+  "scenarios": [
+    {
+      "id": "S26-01",
+      "name": "Sınırlı yardımcı",
+      "preconditions": [
+        "Açık soru",
+        "İlgili kaynak sürümü",
+        "İnsan incelemesi"
+      ],
+      "stop_conditions": [
+        "Kaynakla uyuşmayan açıklama",
+        "Gereksiz hassas veri talebi"
+      ],
+      "status": "not_run",
+      "actual_result": null,
+      "evidence": null
+    },
+    {
+      "id": "S26-02",
+      "name": "Belirli geliştirme akışı",
+      "preconditions": [
+        "Kararlı sözleşme",
+        "Uygulanabilir kontroller",
+        "İncelenebilir değişiklik"
+      ],
+      "stop_conditions": [
+        "Kontrol çalıştırılamıyor",
+        "Görev kapsamı değişiyor"
+      ],
+      "status": "not_run",
+      "actual_result": null,
+      "evidence": null
+    },
+    {
+      "id": "S26-03",
+      "name": "Sınırlı araç kullanan ajan",
+      "preconditions": [
+        "Ayrılmış ortam",
+        "Dar araç yetkisi",
+        "Eylem kaydı",
+        "Tanımlı görev ve bütçe"
+      ],
+      "stop_conditions": [
+        "Yetki aşımı",
+        "Bütçe sınırı",
+        "Belirsiz yan etki"
+      ],
+      "status": "not_run",
+      "actual_result": null,
+      "evidence": null
+    }
+  ],
+  "model_runs": 0,
+  "agent_runs": 0,
+  "product_tests": 0,
+  "user_studies": 0,
+  "open_product_work": [
+    "GO-14-01 hedef ortam",
+    "AS-08-01 açık kararları",
+    "Gerçek uygulama",
+    "Ürün testleri",
+    "CI/CD",
+    "Deployment",
+    "Restore"
+  ]
+}

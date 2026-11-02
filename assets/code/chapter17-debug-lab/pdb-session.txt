@@ -1,0 +1,51 @@
+Scripted local pdb session in a separate Python 3.13.7 venv. Commands: c, where, p raw_debug, p debug, q.
+Absolute paths replaced with placeholders; stdout then stderr (not interleaved chronology).
+
+> <EXAMPLE>\reproduce.py(1)<module>()
+-> """Reproduce a synthetic settings failure; all values come from CLI arguments."""
+(Pdb) Uncaught exception. Entering post mortem debugging
+Running 'cont' or 'step' will restart the program
+> <EXAMPLE>\settings_faulty.py(11)read_settings()
+-> raise ValueError("APP_DEBUG must be false in production.")
+(Pdb)   <PYTHON>\lib\pdb.py(2480)main()
+-> pdb._run(target)
+  <PYTHON>\lib\pdb.py(2220)_run()
+-> self.run(target.code)
+  <PYTHON>\lib\bdb.py(666)run()
+-> exec(cmd, globals, locals)
+  <string>(1)<module>()
+  <EXAMPLE>\reproduce.py(48)<module>()
+-> raise SystemExit(main())
+  <EXAMPLE>\reproduce.py(32)main()
+-> result = run_case(args)
+  <EXAMPLE>\reproduce.py(18)run_case()
+-> return load_settings(args.variant, {"APP_ENV": args.app_env, "APP_DEBUG": args.debug})
+  <EXAMPLE>\reproduce.py(14)load_settings()
+-> return reader(values)
+> <EXAMPLE>\settings_faulty.py(11)read_settings()
+-> raise ValueError("APP_DEBUG must be false in production.")
+(Pdb) 'false'
+(Pdb) True
+(Pdb) Traceback (most recent call last):
+  File "<PYTHON>\Lib\pdb.py", line 2480, in main
+    pdb._run(target)
+    ~~~~~~~~^^^^^^^^
+  File "<PYTHON>\Lib\pdb.py", line 2220, in _run
+    self.run(target.code)
+    ~~~~~~~~^^^^^^^^^^^^^
+  File "<PYTHON>\Lib\bdb.py", line 666, in run
+    exec(cmd, globals, locals)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "<EXAMPLE>\reproduce.py", line 48, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "<EXAMPLE>\reproduce.py", line 32, in main
+    result = run_case(args)
+  File "<EXAMPLE>\reproduce.py", line 18, in run_case
+    return load_settings(args.variant, {"APP_ENV": args.app_env, "APP_DEBUG": args.debug})
+  File "<EXAMPLE>\reproduce.py", line 14, in load_settings
+    return reader(values)
+  File "<EXAMPLE>\settings_faulty.py", line 11, in read_settings
+    raise ValueError("APP_DEBUG must be false in production.")
+ValueError: APP_DEBUG must be false in production.

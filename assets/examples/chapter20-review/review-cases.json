@@ -1,0 +1,130 @@
+{
+  "record_id": "VLS-20-01",
+  "schema_version": 1,
+  "synthetic": true,
+  "external_transfer_performed": false,
+  "legal_approval": false,
+  "scope": "Öğretim amaçlı veri, lisans ve sorumluluk incelemesi; gerçek ürün veya kurum onayı değildir.",
+  "cases": [
+    {
+      "id": "D20-01",
+      "topic": "source_review",
+      "purpose": "Kişisel görev sahipliği koşulunu incelemek",
+      "data_origin": "created_synthetic",
+      "trusted_context": "Kullanıcı bağlamı güvenilir sunucu kaydından gelir; istemci alanından kimlik üretilmez.",
+      "context": {
+        "actors": [
+          {
+            "id": "A",
+            "active": true
+          },
+          {
+            "id": "B",
+            "active": true
+          }
+        ],
+        "task": {
+          "id": "T1",
+          "owner_id": "A",
+          "status": "open"
+        }
+      },
+      "expected_access": [
+        {
+          "actor_id": "A",
+          "allowed": true
+        },
+        {
+          "actor_id": "B",
+          "allowed": false
+        }
+      ],
+      "provider": null,
+      "plan": null,
+      "sharing_authorization": "not_evaluated",
+      "next_step": "Gerçek kullanımda paylaşım yetkisi, hizmet koşulları ve araç bağlamını değerlendirmek.",
+      "data_categories": [
+        "sentetik hesap etiketleri",
+        "sentetik görev ilişkisi; gerçek kişiden türetilmemiştir"
+      ]
+    },
+    {
+      "id": "D20-02",
+      "topic": "minimization",
+      "purpose": "B kullanıcısının A görevine erişim reddini anlatmak",
+      "data_origin": "created_synthetic",
+      "synthetic_input": {
+        "actor_id": "B",
+        "active": true,
+        "task_id": "T1",
+        "owner_id": "A",
+        "task_status": "open",
+        "customer_label": "Kurgusal müşteri",
+        "contact_placeholder": "İLETİŞİM_YER_TUTUCU",
+        "note": "Kurgusal görüşme notu"
+      },
+      "proposed_context": {
+        "actor_id": "B",
+        "active": true,
+        "task_id": "T1",
+        "owner_id": "A",
+        "task_status": "open"
+      },
+      "removed_fields": [
+        "customer_label",
+        "contact_placeholder",
+        "note"
+      ],
+      "preserved_relations": [
+        "actor_id != owner_id",
+        "task_id identifies the same synthetic task"
+      ],
+      "anonymity_assessed": false,
+      "expected_access": false,
+      "next_step": "Gerçek girdide bu azaltmanın yeterliliğini ve gerekli bağlamı ayrıca incelemek."
+    },
+    {
+      "id": "L20-03",
+      "topic": "license_provenance",
+      "component": "fictional-review-component",
+      "fictional": true,
+      "version": null,
+      "source_url": null,
+      "license_id": null,
+      "installed": false,
+      "incorporated_into_product": false,
+      "decision": "pending_evidence",
+      "next_step": "Gerçek bileşen seçilirse sürüm, köken, lisans metni, kullanım ve dağıtım biçimini doğrulamak.",
+      "planned_use": null,
+      "modification": null,
+      "distribution_mode": null
+    },
+    {
+      "id": "R20-04",
+      "topic": "responsibility",
+      "roles": [
+        {
+          "role": "Teknik inceleyen",
+          "assigned_person": null,
+          "approval": "not_performed",
+          "evidence_needed": "Değişiklik, sözleşme ve bağımsız test beklentisi"
+        },
+        {
+          "role": "Veri ve sözleşme değerlendirmesini yürüten yetkili",
+          "assigned_person": null,
+          "approval": "not_performed",
+          "evidence_needed": "Gerçek veri akışı, paylaşım yetkisi ve geçerli koşullar"
+        },
+        {
+          "role": "Yayın kararını veren yetkili",
+          "assigned_person": null,
+          "approval": "not_performed",
+          "evidence_needed": "Yayın adayı, kapsamı belirli kontroller ve açık işlerin kararı"
+        }
+      ],
+      "legal_liability_assigned": false,
+      "release_approved": false,
+      "next_step": "Gerçek kurumda görevleri yetkili kişilerle eşleştirmek; yapılmamış onayları boş bırakmak."
+    }
+  ]
+}

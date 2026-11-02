@@ -1,0 +1,262 @@
+{
+  "record_id": "UÇ-23-01",
+  "kind": "integration_blueprint",
+  "prepared_on": "2026-10-04",
+  "product_implemented": false,
+  "product_tests_run": false,
+  "production_deployed": false,
+  "repository_created": false,
+  "commit_created": false,
+  "candidate_commit": null,
+  "artifact_id": null,
+  "predecessors": [
+    "TS-06-01",
+    "VD-07-01",
+    "AS-08-01",
+    "ADR-13-01",
+    "GO-14-01",
+    "TS-18-01",
+    "Gİ-19-01",
+    "VLS-20-01",
+    "YK-21-01",
+    "İB-22-01"
+  ],
+  "requirements": [
+    "FG-01",
+    "FG-02",
+    "FG-03",
+    "FG-04",
+    "FG-05"
+  ],
+  "note_criteria": [
+    "KM-01",
+    "KM-02",
+    "KM-03",
+    "KM-04",
+    "KM-05"
+  ],
+  "decisions": [
+    {
+      "id": "D01",
+      "question": "Alan uzunlukları ve Unicode boşluk kuralları",
+      "source": "AS-08-01",
+      "owner_role": "Ürün ve geliştirme",
+      "owner_person": null,
+      "status": "open",
+      "value": null
+    },
+    {
+      "id": "D02",
+      "question": "Dolu iletişim değerlerinin doğrulanması",
+      "source": "AS-08-01",
+      "owner_role": "Ürün ve geliştirme",
+      "owner_person": null,
+      "status": "open",
+      "value": null
+    },
+    {
+      "id": "D03",
+      "question": "Türkçe ad araması",
+      "source": "AS-08-01",
+      "owner_role": "Ürün ve geliştirme",
+      "owner_person": null,
+      "status": "open",
+      "value": null
+    },
+    {
+      "id": "D04",
+      "question": "Zaman dilimi gösterimi ve görev günü yorumu",
+      "source": "AS-08-01",
+      "owner_role": "Ürün ve geliştirme",
+      "owner_person": null,
+      "status": "open",
+      "value": null
+    },
+    {
+      "id": "D05",
+      "question": "Sayfa büyüklüğü ve imleç doğrulaması",
+      "source": "AS-08-01",
+      "owner_role": "Geliştirme",
+      "owner_person": null,
+      "status": "open",
+      "value": null
+    },
+    {
+      "id": "D06",
+      "question": "İstek anahtarı biçimi, kapsamı, saklama süresi, içerik eşitliği, geçersiz ve süresi dolmuş tekrarlar",
+      "source": "AS-08-01",
+      "owner_role": "Ürün ve geliştirme",
+      "owner_person": null,
+      "status": "open",
+      "value": null
+    },
+    {
+      "id": "D07",
+      "question": "Oturum yaşam süresi",
+      "source": "AS-08-01",
+      "owner_role": "Ürün ve güvenlik",
+      "owner_person": null,
+      "status": "open",
+      "value": null
+    },
+    {
+      "id": "D08",
+      "question": "Sayısal istek ve gövde sınırları",
+      "source": "AS-08-01",
+      "owner_role": "Geliştirme ve işletim",
+      "owner_person": null,
+      "status": "open",
+      "value": null
+    },
+    {
+      "id": "D09",
+      "question": "Hedef Python/Django/PostgreSQL/Psycopg kurulumu ve kesin sürümler",
+      "source": "GO-14-01",
+      "owner_role": "Geliştirme",
+      "owner_person": null,
+      "status": "open",
+      "value": null
+    },
+    {
+      "id": "D10",
+      "question": "Kullanıcı modeli ve kontrollü hesap hazırlama yöntemi",
+      "source": "UÇ-23-01",
+      "owner_role": "Geliştirme ve hesap yönetimi",
+      "owner_person": null,
+      "status": "open",
+      "value": null
+    },
+    {
+      "id": "D11",
+      "question": "Yayın adayı, sağlayıcı, domain, yapılandırma ve geçiş kanıtı",
+      "source": "YK-21-01",
+      "owner_role": "İşletim",
+      "owner_person": null,
+      "status": "open",
+      "value": null
+    },
+    {
+      "id": "D12",
+      "question": "Sorumlu kişiler, SLO, RPO/RTO, gözlem ve restore kanıtı",
+      "source": "İB-22-01",
+      "owner_role": "Ürün ve işletim",
+      "owner_person": null,
+      "status": "open",
+      "value": null
+    }
+  ],
+  "packages": [
+    {
+      "id": "P01",
+      "title": "Karar ve ortam hazırlığı",
+      "depends_on": [],
+      "decision_dependencies": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10"
+      ],
+      "exit_evidence": "Karar kayıtları ve gerçek hedef ortam kanıtı",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "id": "P02",
+      "title": "Oturum ve hesap sınırı",
+      "depends_on": [
+        "P01"
+      ],
+      "decision_dependencies": [
+        "D07",
+        "D08",
+        "D09",
+        "D10"
+      ],
+      "exit_evidence": "Etkin hesap, ekip rolü, giriş/çıkış ve eski oturum denemeleri",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "id": "P03",
+      "title": "Müşteri akışı",
+      "depends_on": [
+        "P02"
+      ],
+      "decision_dependencies": [
+        "D01",
+        "D02",
+        "D03",
+        "D05",
+        "D06"
+      ],
+      "exit_evidence": "Oluşturma, aynı adla ayrı kimlik ve yeniden okuma",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "id": "P04",
+      "title": "Not akışı",
+      "depends_on": [
+        "P03"
+      ],
+      "decision_dependencies": [
+        "D01",
+        "D04",
+        "D05",
+        "D06"
+      ],
+      "exit_evidence": "KM-01–KM-05 ve tekrar/eşzamanlılık kanıtı",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "id": "P05",
+      "title": "Kişisel görev ve güvenlik",
+      "depends_on": [
+        "P03"
+      ],
+      "decision_dependencies": [
+        "D01",
+        "D04",
+        "D05",
+        "D06",
+        "D08"
+      ],
+      "exit_evidence": "Sahiplik, tamamlama, CSRF ve ortak güvenlik incelemesi",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "id": "P06",
+      "title": "Yayın ve bakım hazırlığı",
+      "depends_on": [
+        "P04",
+        "P05"
+      ],
+      "decision_dependencies": [
+        "D09",
+        "D11",
+        "D12"
+      ],
+      "exit_evidence": "İncelenmiş aday, yayın sonrası akış ve gerçek restore/gözlem kanıtı",
+      "status": "planned",
+      "evidence": null
+    }
+  ],
+  "scope_exclusions": [
+    "Çok kiracılık",
+    "Dosya eki",
+    "Görev atama",
+    "Otomatik hatırlatma",
+    "Ödeme",
+    "Dış entegrasyon",
+    "Müşteri verisiyle YZ özelliği"
+  ],
+  "evidence_policy": "Belge ve fixture kontrolleri ürün testi değildir. Ürün kabul senaryoları not_run kalır; karar bağlantısı veya dosya varlığı başarı değildir."
+}

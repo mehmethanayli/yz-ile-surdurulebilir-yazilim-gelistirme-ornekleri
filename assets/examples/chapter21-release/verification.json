@@ -1,0 +1,32 @@
+{
+  "record_id": "YK-21-01",
+  "verified_on": "2026-10-04",
+  "python_version": "3.13.7",
+  "check_scope": "Öğretim planının dosya yapısı, açık durumları, kimlikleri ve dokümantasyon örnekleri",
+  "result": "passed",
+  "pre_release_gate_count": 12,
+  "rollback_scenario_count": 3,
+  "post_release_check_count": 4,
+  "runbook_step_count": 8,
+  "checks": [
+    "Benzersiz ve sıralı koşul/senaryo/kontrol kimlikleri",
+    "Bilinmeyen aday, ortam ve karar değerlerinin açık kalması",
+    "Yapılmamış yayın, onay ve prova durumları",
+    "Üç DNS örneğinin ayrılmış ad/adres kullanımı ve CNAME hedefi",
+    "Sekiz yönerge adımı ve dosya özetleri"
+  ],
+  "not_executed": [
+    "Ürün build veya Docker",
+    "Gerçek CI/CD",
+    "DNS sorgusu veya değişikliği",
+    "TLS veya HTTP bağlantısı",
+    "Migration, rollback veya restore",
+    "Production yayını veya smoke testi"
+  ],
+  "hash_input": "UTF-8 text with CRLF and CR normalized to LF",
+  "sha256": {
+    "release-plan.json": "b6d93c3f53937539a472030aa7e70db6e9e83038307a36cd03c38f77369523eb",
+    "README.md": "632ba518f34841c5f58d32e82bbe6dd8d9ea9bab599c61573b03f6c5b0c45bdd",
+    "runbook.md": "e7dbccc4af6083687e499bf2fcf64be6a0d8a125230ad7da92e0d2780bbe6099"
+  }
+}

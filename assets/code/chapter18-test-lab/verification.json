@@ -1,0 +1,66 @@
+{
+  "verified_on": "2026-10-03",
+  "python_version": "3.13.7",
+  "platform": "Windows",
+  "unique_test_methods": 18,
+  "retained_methods": 15,
+  "new_metadata_methods": 3,
+  "contexts": [
+    "Installed Python 3.13.7",
+    "Separate Python 3.13.7 venv without pip"
+  ],
+  "quality_experiment": {
+    "weak_checks_passed_on_faulty": 4,
+    "selected_statement_start_lines": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "selected_lines_reached": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "selected_line_reach_percent": 100,
+    "independent_check_rejected_faulty": true,
+    "independent_check_passed_fixed": true,
+    "scope": "One function body; not branch, path, product or coverage.py measurement"
+  },
+  "quality_experiment_context": "Installed Python 3.13.7",
+  "coverage_py_installed": false,
+  "external_packages_added": false,
+  "previous_chapter_sources_unchanged": true,
+  "copies_match_sources": true,
+  "not_verified": [
+    "Python 3.14",
+    "Django/PostgreSQL integration",
+    "Browser and AI-CRM workflows",
+    "Real concurrent requests",
+    "Product coverage",
+    "CI/CD and deployment"
+  ],
+  "hash_input": "UTF-8 text with CRLF and CR normalized to LF",
+  "sha256": {
+    "quality_examples/settings_faulty.py": "9afbbb62ef1b5fbbbc15b3ede86f65194a1b0e70b026cf9d87032ae3ba692100",
+    "quality_examples/settings_fixed.py": "484c789960d977b56bf4c0547a21067e9b5533bffe00e9cb50e4015104a0f2c1",
+    "scripts/inspect_environment.py": "2d0c78fcc9d64dce27306c89347abd09ab06b63463a69945ecd266a151c8072a",
+    "tests/test_environment.py": "e2d31764e3f77d68f9ccdf8efc0c36cf216fe3c89cc9244da02a74ea734a36ed",
+    "tests/test_package_metadata.py": "ea9c322160adb6e34467eff9147d9de33a6447fdcc14a24d24e0da1292b71a2e",
+    "tests/test_share_report.py": "81d18cdbd826f157e8d5cd73c1bfcfe3dbe78143179967ddb21c12f0126dd2d7",
+    "verify_test_quality.py": "3b9f377d5dd14788c7a875ecf54ed91d05cf183f3661017846486f41fdd92037"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "record_id": "YT-25-01",
+  "verified_on": "2026-10-04",
+  "python_version": "3.13.7",
+  "result": "passed",
+  "check_scope": "Belge yapısı, referanslar, boş gerçek sonuçlar ve metin dosyası özetleri",
+  "task_count": 6,
+  "role_count": 4,
+  "rubric_criterion_count": 6,
+  "synthetic_case_count": 8,
+  "expected_label_distribution": {
+    "acceptable_for_stated_scope": 3,
+    "revise": 5
+  },
+  "model_runs": 0,
+  "multi_agent_runs": 0,
+  "executed_product_tests": 0,
+  "checks": [
+    "Görev, rol, ölçüt ve vaka kimliklerinin benzersizliği",
+    "İlk MVP, gelecekteki SaaS ve dokümantasyon kapsamları",
+    "Görev yetkisi ve örnek rollerin ayrı tutulması",
+    "Vaka-görev ve vaka-ölçüt referansları",
+    "Beklenen etiket ile beklenen kusur ilişkisinin tutarlılığı",
+    "Gerçek model, kaynak commit, çıktı ve kanıt alanlarının boşluğu",
+    "Devir şablonunun tamamlanmış işlem sayılmaması",
+    "İki önceki karar kaydının kaynak özeti",
+    "Önceki 34 kaynak dosyasının özetinin korunması"
+  ],
+  "source_snapshots_verified": 2,
+  "previous_chapter_hashes_verified": 34,
+  "not_executed": [
+    "Gerçek model çağrısı veya model karşılaştırma deneyi",
+    "Çoklu ajan görevi veya devir yürütmesi",
+    "Gerçek CRM geliştirmesi veya ürün testi",
+    "Git commit, push, deployment veya migration",
+    "Harici mesaj, ödeme, veri paylaşımı veya sürekli izleme"
+  ],
+  "hash_input": "UTF-8 text with CRLF and CR normalized to LF",
+  "sha256": {
+    "README.md": "31bec7aa827cd756b9448228b53871d32d2022c59fe9a5310cbfc2c54b96a3a3",
+    "oversight-plan.json": "9d71d66300ff9ddde86149407ec0f94f8c30b1007229490fc16a1f41f179896d",
+    "task-cards.json": "8a70a47b37af042cc9fbe655800fe0fd00d094715b9311f7d6c31e7e7f5050c2",
+    "evaluation-rubric.json": "fc4f6ff399d106f51548ce1f542a331cc9c4373d4359a3c0798305c2e4a159d8",
+    "evaluation-cases.json": "faa755905ad92de1cd06d0a28a2317c3201ab4e754890ff61675006b69581f44",
+    "handoff-template.json": "0467b991cfaf0a722c2a034f1ef91f68714838299952a55fcc1eba3775a33192"
+  }
+}

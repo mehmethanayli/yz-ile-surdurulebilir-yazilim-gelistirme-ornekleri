@@ -1,0 +1,39 @@
+{
+  "record_id": "GÖ-26-01",
+  "verified_on": "2026-10-04",
+  "python_version": "3.13.7",
+  "result": "passed",
+  "check_scope": "Öğretim verisinin yapısı, kaynak anahtarları, sentetik aritmetik, boş gerçek sonuçlar ve kaynak özetleri",
+  "claim_count": 6,
+  "conditional_scenario_count": 3,
+  "synthetic_measurement_count": 3,
+  "learning_exercise_count": 6,
+  "model_runs": 0,
+  "agent_runs": 0,
+  "executed_product_tests": 0,
+  "user_studies": 0,
+  "checks": [
+    "Kimliklerin benzersizliği",
+    "Dört iddia kategorisi ve kaynak anahtarları",
+    "Üç alternatif senaryonun ön koşulları ve durdurma koşulları",
+    "Ardışık süre toplamları ve yüzde hesapları",
+    "Sıfır başlangıç için yüzde hesaplanmaması",
+    "Gerçek sonuç ve öğrenme değerlendirmelerinin boşluğu",
+    "Önceki 40 kaynak özetinin korunması"
+  ],
+  "previous_chapter_hashes_verified": 40,
+  "not_executed": [
+    "Gerçek verimlilik deneyi",
+    "Model veya ajan çalışması",
+    "Öğrenci değerlendirmesi",
+    "Gerçek ürün geliştirme, test, CI/CD, deployment veya restore"
+  ],
+  "hash_input": "UTF-8 text with CRLF and CR normalized to LF",
+  "sha256": {
+    "claim-cases.json": "92881ef997507b56cfe29e3122881e29b0a87460c5228e15d26594c5d4709a7d",
+    "future-plan.json": "9160cf031775d28d09f05053884fa524319c278951106ae88e33612c851aad3e",
+    "learning-plan.json": "cf3a7971a0540a11eea5cf448eabfa95b650936eb33b7725077be129c1cc3752",
+    "measurement-examples.json": "205a60de770a6b92acf6e26ddc38a35a0172a2c52661532b6334e11822bed6e3",
+    "README.md": "c405e7a7b8bc983f67ffbd888a7d07abcfae0cc2552681c1a9f365227508e63e"
+  }
+}

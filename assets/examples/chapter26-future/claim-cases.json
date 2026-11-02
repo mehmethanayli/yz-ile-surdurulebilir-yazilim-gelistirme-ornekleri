@@ -1,0 +1,53 @@
+{
+  "kind": "authored_teaching_examples",
+  "cases": [
+    {
+      "id": "C26-01",
+      "claim": "İlk çalışmada deneyimli geliştiricilerin işleri daha uzun sürdü.",
+      "expected_category": "observed_research",
+      "source_key": "METR2025ExperiencedDevelopers",
+      "scope_or_revision": "Erken 2025, 16 geliştirici ve 246 görev bağlamındaki sonuç; tüm araçlara ve ekiplere genellenmez.",
+      "model_output": false
+    },
+    {
+      "id": "C26-02",
+      "claim": "YZ her yazılım işini hızlandırır.",
+      "expected_category": "unsupported_generalization",
+      "source_key": "Peng2023",
+      "scope_or_revision": "Belirli deneyde hızlanma görülmüştür; farklı görev ve ekip için yerel kanıt gerekir.",
+      "model_output": false
+    },
+    {
+      "id": "C26-03",
+      "claim": "Yeni ölçümdeki seçim etkisi, kesin kazanç tahminini güçleştirir.",
+      "expected_category": "observed_research",
+      "source_key": "METR2026ExperimentDesign",
+      "scope_or_revision": "METR 2026 güncellemesi kendi deney tasarımının sınırlamalarını açıklar; evrensel etki büyüklüğü vermez.",
+      "model_output": false
+    },
+    {
+      "id": "C26-04",
+      "claim": "Benchmark başarısı çalışan ürünün bütün sorumluluklarını kanıtlar.",
+      "expected_category": "unsupported_generalization",
+      "source_key": "Jimenez2023SWEBench",
+      "scope_or_revision": "Görev testleri sınırlı davranışı değerlendirir; yayın, bakım ve kullanıcı kabulü ayrıca kanıt ister.",
+      "model_output": false
+    },
+    {
+      "id": "C26-05",
+      "claim": "İnceleme yükü artarsa ilk üretim hızındaki kazanç toplamda kaybolabilir.",
+      "expected_category": "interpretation",
+      "source_key": null,
+      "scope_or_revision": "Bu olasılık M26-01 sentetik aritmetiğiyle gösterilir; gerçek ekip verisi değildir.",
+      "model_output": false
+    },
+    {
+      "id": "C26-06",
+      "claim": "Dar yetki ve uygun kontroller varsa araç kullanan ajan denenebilir.",
+      "expected_category": "conditional_scenario",
+      "source_key": null,
+      "scope_or_revision": "Bu bir koşullu çalışma önerisidir; kaçınılmaz gelecek veya denenmiş ürün sonucu değildir.",
+      "model_output": false
+    }
+  ]
+}

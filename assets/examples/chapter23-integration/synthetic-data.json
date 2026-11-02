@@ -1,0 +1,76 @@
+{
+  "kind": "synthetic_relation_fixture",
+  "not_an_application": true,
+  "actors": [
+    {
+      "id": "A",
+      "active": true,
+      "roles": [
+        "team_member"
+      ]
+    },
+    {
+      "id": "B",
+      "active": true,
+      "roles": [
+        "team_member"
+      ]
+    },
+    {
+      "id": "S",
+      "active": true,
+      "roles": [
+        "account_operator"
+      ]
+    },
+    {
+      "id": "D",
+      "active": false,
+      "roles": [
+        "team_member"
+      ]
+    }
+  ],
+  "customers": [
+    {
+      "id": "101",
+      "name": "Deniz Kaya",
+      "email": null,
+      "phone": null
+    },
+    {
+      "id": "102",
+      "name": "Deniz Kaya",
+      "email": null,
+      "phone": null
+    }
+  ],
+  "notes": [
+    {
+      "id": "501",
+      "customer_id": "102",
+      "author_id": "A",
+      "body": "Teklif görüşüldü.",
+      "created_at": "2026-10-01T09:00:00Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "701",
+      "customer_id": "102",
+      "owner_id": "A",
+      "title": "Teklifi gözden geçir",
+      "due_date": "2026-09-30",
+      "status": "open"
+    },
+    {
+      "id": "702",
+      "customer_id": "102",
+      "owner_id": "B",
+      "title": "Teklifi gözden geçir",
+      "due_date": "2026-10-02",
+      "status": "open"
+    }
+  ],
+  "note": "Kimlikler dış temsil için metindir. Tarihler sentetiktir; gerçek sunucu zamanı veya ürün zaman dilimi kararı değildir. JSON varlığı uygulama erişim denetimi uygulamaz."
+}

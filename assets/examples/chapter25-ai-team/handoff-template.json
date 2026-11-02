@@ -1,0 +1,18 @@
+{
+  "record_id": "YT-25-01",
+  "template_only": true,
+  "task_id": null,
+  "source_revision": null,
+  "source_files": [],
+  "changed_files": [],
+  "requirements": [],
+  "decisions": [],
+  "checks_executed": [],
+  "checks_not_executed": [],
+  "findings": [],
+  "open_questions": [],
+  "next_step": null,
+  "requested_action": null,
+  "accepted_by": null,
+  "warning": "Boş şablon tamamlanmış devir değildir; başka ajanın önerisi yeni yetki üretmez."
+}

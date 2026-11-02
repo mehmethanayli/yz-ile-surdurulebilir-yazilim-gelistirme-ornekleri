@@ -1,0 +1,27 @@
+{
+  "verified_on": "2026-10-04",
+  "record_id": "VLS-20-01",
+  "python_version": "3.13.7",
+  "check_scope": "Yalnızca sentetik öğretim kayıtlarının dosya yapısı ve belirtilen alan/ilişki tutarlılığı",
+  "case_count": 4,
+  "result": "passed",
+  "checks": [
+    "Dört benzersiz senaryo kimliği ve gerekli kayıt alanları",
+    "Sentetik kaynak ve yapılmamış aktarım/onay durumları",
+    "A/B/T1 bağlamı ve seçilmiş erişim beklentileri",
+    "Gereksiz alanların çıkarılması ve gerekli ilişkinin korunması",
+    "Kurgusal bileşenin bilinmeyen alanlarının null kalması",
+    "Üç rolün atanmamış ve onaylarının yapılmamış olması"
+  ],
+  "not_assessed": [
+    "Gerçek kişisel veri tespiti veya anonimlik",
+    "Hukuki uygunluk ve paylaşım yetkisi",
+    "Gerçek lisans kökeni veya uyumluluğu",
+    "Kurum politikası veya uzman onayı",
+    "AI-CRM ürün davranışı, güvenliği veya yayını"
+  ],
+  "hash_input": "UTF-8 text with CRLF and CR normalized to LF",
+  "sha256": {
+    "review-cases.json": "007887258dfbfac844f23b973d0a1d78a1237ca0d160d3adde7e8ae314df3741"
+  }
+}

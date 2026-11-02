@@ -1,0 +1,79 @@
+{
+  "record_id": "YT-25-01",
+  "created_on": "2026-10-04",
+  "scope": "teaching_task_and_oversight_design",
+  "model_runs": 0,
+  "multi_agent_runs": 0,
+  "product_tests_run": false,
+  "production_actions": false,
+  "prior_scope_changed": false,
+  "source_snapshot": [
+    {
+      "record_id": "UÇ-23-01",
+      "path": "../chapter23-integration/integration-plan.json",
+      "sha256": "cf30a6569ebf524c115e678dddcd17eb357767c401f9f31904a2a71a8967eb83"
+    },
+    {
+      "record_id": "SG-24-01",
+      "path": "../chapter24-saas/transition-plan.json",
+      "sha256": "5a35cabc69484484902be862c260278d2a6da2397fae12e723ec87543610de74"
+    }
+  ],
+  "roles": [
+    {
+      "id": "planner",
+      "title": "Planlayıcı",
+      "responsibility": "Bağımlılık ve açık kararları görünür kılmak",
+      "assigned_person": null
+    },
+    {
+      "id": "implementer",
+      "title": "Uygulayıcı",
+      "responsibility": "Yalnız ayrıca yetkilendirilmiş dar değişikliği yapmak",
+      "assigned_person": null
+    },
+    {
+      "id": "reviewer",
+      "title": "İnceleyici",
+      "responsibility": "Gereksinim ve karşı örnekle değerlendirmek",
+      "assigned_person": null
+    },
+    {
+      "id": "integrator",
+      "title": "Bütünleştirici",
+      "responsibility": "Devirleri ve birleşmiş sürüm kanıtını denetlemek",
+      "assigned_person": null
+    }
+  ],
+  "evidence_levels": [
+    {
+      "id": "document",
+      "meaning": "Dosya veya planın varlığı ve yapısal kontrolü"
+    },
+    {
+      "id": "proposal",
+      "meaning": "Öneri veya varsayımsal örnek"
+    },
+    {
+      "id": "execution",
+      "meaning": "Belirli komut, ortam ve sürüme bağlı gerçek yürütme"
+    },
+    {
+      "id": "acceptance",
+      "meaning": "Gereksinimle karşılaştırılmış kapsamlı karar"
+    }
+  ],
+  "stop_conditions": [
+    "Kaynak veya hedef sürüm değiştiğinde mevcut kanıtın geçerliliğini yeniden değerlendir.",
+    "Yeni dış veri paylaşımı veya etki alanı için önce görev yetkisini kontrol et.",
+    "Sonuçsuz tekrar yeni kanıt üretmiyorsa hipotezi ve sınırı gözden geçir.",
+    "Eksik bağlamı ürün veya güvenlik iddiasıyla doldurma."
+  ],
+  "oversight_configuration": {
+    "human_decision_owner": null,
+    "monitor_owner": null,
+    "time_budget": null,
+    "resource_budget": null,
+    "intervention_procedure": "Gerçek yürütme öncesinde görev ve araçlara göre belirlenir."
+  }
+}

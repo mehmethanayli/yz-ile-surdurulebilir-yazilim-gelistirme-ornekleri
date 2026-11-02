@@ -1,0 +1,275 @@
+{
+  "record_id": "SG-24-01",
+  "execution_status": "not_run",
+  "http_contract": "Yeni SaaS endpoint durum/gövde sözleşmesi D24-04 içinde açık.",
+  "cases": [
+    {
+      "id": "K24-01",
+      "stage": "G03",
+      "decisions": [
+        "D24-02",
+        "D24-04"
+      ],
+      "title": "Etkin bağlam",
+      "given": "A iki kurumun üyesidir; etkin kurum K-A.",
+      "action": "Müşteri listesi istenir.",
+      "expected": "Yalnız K-A müşterileri döner; K-B üyeliği verileri birleştirmez.",
+      "status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K24-02",
+      "stage": "G03",
+      "decisions": [
+        "D24-02",
+        "D24-04"
+      ],
+      "title": "Üyesi olunmayan kurum",
+      "given": "B yalnız K-A üyesidir.",
+      "action": "K-B seçicisi ve müşteri kimliği gönderilir.",
+      "expected": "Erişim reddedilir; K-B içeriği veya veri değişikliği oluşmaz.",
+      "status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K24-03",
+      "stage": "G03",
+      "decisions": [
+        "D24-02",
+        "D24-04",
+        "D24-10"
+      ],
+      "title": "Kaldırılmış üyelik",
+      "given": "A K-A ekranını açık tutar; K-A üyeliği kaldırılır. Ayrı denemede D’nin genel hesabı kapalı, üyeliği etkindir.",
+      "action": "Eski oturum ve sıcak önbellekle korumalı istek yapılır. D için eski oturumla sonraki korumalı istek de denenir.",
+      "expected": "K-A erişimi reddedilir; K-B üyeliği etkilenmez. İptal yansıma süresi sözleşmeyle ölçülür. D’nin sonraki korumalı isteği genel hesap kuralıyla reddedilir.",
+      "status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K24-04",
+      "stage": "G03",
+      "decisions": [
+        "D24-04"
+      ],
+      "title": "Kişisel görev",
+      "given": "B ve A K-A ekip üyeleridir.",
+      "action": "B, A görevini listede, ayrıntıda ve tamamlamada arar.",
+      "expected": "A görevi dönmez ve değişmez.",
+      "status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K24-05",
+      "stage": "G03",
+      "decisions": [
+        "D24-04"
+      ],
+      "title": "Birleşik yönetici rolü",
+      "given": "A K-B kurum yöneticisi ve ekip üyesidir; görev C’ye aittir.",
+      "action": "A, C görevini okumayı veya tamamlamayı dener.",
+      "expected": "Görev içeriği verilmez ve görev değişmez.",
+      "status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K24-06",
+      "stage": "G03",
+      "decisions": [
+        "D24-04"
+      ],
+      "title": "Platform yöneticisi",
+      "given": "S yalnız platform hesap yönetimi rolündedir.",
+      "action": "K-A veya K-B iş verisi istenir.",
+      "expected": "Hesap rolü iş verisi izni sağlamaz; erişim reddedilir.",
+      "status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K24-07",
+      "stage": "G03",
+      "decisions": [
+        "D24-03",
+        "D24-04"
+      ],
+      "title": "Çapraz ilişki",
+      "given": "K-A bağlamında geçerli oturum vardır.",
+      "action": "K-B müşterisine bağlı K-A notu yazılmaya çalışılır.",
+      "expected": "Çapraz kurum ilişkisi kalıcılaşmaz; uygulama ve DB katmanı ayrı sınanır.",
+      "status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K24-08",
+      "stage": "G03",
+      "decisions": [
+        "D24-03",
+        "D24-04"
+      ],
+      "title": "Bağlantının yeniden kullanımı",
+      "given": "Aynı havuz bağlantısı önce K-A için kullanılmıştır.",
+      "action": "Bağlantı K-B için ve ardından bağlam olmadan kullanılır.",
+      "expected": "K-A bağlamı taşınmaz; eksik bağlam kapsam dışı sorguya dönüşmez. RLS seçilirse gerçek rol ve politikalar ayrıca denetlenir.",
+      "status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K24-09",
+      "stage": "G03",
+      "decisions": [
+        "D24-04",
+        "D24-10"
+      ],
+      "title": "Önbellek ve sayfalama",
+      "given": "K-A müşteri listesi cache’e alınır.",
+      "action": "K-B bağlamıyla aynı yerel kimlik ve K-A cursor bilgisi denenir.",
+      "expected": "K-A sonucu dönmez; cursor bağlamı sözleşmeye göre reddedilir veya güvenle yeniden değerlendirilir.",
+      "status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K24-10",
+      "stage": "G04",
+      "decisions": [
+        "D24-05",
+        "D24-06"
+      ],
+      "title": "Geçersiz ödeme olayı",
+      "given": "K-A aboneliği için olay benzeri gövde hazırlanır.",
+      "action": "Geçersiz imza veya yanlış hesap/ortamla olay gelir.",
+      "expected": "Abonelik ve hak değişmez; başarısız doğrulama kontrollü kaydedilir.",
+      "status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K24-11",
+      "stage": "G04",
+      "decisions": [
+        "D24-05",
+        "D24-06"
+      ],
+      "title": "Tekrar ve kalıcı kabul",
+      "given": "Aynı sağlayıcı olayının iki teslimi vardır.",
+      "action": "Olay tekrarlanır; ayrıca kalıcı kabul hatası oluşturulur. Kalıcı kabulden sonra worker çökmesi de denenir.",
+      "expected": "Tekrar ikinci iş etkisi üretmez; kalıcı kabul başarısızken başarılı kabul yanıtı verilmez. Kabul edilmiş fakat işlenmemiş olay yeniden yürütülebilir kalır; salt olay varlığı işi düşürmez.",
+      "status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K24-12",
+      "stage": "G04",
+      "decisions": [
+        "D24-05",
+        "D24-06"
+      ],
+      "title": "Sırasız olay ve iptal",
+      "given": "Daha yeni abonelik durumu işlenmiştir.",
+      "action": "Eski olay daha sonra gelir; dönem sonunda iptal de değerlendirilir.",
+      "expected": "Eski olay güncel hakkı körlemesine geri almaz; sonuç seçilen ticari politikayla uzlaştırılır.",
+      "status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K24-13",
+      "stage": "G04",
+      "decisions": [
+        "D24-05"
+      ],
+      "title": "Kota yarışı",
+      "given": "Kurum kotasının sınırına yaklaşılmıştır.",
+      "action": "İki eşzamanlı kaynak oluşturma işlemi yapılır.",
+      "expected": "Seçilen sayım ve rezervasyon kuralı aşılmaz; tekil sıralı test yeterli sayılmaz.",
+      "status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K24-14",
+      "stage": "G05",
+      "decisions": [
+        "D24-02",
+        "D24-07",
+        "D24-08"
+      ],
+      "title": "Bekleyen iş ve dış yan etki",
+      "given": "A adına dışa aktarım başlatılır; üyelik iş başlamadan kaldırılır.",
+      "action": "Worker işi alır; ayrı denemede dış gönderim yanıtı kaybedilir.",
+      "expected": "Yetkisiz çıktı üretilmez; belirsiz dış gönderim doğrudan başarısız veya güvenli tekrar sayılmaz.",
+      "status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K24-15",
+      "stage": "G05",
+      "decisions": [
+        "D24-08",
+        "D24-09"
+      ],
+      "title": "Takvim ve yinelenme",
+      "given": "Aynı planlı olay iki kez üretilir veya iş hâlâ çalışıyordur.",
+      "action": "Saat değişimi ve kesinti sonrası yeniden başlama sınanır.",
+      "expected": "Seçilen takvim ve çakışma politikası uygulanır; mantıksal yan etki kontrolsüz çoğalmaz.",
+      "status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K24-16",
+      "stage": "G05",
+      "decisions": [
+        "D24-04",
+        "D24-11"
+      ],
+      "title": "Dosya ve erişim ömrü",
+      "given": "K-A dosyası için indirme izni veya süreli URL üretilmiştir.",
+      "action": "K-B kullanıcısı nesneyi ister; üyelik iptali ve URL süresi ayrıca denenir.",
+      "expected": "Yeni yetkisiz erişim reddedilir; önceden verilmiş bağlantının gerçek iptal/sona erme davranışı ölçülür.",
+      "status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K24-17",
+      "stage": "G05",
+      "decisions": [
+        "D24-04",
+        "D24-11"
+      ],
+      "title": "Audit ve destek",
+      "given": "K-A üyelik olayı kaydedilir.",
+      "action": "K-B kullanıcısı veya yetkisiz destek aktörü kaydı arar.",
+      "expected": "Yabancı kurum olayı ve hassas içerik açığa çıkmaz; izinli görünüm yalnız gerekli alanları içerir.",
+      "status": "not_run",
+      "actual": null,
+      "evidence": null
+    },
+    {
+      "id": "K24-18",
+      "stage": "G06",
+      "decisions": [
+        "D24-03",
+        "D24-12"
+      ],
+      "title": "Migration ve seçici kurtarma",
+      "given": "Sentetik iki kurum verisi ve yeni yazımlar vardır.",
+      "action": "Migration kesintisi ve K-A için yalıtılmış kurtarma denemesi yapılır.",
+      "expected": "Kurumsuz/çapraz kayıt oluşmaz; K-B güncel verisi korunur; gerçek ölçüm olmadan RPO/RTO başarısı yazılmaz.",
+      "status": "not_run",
+      "actual": null,
+      "evidence": null
+    }
+  ]
+}
