@@ -2,7 +2,7 @@
 
 Her kitapta bölümler 1–13 olarak numaralandırılır. Kitapların bölüm metinleri basılı kitaplarda okunur. Bu rehber, dijital eklerdeki başvuruları ve uygulama dosyalarını bulmak içindir.
 
-Klasörler ve kayıt kimlikleri ilk çalışma düzenindeki 14–26 sayılarını korur. Örneğin `chapter18-test-lab` ve `TS-18-01`, Kitap 2 Bölüm 5 ile eşleşir. Bir kayıt kimliği yeni bölüm numarasına göre yeniden adlandırılmaz.
+Klasör adındaki numara kitaptaki bölümü gösterir. Örneğin `book-2-chapter-05-test-lab`, Kitap 2 Bölüm 5’in test laboratuvarıdır. `TS-18-01` aynı laboratuvarın kayıt kimliğidir ve ilk çalışma numarasını korur.
 
 <a id="kitap-1-bolum-1"></a>
 
@@ -86,77 +86,77 @@ Klasörler ve kayıt kimlikleri ilk çalışma düzenindeki 14–26 sayıların�
 
 ## Kitap 2 Bölüm 1 — Geliştirme Ortamını Anlamak
 
-[Uygulama paketini aç](../assets/code/chapter14-environment/README.md) · [Kitap 2 dijital ekleri](../ekler/kitap-2/README.md)
+[Uygulama paketini aç](../assets/code/book-2-chapter-01-environment/README.md) · [Kitap 2 dijital ekleri](../ekler/kitap-2/README.md)
 
 <a id="kitap-2-bolum-2"></a>
 
 ## Kitap 2 Bölüm 2 — Git ve Sürüm Kontrolü
 
-[Uygulama paketini aç](../assets/code/chapter15-git-lab/README.md) · [Kitap 2 dijital ekleri](../ekler/kitap-2/README.md)
+[Uygulama paketini aç](../assets/code/book-2-chapter-02-git-lab/README.md) · [Kitap 2 dijital ekleri](../ekler/kitap-2/README.md)
 
 <a id="kitap-2-bolum-3"></a>
 
 ## Kitap 2 Bölüm 3 — AI ile Kod Geliştirme Stratejisi
 
-[Uygulama paketini aç](../assets/code/chapter16-share-report/README.md) · [Kitap 2 dijital ekleri](../ekler/kitap-2/README.md)
+[Uygulama paketini aç](../assets/code/book-2-chapter-03-share-report/README.md) · [Kitap 2 dijital ekleri](../ekler/kitap-2/README.md)
 
 <a id="kitap-2-bolum-4"></a>
 
 ## Kitap 2 Bölüm 4 — Hata Ayıklama
 
-[Uygulama paketini aç](../assets/code/chapter17-debug-lab/README.md) · [Kitap 2 dijital ekleri](../ekler/kitap-2/README.md)
+[Uygulama paketini aç](../assets/code/book-2-chapter-04-debug-lab/README.md) · [Kitap 2 dijital ekleri](../ekler/kitap-2/README.md)
 
 <a id="kitap-2-bolum-5"></a>
 
 ## Kitap 2 Bölüm 5 — Yazılım Testi
 
-[Uygulama paketini aç](../assets/code/chapter18-test-lab/README.md) · [Kitap 2 dijital ekleri](../ekler/kitap-2/README.md)
+[Uygulama paketini aç](../assets/code/book-2-chapter-05-test-lab/README.md) · [Kitap 2 dijital ekleri](../ekler/kitap-2/README.md)
 
 <a id="kitap-2-bolum-6"></a>
 
 ## Kitap 2 Bölüm 6 — Yazılım Güvenliği
 
-[Uygulama paketini aç](../assets/code/chapter19-security-lab/README.md) · [Kitap 2 dijital ekleri](../ekler/kitap-2/README.md)
+[Uygulama paketini aç](../assets/code/book-2-chapter-06-security-lab/README.md) · [Kitap 2 dijital ekleri](../ekler/kitap-2/README.md)
 
 <a id="kitap-2-bolum-7"></a>
 
 ## Kitap 2 Bölüm 7 — Gizlilik, Etik, Lisans ve Hukuki Sorular
 
-[Uygulama paketini aç](../assets/examples/chapter20-review/README.md) · [Kitap 2 dijital ekleri](../ekler/kitap-2/README.md)
+[Uygulama paketini aç](../assets/examples/book-2-chapter-07-review/README.md) · [Kitap 2 dijital ekleri](../ekler/kitap-2/README.md)
 
 <a id="kitap-2-bolum-8"></a>
 
 ## Kitap 2 Bölüm 8 — Deployment: Bilgisayarımdan İnternete
 
-[Uygulama paketini aç](../assets/examples/chapter21-release/README.md) · [Kitap 2 dijital ekleri](../ekler/kitap-2/README.md)
+[Uygulama paketini aç](../assets/examples/book-2-chapter-08-release/README.md) · [Kitap 2 dijital ekleri](../ekler/kitap-2/README.md)
 
 <a id="kitap-2-bolum-9"></a>
 
 ## Kitap 2 Bölüm 9 — Production Sonrası Hayat
 
-[Uygulama paketini aç](../assets/examples/chapter22-operations/README.md) · [Kitap 2 dijital ekleri](../ekler/kitap-2/README.md)
+[Uygulama paketini aç](../assets/examples/book-2-chapter-09-operations/README.md) · [Kitap 2 dijital ekleri](../ekler/kitap-2/README.md)
 
 <a id="kitap-2-bolum-10"></a>
 
 ## Kitap 2 Bölüm 10 — Baştan Sona AI Destekli Bir Uygulama Geliştirmek
 
-[Uygulama paketini aç](../assets/examples/chapter23-integration/README.md) · [Kitap 2 dijital ekleri](../ekler/kitap-2/README.md)
+[Uygulama paketini aç](../assets/examples/book-2-chapter-10-integration/README.md) · [Kitap 2 dijital ekleri](../ekler/kitap-2/README.md)
 
 <a id="kitap-2-bolum-11"></a>
 
 ## Kitap 2 Bölüm 11 — Prototipten SaaS Ürününe
 
-[Uygulama paketini aç](../assets/examples/chapter24-saas/README.md) · [Kitap 2 dijital ekleri](../ekler/kitap-2/README.md)
+[Uygulama paketini aç](../assets/examples/book-2-chapter-11-saas/README.md) · [Kitap 2 dijital ekleri](../ekler/kitap-2/README.md)
 
 <a id="kitap-2-bolum-12"></a>
 
 ## Kitap 2 Bölüm 12 — AI Yazılım Takımını Yönetmek
 
-[Uygulama paketini aç](../assets/examples/chapter25-ai-team/README.md) · [Kitap 2 dijital ekleri](../ekler/kitap-2/README.md)
+[Uygulama paketini aç](../assets/examples/book-2-chapter-12-ai-team/README.md) · [Kitap 2 dijital ekleri](../ekler/kitap-2/README.md)
 
 <a id="kitap-2-bolum-13"></a>
 
 ## Kitap 2 Bölüm 13 — Yazılım Geliştirmenin Geleceği
 
-[Uygulama paketini aç](../assets/examples/chapter26-future/README.md) · [Kitap 2 dijital ekleri](../ekler/kitap-2/README.md)
+[Uygulama paketini aç](../assets/examples/book-2-chapter-13-future/README.md) · [Kitap 2 dijital ekleri](../ekler/kitap-2/README.md)
 

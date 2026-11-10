@@ -2,7 +2,7 @@
 
 **Uçtan uca bütünleştirme paketi**
 
-> **Bölüm numarası:** Bu paket Kitap 2’nin bağımsız 1–13 numaralandırmasına göre listelenir. Klasör adları ve GO-14-01 gibi kayıt kimlikleri kaynak dosyalarla uyum için korunmuştur.
+> **Bölüm numarası:** Bu paket Kitap 2’nin bağımsız 1–13 numaralandırmasına göre listelenir. Örnek klasörleri Kitap 2’nin bölüm numaralarını, GO-14-01 gibi kayıt kimlikleri ilk çalışma numaralarını kullanır.
 
 **UÇ-23-01**, [Bölüm 10](../../../docs/bolum-eslestirmesi.md#kitap-2-bolum-10) için hazırlanmış öğretim paketidir. Çalışan CRM uygulaması veya ürün testi raporu değildir. Önceki kararları uygulama sırası, kabul senaryosu ve kanıt ihtiyacına bağlar.
 

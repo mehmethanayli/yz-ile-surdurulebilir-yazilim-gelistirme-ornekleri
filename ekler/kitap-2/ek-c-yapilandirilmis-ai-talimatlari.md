@@ -178,7 +178,7 @@ değil içerik ve kalıcı etki de düşünülmeli. Bütün sonuçlar henüz yü
 
 **İkinci tur örneği.** “Senaryolar yalnız A'nın başarılı işlemlerini içeriyor. B, S, D ve birleşik rol durumlarını ilgili ön koşullarla ekle; bu yeni kapsamı çalıştırılmış test sayısına dönüştürme.” Testler daha sonra gerçek ortamda çalıştırılırsa komut, sürüm ve sonuç ayrı kayda eklenir.
 
-**Bağlantılar:** [Bölüm 5](../../docs/bolum-eslestirmesi.md#kitap-2-bolum-5), [Kabul planı](../../assets/examples/chapter23-integration/acceptance-cases.json), [Ek B — Test](ek-b-kontrol-listeleri.md#ek-b-7).
+**Bağlantılar:** [Bölüm 5](../../docs/bolum-eslestirmesi.md#kitap-2-bolum-5), [Kabul planı](../../assets/examples/book-2-chapter-10-integration/acceptance-cases.json), [Ek B — Test](ek-b-kontrol-listeleri.md#ek-b-7).
 
 <a id="ek-c-8"></a>
 
@@ -282,7 +282,7 @@ Gerçek adres veya komut doğrulanmadıysa uygulanabilir sonuç gibi sunulmamal�
 
 **İkinci tur örneği.** “Migration sonrasında eski uygulama veriyle uyumlu olmayabilir. Genel rollback satırını böl; kodun geri alınabildiği koşulu ve veri kurtarma için gereken ayrı kanıtı yaz.” Bu geri bildirim planı somutlaştırır; canlı işlemi başlatma talimatı değildir.
 
-**Bağlantılar:** [Bölüm 8](../../docs/bolum-eslestirmesi.md#kitap-2-bolum-8), [YK-21-01](../../assets/examples/chapter21-release/README.md), [Ek B — Deployment](ek-b-kontrol-listeleri.md#ek-b-8), [Ek B — Production](ek-b-kontrol-listeleri.md#ek-b-9).
+**Bağlantılar:** [Bölüm 8](../../docs/bolum-eslestirmesi.md#kitap-2-bolum-8), [YK-21-01](../../assets/examples/book-2-chapter-08-release/README.md), [Ek B — Deployment](ek-b-kontrol-listeleri.md#ek-b-8), [Ek B — Production](ek-b-kontrol-listeleri.md#ek-b-9).
 
 <a id="ek-c-devir"></a>
 

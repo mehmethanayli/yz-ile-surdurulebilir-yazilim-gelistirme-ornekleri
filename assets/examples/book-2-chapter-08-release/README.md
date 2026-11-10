@@ -2,7 +2,7 @@
 
 **Yayın planı örneği**
 
-> **Bölüm numarası:** Bu paket Kitap 2’nin bağımsız 1–13 numaralandırmasına göre listelenir. Klasör adları ve GO-14-01 gibi kayıt kimlikleri kaynak dosyalarla uyum için korunmuştur.
+> **Bölüm numarası:** Bu paket Kitap 2’nin bağımsız 1–13 numaralandırmasına göre listelenir. Örnek klasörleri Kitap 2’nin bölüm numaralarını, GO-14-01 gibi kayıt kimlikleri ilk çalışma numaralarını kullanır.
 
 [Kitap 2, Bölüm 8 eşleştirmesi](../../../docs/bolum-eslestirmesi.md#kitap-2-bolum-8).
 

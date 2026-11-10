@@ -2,7 +2,7 @@
 
 **Yerel Git laboratuvarı**
 
-> **Bölüm numarası:** Bu paket Kitap 2’nin bağımsız 1–13 numaralandırmasına göre listelenir. Klasör adları ve GO-14-01 gibi kayıt kimlikleri kaynak dosyalarla uyum için korunmuştur.
+> **Bölüm numarası:** Bu paket Kitap 2’nin bağımsız 1–13 numaralandırmasına göre listelenir. Örnek klasörleri Kitap 2’nin bölüm numaralarını, GO-14-01 gibi kayıt kimlikleri ilk çalışma numaralarını kullanır.
 
 [Kitap 2, Bölüm 2 eşleştirmesi](../../../docs/bolum-eslestirmesi.md#kitap-2-bolum-2).
 
@@ -15,7 +15,7 @@ Python ve Git komut satırında erişilebilir olmalıdır. Doğrulamada Python 3
 Uygulama deposunun kökünde, daha önce bulunmayan bir deneme hedefi seçerek PowerShell'de:
 
 ```powershell
-python .\assets\code\chapter15-git-lab\run_lab.py --output "$env:TEMP\kitap-git-denemesi-01"
+python .\assets\code\book-2-chapter-02-git-lab\run_lab.py --output "$env:TEMP\kitap-git-denemesi-01"
 ```
 
 Çıktı hedefi sizin yazabildiğiniz bir konum olmalıdır. Kısıtlı çalışma araçlarında Git'in kabuk süreçlerini başlatması ayrıca engellenebilir; bu hata Git kavramı testinin başarısızlığıyla karıştırılmaz. Böyle bir durumda izin verilen yerel deneme ortamı kullanılır; sıradan projelerin kontrolleri veya makine güvenliği topluca kapatılmaz.

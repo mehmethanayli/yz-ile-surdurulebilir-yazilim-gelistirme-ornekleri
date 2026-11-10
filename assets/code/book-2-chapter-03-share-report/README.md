@@ -2,11 +2,11 @@
 
 **Ortam raporunun isteğe bağlı paylaşım görünümü**
 
-> **Bölüm numarası:** Bu paket Kitap 2’nin bağımsız 1–13 numaralandırmasına göre listelenir. Klasör adları ve GO-14-01 gibi kayıt kimlikleri kaynak dosyalarla uyum için korunmuştur.
+> **Bölüm numarası:** Bu paket Kitap 2’nin bağımsız 1–13 numaralandırmasına göre listelenir. Örnek klasörleri Kitap 2’nin bölüm numaralarını, GO-14-01 gibi kayıt kimlikleri ilk çalışma numaralarını kullanır.
 
 [Kitap 2, Bölüm 3 eşleştirmesi](../../../docs/bolum-eslestirmesi.md#kitap-2-bolum-3).
 
-Bu örnek, [Bölüm 1 betiğinin](../chapter14-environment/README.md) ayrı öğretim kopyasıdır. Eski dosyaları değiştirmez. Normal raporun alanları ve ayar kuralları korunur; yeni `--share` seçeneği yerel yolları içermeyen, açık şemalı JSON üretir. Seçenek yalnızca stdout içeriğini değiştirir; dosya göndermez, ağ isteği yapmaz, paket kurmaz veya veritabanına bağlanmaz. `.env` yüklemez.
+Bu örnek, [Bölüm 1 betiğinin](../book-2-chapter-01-environment/README.md) ayrı öğretim kopyasıdır. Eski dosyaları değiştirmez. Normal raporun alanları ve ayar kuralları korunur; yeni `--share` seçeneği yerel yolları içermeyen, açık şemalı JSON üretir. Seçenek yalnızca stdout içeriğini değiştirir; dosya göndermez, ağ isteği yapmaz, paket kurmaz veya veritabanına bağlanmaz. `.env` yüklemez.
 
 ## Davranış sözleşmesi
 

@@ -1,5 +1,5 @@
 {
-  "source": "../chapter14-environment",
+  "source": "../book-2-chapter-01-environment",
   "sha256": {
     "scripts/inspect_environment.py": "eb1e01b8ae5e770871d89c54c8a8ea4f34c5ebfdb422f60c16feb8bd57d95d2d",
     "tests/test_environment.py": "e2d31764e3f77d68f9ccdf8efc0c36cf216fe3c89cc9244da02a74ea734a36ed"

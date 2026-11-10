@@ -1,6 +1,6 @@
 # Ek F — Kodlar ve Kayıt Kimlikleri
 
-Bu kitapta hem Kitap 1’den devralınan tasarım kodları hem geliştirme, test ve işletim çalışmaları için yeni kayıt kimlikleri kullanılır. Her kitapta bölüm numaraları 1–13 olarak başlar. Kayıt kimlikleri ve klasör adları ilk çalışma numaralarını korur; örneğin GO-14-01, Kitap 2 Bölüm 1’e aittir. Doğrudan bu kitaptan başladıysanız kodun ait olduğu bölümle birlikte aşağıdaki başvuru tablolarını okuyabilirsiniz.
+Bu kitapta hem Kitap 1’den devralınan tasarım kodları hem geliştirme, test ve işletim çalışmaları için yeni kayıt kimlikleri kullanılır. Her kitapta bölüm numaraları 1–13 olarak başlar. Kayıt kimlikleri ilk çalışma numaralarını korur; örneğin GO-14-01, Kitap 2 Bölüm 1’e aittir. Doğrudan bu kitaptan başladıysanız kodun ait olduğu bölümle birlikte aşağıdaki başvuru tablolarını okuyabilirsiniz.
 
 FG-01–FG-05 oturum, müşteri oluşturma, müşteri bulma, görüşme notu ve kişisel görev gereksinimleridir. AS-08-01, Kitap 1, Bölüm 8’de hazırlanan API sözleşmesidir. GO-14-01 ise Bölüm 1’in geliştirme ortamı kaydıdır. Yeni bir bölüm, önceki gereksinimin kimliğini değiştirmez; o gereksinim için yeni tasarım, uygulama veya kontrol kayıtları oluşturabilir.
 
@@ -46,30 +46,30 @@ K23-01–K23-16 ifadesi, aralıktaki on altı kabul senaryosunun tamamını kaps
 
 | Kod veya aralık | Açıklama | Başvuru |
 |---|---|---|
-| D20-01 ve D20-02 | Veri paylaşımı ve bağlamı küçültme üzerine iki sentetik inceleme senaryosu. | [Bölüm 7 paketi](../../assets/examples/chapter20-review/review-cases.json) |
-| L20-03 | Kaynağı, sürümü ve lisansı bilinmeyen kurgusal bileşen için köken inceleme örneği. | [Bölüm 7 paketi](../../assets/examples/chapter20-review/review-cases.json) |
-| R20-04 | İnsan görevleri ve sorumluluklarının ele alındığı öğretim senaryosu. | [Bölüm 7 paketi](../../assets/examples/chapter20-review/review-cases.json) |
-| K01–K12 | Yayına hazırlık planındaki on iki kontrol kapısı; K01 kapsam, K12 yayın yetkisidir. | [Bölüm 8 paketi](../../assets/examples/chapter21-release/release-plan.json) |
-| R21-01–R21-03 | Üç geri dönüş senaryosu: trafik öncesi sorun, trafik sonrası hata ve eski kodla uyumsuz şema/veri. | [Bölüm 8 paketi](../../assets/examples/chapter21-release/release-plan.json) |
-| S01–S04 | Yayın sonrası uç nokta, oturum/okuma, görev erişimi ve gözlem için planlanan kontroller. | [Bölüm 8 paketi](../../assets/examples/chapter21-release/release-plan.json) |
-| O01–O05 | İşletim planındaki beş gözlem sorusu; istek başarısı, süreler, kaynaklar, hatalar ve yedekler. | [Bölüm 9 paketi](../../assets/examples/chapter22-operations/operations-plan.json) |
-| R01–R06 — Bölüm 9 | Yedekten kurtarma ve doğrulama için altı adım. Bölüm 12’de aynı kısa kodlar başka anlamdadır. | [Bölüm 9 paketi](../../assets/examples/chapter22-operations/operations-plan.json) |
-| I01–I06 | Olay müdahalesinin altı adımı. İlk harf Latin büyük I’dır; olayın fark edilmesinden öğrenmeye uzanır. | [Bölüm 9 paketi](../../assets/examples/chapter22-operations/operations-plan.json) |
-| M22-01–M22-03 | Sentetik ölçüm örnekleri: istek oranlarını birleştirme, sıfır payda ve süre dağılımı. | [Bölüm 9 paketi](../../assets/examples/chapter22-operations/measurement-examples.json) |
-| P01–P06 | Bütünleştirme planının altı çalışma paketi: hazırlık, oturum, müşteri, not, kişisel görev/güvenlik, yayın/bakım. | [Bölüm 10 paketi](../../assets/examples/chapter23-integration/integration-plan.json) |
-| D01–D12 | Uygulamadan önce ele alınacak on iki açık karar grubu. Ek D kaynak kodları K-D01–K-D21’den farklıdır. | [Bölüm 10 paketi](../../assets/examples/chapter23-integration/integration-plan.json) |
-| K23-01–K23-16 | İlk MVP için hazırlanmış on altı kabul senaryosu. Kimliğin varlığı testin çalıştırıldığı anlamına gelmez. | [Bölüm 10 paketi](../../assets/examples/chapter23-integration/acceptance-cases.json) |
-| X01–X03 | Ortak kontrol alanları: CSRF, günlük/hata minimizasyonu, hedef veritabanı ve eşzamanlılık. | [Bölüm 10 paketi](../../assets/examples/chapter23-integration/acceptance-cases.json) |
-| D24-01–D24-12 | Gelecek SaaS sürümü için on iki açık karar grubu. | [Bölüm 11 paketi](../../assets/examples/chapter24-saas/transition-plan.json) |
-| G01–G06 | SaaS geçişinin altı planlı aşaması; gereksinimden kontrollü pilota uzanır. | [Bölüm 11 paketi](../../assets/examples/chapter24-saas/transition-plan.json) |
-| K24-01–K24-18 | Gelecek SaaS sürümü için on sekiz kabul senaryosu; kurum ve kişisel veri sınırlarını da içerir. | [Bölüm 11 paketi](../../assets/examples/chapter24-saas/acceptance-cases.json) |
-| T25-01–T25-06 | Altı YZ görev kartı: yetki incelemesi, plan, veri yerleşimi, test, güvenlik, durum ve devir. | [Bölüm 12 paketi](../../assets/examples/chapter25-ai-team/task-cards.json) |
-| R01–R06 — Bölüm 12 | Yanıt değerlendirmesi: kapsam, sözleşme, kanıt, yetki/güven, belirsizlik, kullanılabilirlik. Bölüm 9’un kurtarma adımları değildir. | [Bölüm 12 paketi](../../assets/examples/chapter25-ai-team/evaluation-rubric.json) |
-| E25-01–E25-08 | Sekiz sentetik yanıt değerlendirme vakası; gerçek model başarısı ölçümü değildir. | [Bölüm 12 paketi](../../assets/examples/chapter25-ai-team/evaluation-cases.json) |
-| C26-01–C26-06 | Araştırma bulgusu, yorum, koşullu senaryo ve dayanaksız genellemeyi ayıran altı iddia örneği. | [Bölüm 13 paketi](../../assets/examples/chapter26-future/claim-cases.json) |
-| S26-01–S26-03 | Üç koşullu YZ kullanım senaryosu; zorunlu bir ilerleme sırası değildir. | [Bölüm 13 paketi](../../assets/examples/chapter26-future/future-plan.json) |
-| M26-01–M26-03 | Toplam süre ve yüzde hesabını öğreten üç sentetik ölçüm örneği. | [Bölüm 13 paketi](../../assets/examples/chapter26-future/measurement-examples.json) |
-| L26-01–L26-06 | Problem tanımı, kod okuma ve diğer yetkinlikler için altı öğrenme çalışması. | [Bölüm 13 paketi](../../assets/examples/chapter26-future/learning-plan.json) |
+| D20-01 ve D20-02 | Veri paylaşımı ve bağlamı küçültme üzerine iki sentetik inceleme senaryosu. | [Bölüm 7 paketi](../../assets/examples/book-2-chapter-07-review/review-cases.json) |
+| L20-03 | Kaynağı, sürümü ve lisansı bilinmeyen kurgusal bileşen için köken inceleme örneği. | [Bölüm 7 paketi](../../assets/examples/book-2-chapter-07-review/review-cases.json) |
+| R20-04 | İnsan görevleri ve sorumluluklarının ele alındığı öğretim senaryosu. | [Bölüm 7 paketi](../../assets/examples/book-2-chapter-07-review/review-cases.json) |
+| K01–K12 | Yayına hazırlık planındaki on iki kontrol kapısı; K01 kapsam, K12 yayın yetkisidir. | [Bölüm 8 paketi](../../assets/examples/book-2-chapter-08-release/release-plan.json) |
+| R21-01–R21-03 | Üç geri dönüş senaryosu: trafik öncesi sorun, trafik sonrası hata ve eski kodla uyumsuz şema/veri. | [Bölüm 8 paketi](../../assets/examples/book-2-chapter-08-release/release-plan.json) |
+| S01–S04 | Yayın sonrası uç nokta, oturum/okuma, görev erişimi ve gözlem için planlanan kontroller. | [Bölüm 8 paketi](../../assets/examples/book-2-chapter-08-release/release-plan.json) |
+| O01–O05 | İşletim planındaki beş gözlem sorusu; istek başarısı, süreler, kaynaklar, hatalar ve yedekler. | [Bölüm 9 paketi](../../assets/examples/book-2-chapter-09-operations/operations-plan.json) |
+| R01–R06 — Bölüm 9 | Yedekten kurtarma ve doğrulama için altı adım. Bölüm 12’de aynı kısa kodlar başka anlamdadır. | [Bölüm 9 paketi](../../assets/examples/book-2-chapter-09-operations/operations-plan.json) |
+| I01–I06 | Olay müdahalesinin altı adımı. İlk harf Latin büyük I’dır; olayın fark edilmesinden öğrenmeye uzanır. | [Bölüm 9 paketi](../../assets/examples/book-2-chapter-09-operations/operations-plan.json) |
+| M22-01–M22-03 | Sentetik ölçüm örnekleri: istek oranlarını birleştirme, sıfır payda ve süre dağılımı. | [Bölüm 9 paketi](../../assets/examples/book-2-chapter-09-operations/measurement-examples.json) |
+| P01–P06 | Bütünleştirme planının altı çalışma paketi: hazırlık, oturum, müşteri, not, kişisel görev/güvenlik, yayın/bakım. | [Bölüm 10 paketi](../../assets/examples/book-2-chapter-10-integration/integration-plan.json) |
+| D01–D12 | Uygulamadan önce ele alınacak on iki açık karar grubu. Ek D kaynak kodları K-D01–K-D21’den farklıdır. | [Bölüm 10 paketi](../../assets/examples/book-2-chapter-10-integration/integration-plan.json) |
+| K23-01–K23-16 | İlk MVP için hazırlanmış on altı kabul senaryosu. Kimliğin varlığı testin çalıştırıldığı anlamına gelmez. | [Bölüm 10 paketi](../../assets/examples/book-2-chapter-10-integration/acceptance-cases.json) |
+| X01–X03 | Ortak kontrol alanları: CSRF, günlük/hata minimizasyonu, hedef veritabanı ve eşzamanlılık. | [Bölüm 10 paketi](../../assets/examples/book-2-chapter-10-integration/acceptance-cases.json) |
+| D24-01–D24-12 | Gelecek SaaS sürümü için on iki açık karar grubu. | [Bölüm 11 paketi](../../assets/examples/book-2-chapter-11-saas/transition-plan.json) |
+| G01–G06 | SaaS geçişinin altı planlı aşaması; gereksinimden kontrollü pilota uzanır. | [Bölüm 11 paketi](../../assets/examples/book-2-chapter-11-saas/transition-plan.json) |
+| K24-01–K24-18 | Gelecek SaaS sürümü için on sekiz kabul senaryosu; kurum ve kişisel veri sınırlarını da içerir. | [Bölüm 11 paketi](../../assets/examples/book-2-chapter-11-saas/acceptance-cases.json) |
+| T25-01–T25-06 | Altı YZ görev kartı: yetki incelemesi, plan, veri yerleşimi, test, güvenlik, durum ve devir. | [Bölüm 12 paketi](../../assets/examples/book-2-chapter-12-ai-team/task-cards.json) |
+| R01–R06 — Bölüm 12 | Yanıt değerlendirmesi: kapsam, sözleşme, kanıt, yetki/güven, belirsizlik, kullanılabilirlik. Bölüm 9’un kurtarma adımları değildir. | [Bölüm 12 paketi](../../assets/examples/book-2-chapter-12-ai-team/evaluation-rubric.json) |
+| E25-01–E25-08 | Sekiz sentetik yanıt değerlendirme vakası; gerçek model başarısı ölçümü değildir. | [Bölüm 12 paketi](../../assets/examples/book-2-chapter-12-ai-team/evaluation-cases.json) |
+| C26-01–C26-06 | Araştırma bulgusu, yorum, koşullu senaryo ve dayanaksız genellemeyi ayıran altı iddia örneği. | [Bölüm 13 paketi](../../assets/examples/book-2-chapter-13-future/claim-cases.json) |
+| S26-01–S26-03 | Üç koşullu YZ kullanım senaryosu; zorunlu bir ilerleme sırası değildir. | [Bölüm 13 paketi](../../assets/examples/book-2-chapter-13-future/future-plan.json) |
+| M26-01–M26-03 | Toplam süre ve yüzde hesabını öğreten üç sentetik ölçüm örneği. | [Bölüm 13 paketi](../../assets/examples/book-2-chapter-13-future/measurement-examples.json) |
+| L26-01–L26-06 | Problem tanımı, kod okuma ve diğer yetkinlikler için altı öğrenme çalışması. | [Bölüm 13 paketi](../../assets/examples/book-2-chapter-13-future/learning-plan.json) |
 
 **Bu kitabın eklerinde kullanılan kodlar**
 

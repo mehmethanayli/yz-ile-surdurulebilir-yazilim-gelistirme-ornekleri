@@ -2,7 +2,7 @@
 
 **İşletim planı ve sentetik ölçümler**
 
-> **Bölüm numarası:** Bu paket Kitap 2’nin bağımsız 1–13 numaralandırmasına göre listelenir. Klasör adları ve GO-14-01 gibi kayıt kimlikleri kaynak dosyalarla uyum için korunmuştur.
+> **Bölüm numarası:** Bu paket Kitap 2’nin bağımsız 1–13 numaralandırmasına göre listelenir. Örnek klasörleri Kitap 2’nin bölüm numaralarını, GO-14-01 gibi kayıt kimlikleri ilk çalışma numaralarını kullanır.
 
 Bu örnek **İB-22-01 — İşletim ve Bakım Kaydı**dır. [Bölüm 9](../../../docs/bolum-eslestirmesi.md#kitap-2-bolum-9) ile birlikte okunur. AI-CRM henüz hedef ortamda yayımlanmamıştır. Gerçek izleme, yedekleme, restore, güncelleme, incident veya kullanıcı bildirimi gerçekleştirilmez.
 

@@ -2,7 +2,7 @@
 
 **GÖ-26-01 — Gelecek, Ölçüm ve Öğrenme Kaydı**
 
-> **Bölüm numarası:** Bu paket Kitap 2’nin bağımsız 1–13 numaralandırmasına göre listelenir. Klasör adları ve GO-14-01 gibi kayıt kimlikleri kaynak dosyalarla uyum için korunmuştur.
+> **Bölüm numarası:** Bu paket Kitap 2’nin bağımsız 1–13 numaralandırmasına göre listelenir. Örnek klasörleri Kitap 2’nin bölüm numaralarını, GO-14-01 gibi kayıt kimlikleri ilk çalışma numaralarını kullanır.
 
 [Bölüm 13](../../../docs/bolum-eslestirmesi.md#kitap-2-bolum-13) için hazırlanmış öğretim paketidir. Gerçek model çıktısı, ajan çalışması, kullanıcı araştırması veya ürün testi içermez. İlk AI-CRM MVP kapsamını değiştirmez.
 

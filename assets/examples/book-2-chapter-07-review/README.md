@@ -2,7 +2,7 @@
 
 **Sentetik inceleme örnekleri**
 
-> **Bölüm numarası:** Bu paket Kitap 2’nin bağımsız 1–13 numaralandırmasına göre listelenir. Klasör adları ve GO-14-01 gibi kayıt kimlikleri kaynak dosyalarla uyum için korunmuştur.
+> **Bölüm numarası:** Bu paket Kitap 2’nin bağımsız 1–13 numaralandırmasına göre listelenir. Örnek klasörleri Kitap 2’nin bölüm numaralarını, GO-14-01 gibi kayıt kimlikleri ilk çalışma numaralarını kullanır.
 
 [VLS-20-01](../../../docs/bolum-eslestirmesi.md#kitap-2-bolum-7), veri paylaşımı, lisans kökeni ve insan sorumluluğunu birlikte düşünmek için hazırlanmıştır. [review-cases.json](review-cases.json) dört öğretim senaryosu içerir. Veriler baştan kurgulanmıştır; gerçek kaydın maskelenmiş veya anonimleştirilmiş sürümü değildir.
 

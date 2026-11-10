@@ -1,585 +1,585 @@
 {
-  "version": "v0.1.1",
+  "version": "v0.1.2",
   "prepared_on": "2026-11-10",
   "author": "Mehmet Can Hanaylı",
-  "numbering": "Kitap 1: 1–13; Kitap 2: 1–13; original paths and record IDs retained",
+  "numbering": "Kitap 1: 1–13; Kitap 2: 1–13; reader folders follow printed chapter numbers; record IDs retained",
   "files": {
     ".gitattributes": "74f066599d3fe2817756c3e532a869d370d4294c5c0a188487da2855f9b2378e",
     ".gitignore": "ff03c82a86aa515e2d65f72418f98d159fc29e2e9c0d8fedf9e733ed4e3f1245",
-    "assets/code/chapter14-environment/.env.example": "ba7589f4acd83c2fc85b7a3d10e293555c6090456e48619ed78ce129a04873bb",
-    "assets/code/chapter14-environment/.gitignore": "bc978724a742ba8c0d51e7bd3e2ca1b3b4ff023c0d09e866f2593716c6c1e652",
-    "assets/code/chapter14-environment/README.md": "91c3953066d1ee5e0357ad78b1ef33a95cf47817ce740f5f6090a9c0748d7490",
-    "assets/code/chapter14-environment/requirements.in": "dfaf0882844aef6b1c2c6d087a98bf5a733b795d1a837e347446481942e672e2",
-    "assets/code/chapter14-environment/scripts/inspect_environment.py": "eb1e01b8ae5e770871d89c54c8a8ea4f34c5ebfdb422f60c16feb8bd57d95d2d",
-    "assets/code/chapter14-environment/tests/test_environment.py": "e2d31764e3f77d68f9ccdf8efc0c36cf216fe3c89cc9244da02a74ea734a36ed",
-    "assets/code/chapter15-git-lab/README.md": "e57545cc127293ffd6f2b008e7370ff46a953e47981121e338362e1e7effceb2",
-    "assets/code/chapter15-git-lab/run_lab.py": "e94bacd111bde043bb9a70ffafd53215393aa5aaaebb5dc6a2eb81b0c2b23666",
-    "assets/code/chapter15-git-lab/verification.json": "aef417eac5243c739244db0ff37b8d5a29203ac35179a25cac0f0a1246080444",
-    "assets/code/chapter16-share-report/.gitignore": "8d68c297a4f2845748241cb96f22ebc57a90c4366698ec78f687632e1ae38673",
-    "assets/code/chapter16-share-report/baseline.json": "de5ccb2eafffc860d5b155fe0e5337cd8fdca7f3ff14bdb0e7c162aa217dda32",
-    "assets/code/chapter16-share-report/change.diff": "61a4ab7fa2875075e852c4add2084d6229b5343884e3e971c9af54090ca0d98f",
-    "assets/code/chapter16-share-report/README.md": "10315eff440f71a2ad8540a8726119f97521d786a9304714d31d21415e28d68a",
-    "assets/code/chapter16-share-report/scripts/inspect_environment.py": "2d0c78fcc9d64dce27306c89347abd09ab06b63463a69945ecd266a151c8072a",
-    "assets/code/chapter16-share-report/tests/test_environment.py": "e2d31764e3f77d68f9ccdf8efc0c36cf216fe3c89cc9244da02a74ea734a36ed",
-    "assets/code/chapter16-share-report/tests/test_share_report.py": "81d18cdbd826f157e8d5cd73c1bfcfe3dbe78143179967ddb21c12f0126dd2d7",
-    "assets/code/chapter16-share-report/verification.json": "6c940168046c5692a97f6f93ac54f1e673eb635f9b415e6693ebf89f2ebed778",
-    "assets/code/chapter16-share-report/verify_review_examples.py": "edfe9b740d5252a939ff7ac09ed425c9568261065f24e00367eb87b0d7faec61",
-    "assets/code/chapter17-debug-lab/.gitignore": "1faaa7621d729028b5070c0c77e203ca3f8998e3b525f48868e25ce57a69254a",
-    "assets/code/chapter17-debug-lab/fix.diff": "0d4ddbbc5be5d7d14c991a3a23599c72439ecff011e1d9826db927b4330fac55",
-    "assets/code/chapter17-debug-lab/minimal_repro.py": "244f5edada93c02240384d980c7cb526eca5e50f4d3745df0281a279c62fa86c",
-    "assets/code/chapter17-debug-lab/pdb-session.txt": "737673b3fff274194f16cb55b710cf0e3fe7fb5e47e3b677732949da5718c10e",
-    "assets/code/chapter17-debug-lab/README.md": "7486637ff9501a8b49b147419519d27adbbc86d65fa3b4d4592c33c140184453",
-    "assets/code/chapter17-debug-lab/reproduce.py": "fd9d192632b8d2a6197a5aed4dc8de2ca931925f780d8f9eeb17a993d661f832",
-    "assets/code/chapter17-debug-lab/settings_faulty.py": "9afbbb62ef1b5fbbbc15b3ede86f65194a1b0e70b026cf9d87032ae3ba692100",
-    "assets/code/chapter17-debug-lab/settings_fixed.py": "484c789960d977b56bf4c0547a21067e9b5533bffe00e9cb50e4015104a0f2c1",
-    "assets/code/chapter17-debug-lab/tests/test_debug_lab.py": "5d3b769e84a06c7bcd027746f37c3773cf72cd0f28f737f2259e27a9028cd523",
-    "assets/code/chapter17-debug-lab/verification.json": "74ea2df3084954cfdb883501189de936a376f83ffbb76e621f53093dbedc27da",
-    "assets/code/chapter18-test-lab/.gitignore": "8d68c297a4f2845748241cb96f22ebc57a90c4366698ec78f687632e1ae38673",
-    "assets/code/chapter18-test-lab/quality-result.json": "380fab05a78044a60f1aa81fd1b89f931ffc2b258ac16e13a571efa82731b947",
-    "assets/code/chapter18-test-lab/quality_examples/settings_faulty.py": "9afbbb62ef1b5fbbbc15b3ede86f65194a1b0e70b026cf9d87032ae3ba692100",
-    "assets/code/chapter18-test-lab/quality_examples/settings_fixed.py": "484c789960d977b56bf4c0547a21067e9b5533bffe00e9cb50e4015104a0f2c1",
-    "assets/code/chapter18-test-lab/README.md": "efd18f0b926b56988e3a523fb6d50e2d48249b2fca934dbf78dfa8cfa2a82b48",
-    "assets/code/chapter18-test-lab/scripts/inspect_environment.py": "2d0c78fcc9d64dce27306c89347abd09ab06b63463a69945ecd266a151c8072a",
-    "assets/code/chapter18-test-lab/tests/test_environment.py": "e2d31764e3f77d68f9ccdf8efc0c36cf216fe3c89cc9244da02a74ea734a36ed",
-    "assets/code/chapter18-test-lab/tests/test_package_metadata.py": "ea9c322160adb6e34467eff9147d9de33a6447fdcc14a24d24e0da1292b71a2e",
-    "assets/code/chapter18-test-lab/tests/test_share_report.py": "81d18cdbd826f157e8d5cd73c1bfcfe3dbe78143179967ddb21c12f0126dd2d7",
-    "assets/code/chapter18-test-lab/verification.json": "d738c353c3008daef7d243aca70030967919f12de7acc8a5a73d101ba75c3a61",
-    "assets/code/chapter18-test-lab/verify_test_quality.py": "3b9f377d5dd14788c7a875ecf54ed91d05cf183f3661017846486f41fdd92037",
-    "assets/code/chapter19-security-lab/.gitignore": "1faaa7621d729028b5070c0c77e203ca3f8998e3b525f48868e25ce57a69254a",
-    "assets/code/chapter19-security-lab/README.md": "fd840ec63a4f43ff2d172b7266b29c58ab99dc9af3ea3a8d23bbd84aa30f5f01",
-    "assets/code/chapter19-security-lab/security_example.py": "706871c45a89935722fbc6c804957d12cc3879d0aa83ab139db2c555c2aa0b8a",
-    "assets/code/chapter19-security-lab/tests/test_security_example.py": "6c682ccd816df04e5f6cfd448a1f9c89a0fc51b5ee3aa759b17a497bb3ecf5b3",
-    "assets/code/chapter19-security-lab/verification.json": "b79052036c56718a2a773bec121571de8ad1171bfe2b1a523daf6c6cab045a18",
-    "assets/examples/chapter20-review/README.md": "179adb38551e0c4c27b535aac80f249e82d94958a35b088967fb28b00c138225",
-    "assets/examples/chapter20-review/review-cases.json": "007887258dfbfac844f23b973d0a1d78a1237ca0d160d3adde7e8ae314df3741",
-    "assets/examples/chapter20-review/verification.json": "9e269ca7a950c3efc690d09f0b01b10d562b5c82f8c68ce1c8c003cfb1d07e09",
-    "assets/examples/chapter21-release/README.md": "e57f3773627b7af95c9c6df11c59891c1233d7e5c8c77bef508b17845ffe35da",
-    "assets/examples/chapter21-release/release-plan.json": "b6d93c3f53937539a472030aa7e70db6e9e83038307a36cd03c38f77369523eb",
-    "assets/examples/chapter21-release/runbook.md": "e7dbccc4af6083687e499bf2fcf64be6a0d8a125230ad7da92e0d2780bbe6099",
-    "assets/examples/chapter21-release/verification.json": "b6d69325cb983783f30eb5b63cb776102af77e9669dd1de6c03bc78d764373f9",
-    "assets/examples/chapter22-operations/measurement-examples.json": "e1226cb36318f554b774c049941d4a5a2e66982df08d05b85a473c915a4224da",
-    "assets/examples/chapter22-operations/operations-plan.json": "e9018d31d43d3782f18464fd8adce1248c80fbdb88d9535da55fb94366fe8a86",
-    "assets/examples/chapter22-operations/README.md": "63b908aefef7838e171de4769ae2bcc1f97eb15bc58d81f91896050c49926218",
-    "assets/examples/chapter22-operations/verification.json": "8069ecab55340198eabb3e14742fbcac9bc5912289fa23b63c00f958c3bcb280",
-    "assets/examples/chapter23-integration/acceptance-cases.json": "235eb9a13c4d97c6836da17baf63af4f0450cd042475b4ce99e6a0a4bf1e84bc",
-    "assets/examples/chapter23-integration/implementation-sequence.md": "abc689ee7b371186a4eb1e69ce8d5718c30fde16e15172f420ee3ac64fe22547",
-    "assets/examples/chapter23-integration/integration-plan.json": "cf30a6569ebf524c115e678dddcd17eb357767c401f9f31904a2a71a8967eb83",
-    "assets/examples/chapter23-integration/README.md": "db1d521a0979cff39e7f3e0565e8bc018e7aa0220cb3b0b092ae2bbe3dc9b0ec",
-    "assets/examples/chapter23-integration/synthetic-data.json": "70c00e33bf47be809e4f996cbb7c181bd7cef2a95f0170759a07a3624dd872a5",
-    "assets/examples/chapter23-integration/verification.json": "d051e9b75450ab95a72227f14409b0f0d3588f0861fb820866e7f10293bb7083",
-    "assets/examples/chapter24-saas/acceptance-cases.json": "b132199219baae0093a5192542bef293e37c68da25f2f0e0f2c895534a6933ac",
-    "assets/examples/chapter24-saas/README.md": "772f4d3cff58e775251a2a8dc97e9f3d65e5b017c9cca616ff3c392a944c52af",
-    "assets/examples/chapter24-saas/synthetic-data.json": "2754d68624270c9e82f14f29a4793a95145df9df12f1797820d4c99024e7a620",
-    "assets/examples/chapter24-saas/transition-plan.json": "5a35cabc69484484902be862c260278d2a6da2397fae12e723ec87543610de74",
-    "assets/examples/chapter24-saas/verification.json": "5bdec1a0f1e46331e3bc1a3d47f4dfd4c56c637464904943aef924d1f561a456",
-    "assets/examples/chapter25-ai-team/evaluation-cases.json": "faa755905ad92de1cd06d0a28a2317c3201ab4e754890ff61675006b69581f44",
-    "assets/examples/chapter25-ai-team/evaluation-rubric.json": "fc4f6ff399d106f51548ce1f542a331cc9c4373d4359a3c0798305c2e4a159d8",
-    "assets/examples/chapter25-ai-team/handoff-template.json": "0467b991cfaf0a722c2a034f1ef91f68714838299952a55fcc1eba3775a33192",
-    "assets/examples/chapter25-ai-team/oversight-plan.json": "9d71d66300ff9ddde86149407ec0f94f8c30b1007229490fc16a1f41f179896d",
-    "assets/examples/chapter25-ai-team/README.md": "3887392806dc104a192b01d966c3223966e0aa1cce612e2f81f8f4aed75a494c",
-    "assets/examples/chapter25-ai-team/task-cards.json": "8a70a47b37af042cc9fbe655800fe0fd00d094715b9311f7d6c31e7e7f5050c2",
-    "assets/examples/chapter25-ai-team/verification.json": "aece0cf310d57cbd6820a9b9fffc200525851e8f48d1b4833f933eb02f2646fb",
-    "assets/examples/chapter26-future/claim-cases.json": "92881ef997507b56cfe29e3122881e29b0a87460c5228e15d26594c5d4709a7d",
-    "assets/examples/chapter26-future/future-plan.json": "9160cf031775d28d09f05053884fa524319c278951106ae88e33612c851aad3e",
-    "assets/examples/chapter26-future/learning-plan.json": "cf3a7971a0540a11eea5cf448eabfa95b650936eb33b7725077be129c1cc3752",
-    "assets/examples/chapter26-future/measurement-examples.json": "205a60de770a6b92acf6e26ddc38a35a0172a2c52661532b6334e11822bed6e3",
-    "assets/examples/chapter26-future/README.md": "2f3a478e9efb80e4d251ba6b76eef0d50b9f90d509ee2e56833f707491ff450e",
-    "assets/examples/chapter26-future/verification.json": "61bc2ae9ab170d42486365ec2028542f10c7a9c4f82448b5a7a23e7f914696d4",
-    "CHANGELOG.md": "cebfcf046ee18f94fb07da4f30e640a64a74fe52d3d11eb8319bb6d9b119b380",
-    "docs/bolum-eslestirmesi.md": "b62df663a69869c937e63167e0a782fe3bd4832e83ef090da808835a26002a1c",
+    "assets/code/book-2-chapter-01-environment/.env.example": "ba7589f4acd83c2fc85b7a3d10e293555c6090456e48619ed78ce129a04873bb",
+    "assets/code/book-2-chapter-01-environment/.gitignore": "bc978724a742ba8c0d51e7bd3e2ca1b3b4ff023c0d09e866f2593716c6c1e652",
+    "assets/code/book-2-chapter-01-environment/README.md": "90f96bd88e016e85e4447ae988c11bacda9e7e33f0c2e32a881c612d99660b18",
+    "assets/code/book-2-chapter-01-environment/requirements.in": "dfaf0882844aef6b1c2c6d087a98bf5a733b795d1a837e347446481942e672e2",
+    "assets/code/book-2-chapter-01-environment/scripts/inspect_environment.py": "eb1e01b8ae5e770871d89c54c8a8ea4f34c5ebfdb422f60c16feb8bd57d95d2d",
+    "assets/code/book-2-chapter-01-environment/tests/test_environment.py": "e2d31764e3f77d68f9ccdf8efc0c36cf216fe3c89cc9244da02a74ea734a36ed",
+    "assets/code/book-2-chapter-02-git-lab/README.md": "7ca459b1ae55380a51feea5a8e7120347d12056ee2dfa2ab96b2ee6628378b57",
+    "assets/code/book-2-chapter-02-git-lab/run_lab.py": "e94bacd111bde043bb9a70ffafd53215393aa5aaaebb5dc6a2eb81b0c2b23666",
+    "assets/code/book-2-chapter-02-git-lab/verification.json": "aef417eac5243c739244db0ff37b8d5a29203ac35179a25cac0f0a1246080444",
+    "assets/code/book-2-chapter-03-share-report/.gitignore": "8d68c297a4f2845748241cb96f22ebc57a90c4366698ec78f687632e1ae38673",
+    "assets/code/book-2-chapter-03-share-report/baseline.json": "37d7156a4a6a85c57aebfe41a75fe3460f20d0bc8c7b79ef05b7c5e2066631f6",
+    "assets/code/book-2-chapter-03-share-report/change.diff": "61a4ab7fa2875075e852c4add2084d6229b5343884e3e971c9af54090ca0d98f",
+    "assets/code/book-2-chapter-03-share-report/README.md": "8d8de19eb03f4dc899258501bf3ad906d0c1369a1aa5f5169541f62b37d18be4",
+    "assets/code/book-2-chapter-03-share-report/scripts/inspect_environment.py": "2d0c78fcc9d64dce27306c89347abd09ab06b63463a69945ecd266a151c8072a",
+    "assets/code/book-2-chapter-03-share-report/tests/test_environment.py": "e2d31764e3f77d68f9ccdf8efc0c36cf216fe3c89cc9244da02a74ea734a36ed",
+    "assets/code/book-2-chapter-03-share-report/tests/test_share_report.py": "81d18cdbd826f157e8d5cd73c1bfcfe3dbe78143179967ddb21c12f0126dd2d7",
+    "assets/code/book-2-chapter-03-share-report/verification.json": "6c940168046c5692a97f6f93ac54f1e673eb635f9b415e6693ebf89f2ebed778",
+    "assets/code/book-2-chapter-03-share-report/verify_review_examples.py": "edfe9b740d5252a939ff7ac09ed425c9568261065f24e00367eb87b0d7faec61",
+    "assets/code/book-2-chapter-04-debug-lab/.gitignore": "1faaa7621d729028b5070c0c77e203ca3f8998e3b525f48868e25ce57a69254a",
+    "assets/code/book-2-chapter-04-debug-lab/fix.diff": "0d4ddbbc5be5d7d14c991a3a23599c72439ecff011e1d9826db927b4330fac55",
+    "assets/code/book-2-chapter-04-debug-lab/minimal_repro.py": "244f5edada93c02240384d980c7cb526eca5e50f4d3745df0281a279c62fa86c",
+    "assets/code/book-2-chapter-04-debug-lab/pdb-session.txt": "737673b3fff274194f16cb55b710cf0e3fe7fb5e47e3b677732949da5718c10e",
+    "assets/code/book-2-chapter-04-debug-lab/README.md": "25d3baafe306586698d9cb9ecaf0690b2f5c2633bb0cd3d9b608331f3b797f64",
+    "assets/code/book-2-chapter-04-debug-lab/reproduce.py": "fd9d192632b8d2a6197a5aed4dc8de2ca931925f780d8f9eeb17a993d661f832",
+    "assets/code/book-2-chapter-04-debug-lab/settings_faulty.py": "9afbbb62ef1b5fbbbc15b3ede86f65194a1b0e70b026cf9d87032ae3ba692100",
+    "assets/code/book-2-chapter-04-debug-lab/settings_fixed.py": "484c789960d977b56bf4c0547a21067e9b5533bffe00e9cb50e4015104a0f2c1",
+    "assets/code/book-2-chapter-04-debug-lab/tests/test_debug_lab.py": "5d3b769e84a06c7bcd027746f37c3773cf72cd0f28f737f2259e27a9028cd523",
+    "assets/code/book-2-chapter-04-debug-lab/verification.json": "74ea2df3084954cfdb883501189de936a376f83ffbb76e621f53093dbedc27da",
+    "assets/code/book-2-chapter-05-test-lab/.gitignore": "8d68c297a4f2845748241cb96f22ebc57a90c4366698ec78f687632e1ae38673",
+    "assets/code/book-2-chapter-05-test-lab/quality-result.json": "380fab05a78044a60f1aa81fd1b89f931ffc2b258ac16e13a571efa82731b947",
+    "assets/code/book-2-chapter-05-test-lab/quality_examples/settings_faulty.py": "9afbbb62ef1b5fbbbc15b3ede86f65194a1b0e70b026cf9d87032ae3ba692100",
+    "assets/code/book-2-chapter-05-test-lab/quality_examples/settings_fixed.py": "484c789960d977b56bf4c0547a21067e9b5533bffe00e9cb50e4015104a0f2c1",
+    "assets/code/book-2-chapter-05-test-lab/README.md": "332efefeca57113b56029981694e69ad7273079c67a72ba1d1e5c77bf4ee171f",
+    "assets/code/book-2-chapter-05-test-lab/scripts/inspect_environment.py": "2d0c78fcc9d64dce27306c89347abd09ab06b63463a69945ecd266a151c8072a",
+    "assets/code/book-2-chapter-05-test-lab/tests/test_environment.py": "e2d31764e3f77d68f9ccdf8efc0c36cf216fe3c89cc9244da02a74ea734a36ed",
+    "assets/code/book-2-chapter-05-test-lab/tests/test_package_metadata.py": "ea9c322160adb6e34467eff9147d9de33a6447fdcc14a24d24e0da1292b71a2e",
+    "assets/code/book-2-chapter-05-test-lab/tests/test_share_report.py": "81d18cdbd826f157e8d5cd73c1bfcfe3dbe78143179967ddb21c12f0126dd2d7",
+    "assets/code/book-2-chapter-05-test-lab/verification.json": "d738c353c3008daef7d243aca70030967919f12de7acc8a5a73d101ba75c3a61",
+    "assets/code/book-2-chapter-05-test-lab/verify_test_quality.py": "3b9f377d5dd14788c7a875ecf54ed91d05cf183f3661017846486f41fdd92037",
+    "assets/code/book-2-chapter-06-security-lab/.gitignore": "1faaa7621d729028b5070c0c77e203ca3f8998e3b525f48868e25ce57a69254a",
+    "assets/code/book-2-chapter-06-security-lab/README.md": "03ca89d83b9531bccc181964390d610c01f1523e47371f889cb1937bc03cd22f",
+    "assets/code/book-2-chapter-06-security-lab/security_example.py": "706871c45a89935722fbc6c804957d12cc3879d0aa83ab139db2c555c2aa0b8a",
+    "assets/code/book-2-chapter-06-security-lab/tests/test_security_example.py": "6c682ccd816df04e5f6cfd448a1f9c89a0fc51b5ee3aa759b17a497bb3ecf5b3",
+    "assets/code/book-2-chapter-06-security-lab/verification.json": "b79052036c56718a2a773bec121571de8ad1171bfe2b1a523daf6c6cab045a18",
+    "assets/examples/book-2-chapter-07-review/README.md": "fe6f9550aa55a4840dc72998207ab2f87b4f884689801d19f9a80468eceb1793",
+    "assets/examples/book-2-chapter-07-review/review-cases.json": "007887258dfbfac844f23b973d0a1d78a1237ca0d160d3adde7e8ae314df3741",
+    "assets/examples/book-2-chapter-07-review/verification.json": "9e269ca7a950c3efc690d09f0b01b10d562b5c82f8c68ce1c8c003cfb1d07e09",
+    "assets/examples/book-2-chapter-08-release/README.md": "8911484beb2fc256207e2fbb1fc465d1d31b2554f5a3e3ec72e96770867e694a",
+    "assets/examples/book-2-chapter-08-release/release-plan.json": "b6d93c3f53937539a472030aa7e70db6e9e83038307a36cd03c38f77369523eb",
+    "assets/examples/book-2-chapter-08-release/runbook.md": "e7dbccc4af6083687e499bf2fcf64be6a0d8a125230ad7da92e0d2780bbe6099",
+    "assets/examples/book-2-chapter-08-release/verification.json": "b6d69325cb983783f30eb5b63cb776102af77e9669dd1de6c03bc78d764373f9",
+    "assets/examples/book-2-chapter-09-operations/measurement-examples.json": "e1226cb36318f554b774c049941d4a5a2e66982df08d05b85a473c915a4224da",
+    "assets/examples/book-2-chapter-09-operations/operations-plan.json": "e9018d31d43d3782f18464fd8adce1248c80fbdb88d9535da55fb94366fe8a86",
+    "assets/examples/book-2-chapter-09-operations/README.md": "04d63943a82e9551db38c451b6be30c9abc0c418bcd751063d626b94d4bd9648",
+    "assets/examples/book-2-chapter-09-operations/verification.json": "8069ecab55340198eabb3e14742fbcac9bc5912289fa23b63c00f958c3bcb280",
+    "assets/examples/book-2-chapter-10-integration/acceptance-cases.json": "235eb9a13c4d97c6836da17baf63af4f0450cd042475b4ce99e6a0a4bf1e84bc",
+    "assets/examples/book-2-chapter-10-integration/implementation-sequence.md": "abc689ee7b371186a4eb1e69ce8d5718c30fde16e15172f420ee3ac64fe22547",
+    "assets/examples/book-2-chapter-10-integration/integration-plan.json": "cf30a6569ebf524c115e678dddcd17eb357767c401f9f31904a2a71a8967eb83",
+    "assets/examples/book-2-chapter-10-integration/README.md": "1937985c53e611fd106bf74fbd8df3eb44e42dc54da68fb98ca25619d1e6ea7c",
+    "assets/examples/book-2-chapter-10-integration/synthetic-data.json": "70c00e33bf47be809e4f996cbb7c181bd7cef2a95f0170759a07a3624dd872a5",
+    "assets/examples/book-2-chapter-10-integration/verification.json": "d051e9b75450ab95a72227f14409b0f0d3588f0861fb820866e7f10293bb7083",
+    "assets/examples/book-2-chapter-11-saas/acceptance-cases.json": "b132199219baae0093a5192542bef293e37c68da25f2f0e0f2c895534a6933ac",
+    "assets/examples/book-2-chapter-11-saas/README.md": "5fa11ffb6944f7860ad359b34045466ad1a211817621c5b6605d370106ddb58b",
+    "assets/examples/book-2-chapter-11-saas/synthetic-data.json": "2754d68624270c9e82f14f29a4793a95145df9df12f1797820d4c99024e7a620",
+    "assets/examples/book-2-chapter-11-saas/transition-plan.json": "5a35cabc69484484902be862c260278d2a6da2397fae12e723ec87543610de74",
+    "assets/examples/book-2-chapter-11-saas/verification.json": "5bdec1a0f1e46331e3bc1a3d47f4dfd4c56c637464904943aef924d1f561a456",
+    "assets/examples/book-2-chapter-12-ai-team/evaluation-cases.json": "faa755905ad92de1cd06d0a28a2317c3201ab4e754890ff61675006b69581f44",
+    "assets/examples/book-2-chapter-12-ai-team/evaluation-rubric.json": "fc4f6ff399d106f51548ce1f542a331cc9c4373d4359a3c0798305c2e4a159d8",
+    "assets/examples/book-2-chapter-12-ai-team/handoff-template.json": "0467b991cfaf0a722c2a034f1ef91f68714838299952a55fcc1eba3775a33192",
+    "assets/examples/book-2-chapter-12-ai-team/oversight-plan.json": "db00732a48d4607c12001a1d931968ec59c56cf6bf752cf9bcc8f69f38d5ca66",
+    "assets/examples/book-2-chapter-12-ai-team/README.md": "eeba1a6502a97a6b9a7f5746234c6b9abc8f12062024a0985ba4640a1d26fd1b",
+    "assets/examples/book-2-chapter-12-ai-team/task-cards.json": "8a70a47b37af042cc9fbe655800fe0fd00d094715b9311f7d6c31e7e7f5050c2",
+    "assets/examples/book-2-chapter-12-ai-team/verification.json": "aece0cf310d57cbd6820a9b9fffc200525851e8f48d1b4833f933eb02f2646fb",
+    "assets/examples/book-2-chapter-13-future/claim-cases.json": "92881ef997507b56cfe29e3122881e29b0a87460c5228e15d26594c5d4709a7d",
+    "assets/examples/book-2-chapter-13-future/future-plan.json": "9160cf031775d28d09f05053884fa524319c278951106ae88e33612c851aad3e",
+    "assets/examples/book-2-chapter-13-future/learning-plan.json": "cf3a7971a0540a11eea5cf448eabfa95b650936eb33b7725077be129c1cc3752",
+    "assets/examples/book-2-chapter-13-future/measurement-examples.json": "205a60de770a6b92acf6e26ddc38a35a0172a2c52661532b6334e11822bed6e3",
+    "assets/examples/book-2-chapter-13-future/README.md": "a901d0480131085e55611190a1447f432d9f22f56c66a470168d5c325eb1a011",
+    "assets/examples/book-2-chapter-13-future/verification.json": "61bc2ae9ab170d42486365ec2028542f10c7a9c4f82448b5a7a23e7f914696d4",
+    "CHANGELOG.md": "cbd6c704589fa528212d02ef1e9fdf764237ff29e34a1b2dda2d6e65ccad7332",
+    "docs/bolum-eslestirmesi.md": "6003625b62d9fcbb2da62176b73735e40a396cf00c6ba2ea80fba834406509a4",
     "ekler/kitap-1/ek-a-terimler-sozlugu.md": "12db10c39f318a13c366146b3d1af05f453f011ed44660017a6ae777fa0984bb",
-    "ekler/kitap-1/ek-b-kontrol-listeleri.md": "745cf03e0db77c66da8988ef066de7d09cbb9a36e0c674b2dbf5484c939e418a",
+    "ekler/kitap-1/ek-b-kontrol-listeleri.md": "a905d0eba245f23a3d886a6d750ebcfccdbfee4179092231ec7190ee3cc82c37",
     "ekler/kitap-1/ek-c-yapilandirilmis-ai-talimatlari.md": "bd889eb809957c048f05f14656c07dba565630c4640cb4132bf086b5490b136d",
     "ekler/kitap-1/ek-d-onerilen-kaynaklar.md": "c99b001bb05c9b4476958fbfaade36831ba5253dd9f7d6fd6503efea547e3934",
-    "ekler/kitap-1/ek-e-ornek-proje.md": "2f56e948c1caae34adb89f9f03c4e70b44aeb8b5b3a7ea664cf2c8806ba62dd7",
+    "ekler/kitap-1/ek-e-ornek-proje.md": "bc10edfbe93937468aee8fc1383e847f6b53c1a31335ad9484b35aa4cc6002a9",
     "ekler/kitap-1/ek-f-kodlar-ve-kayit-kimlikleri.md": "c71f1e10e06783d193cacd57ecdf5acc37450348af91fef6afef46359e5ffb6b",
-    "ekler/kitap-1/README.md": "ca4674ffbebda9abecf8dd8bac9b146023e68ff62a2182189223610b87e0c7e5",
+    "ekler/kitap-1/README.md": "d5f954f4fcae4902a9e2b6f620fc6d73caa705de53b754c71a2f7e064096b2c0",
     "ekler/kitap-2/ek-a-terimler-sozlugu.md": "cac314031f2574c6038c00fd179525645c49c60450129db2b895246d67ff96ed",
-    "ekler/kitap-2/ek-b-kontrol-listeleri.md": "fd26c5af9b19de4643615d48fe69bc1271d280199d25c8b7b1b930306bfd45a5",
-    "ekler/kitap-2/ek-c-yapilandirilmis-ai-talimatlari.md": "5bb3ebe46b6da0989d9ae7cd19f9ca0c2fab8373c20147f1fe553bec6c6ec26a",
+    "ekler/kitap-2/ek-b-kontrol-listeleri.md": "582c8fb6d7336cbbc561dcdedb20bb7b1a1bfb27449b7e47f258588a89a1e4c8",
+    "ekler/kitap-2/ek-c-yapilandirilmis-ai-talimatlari.md": "241bb5ac539d61d9e66332a452294a5605238ea90f30612fe5d688d9b2c09edc",
     "ekler/kitap-2/ek-d-onerilen-kaynaklar.md": "11d706e53043d316c6bb9e26e379ef9da8daa1c5fd7e3d34603b5fc6250a245a",
-    "ekler/kitap-2/ek-e-ornek-proje.md": "761a1b203e2d847ec610dc0949d77abc06039fa3abb8a8f1f1b090f9157bccc5",
-    "ekler/kitap-2/ek-f-kodlar-ve-kayit-kimlikleri.md": "17c17bcc137eb13cb827a89d7dbe0e674851c2ebfc693f5a0f425bcc57f604c9",
-    "ekler/kitap-2/README.md": "b94182f8509706bdce0babd8fc78a0316193ec8b56e8ee1a2533aa5489c0389c",
+    "ekler/kitap-2/ek-e-ornek-proje.md": "52e2da0eeb73d4d9ff2814db5df313abc136586307d24fc14e2b32548d6a9eec",
+    "ekler/kitap-2/ek-f-kodlar-ve-kayit-kimlikleri.md": "72224055bbcd4dc373603f5d381962eb7ea26b3d386a62e5754b21e8d7cc85a6",
+    "ekler/kitap-2/README.md": "97d31b1cff30e1a06c6ffc391bf8394f726e56cf70957adadf8459bfe53b702d",
     "ekler/LICENSE.md": "4ec528a6313d9a62c03ade83cb442fbae95647de9f03806b911ad5a186ff098f",
     "ekler/README.md": "ba5927b222c85ee2c2d39c96c2cca0c46dcceab2bce24bda8bf847422cdee03f",
     "LICENSE": "c0ee11635e6aa86150092d7735a75f478d78287293ab07ea7883bc3647aca071",
-    "README.md": "442bdc3df9d24d42c1769f306e6e27cceaff39ef28ae52e38aa3b6effb14c2a2",
+    "README.md": "15fb1eb82d465500ab9605415020683aa41176e26090303c72e7d3b503c0b580",
     "references/README.md": "73abb81bd1fac0b963bb982e5d31e3944ac6636254e0dbbfeb46effaad61ce15",
     "references/references.bib": "8c3d8b62801e5bd86456fca22833514c62496ec23b932c8cbdda656eab796417",
     "tools/check-materials.py": "7567eb4173e296089dcc69dd88657eaab11d077f8ee44387dd3f7facdfa69183"
   },
   "source_materials": [
     {
-      "path": "assets/code/chapter14-environment/.env.example",
+      "path": "assets/code/book-2-chapter-01-environment/.env.example",
       "source_sha256": "af0784aabc860b3232aecfe8a5f292e8d0c62e7a490c890abdcb89a3bb21d29b",
       "distribution_sha256": "ba7589f4acd83c2fc85b7a3d10e293555c6090456e48619ed78ce129a04873bb",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter14-environment/.gitignore",
+      "path": "assets/code/book-2-chapter-01-environment/.gitignore",
       "source_sha256": "8a394e0903b185ecee1a7e846241d142ebba98946da6fba1d78fe0a3a71a2934",
       "distribution_sha256": "bc978724a742ba8c0d51e7bd3e2ca1b3b4ff023c0d09e866f2593716c6c1e652",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter14-environment/README.md",
+      "path": "assets/code/book-2-chapter-01-environment/README.md",
       "source_sha256": "531aa5562c0b72ea803d81fbfb6a6016a63ad5129810d79ad52c791652342418",
-      "distribution_sha256": "91c3953066d1ee5e0357ad78b1ef33a95cf47817ce740f5f6090a9c0748d7490",
+      "distribution_sha256": "90f96bd88e016e85e4447ae988c11bacda9e7e33f0c2e32a881c612d99660b18",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter14-environment/requirements.in",
+      "path": "assets/code/book-2-chapter-01-environment/requirements.in",
       "source_sha256": "a6bed49ab46c35dcf27cd19f4e2530aa08b7562b7cd102dac2302fbfd5f18af7",
       "distribution_sha256": "dfaf0882844aef6b1c2c6d087a98bf5a733b795d1a837e347446481942e672e2",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter14-environment/scripts/inspect_environment.py",
+      "path": "assets/code/book-2-chapter-01-environment/scripts/inspect_environment.py",
       "source_sha256": "98ca49981dd82736b74b00369a89aa6c48a12c04e91c28c1895aa7f45b09e498",
       "distribution_sha256": "eb1e01b8ae5e770871d89c54c8a8ea4f34c5ebfdb422f60c16feb8bd57d95d2d",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter14-environment/tests/test_environment.py",
+      "path": "assets/code/book-2-chapter-01-environment/tests/test_environment.py",
       "source_sha256": "0fa37eb2b02a94ce39f6405ab6b568541926aa53f99fb6d21501b196293edd6d",
       "distribution_sha256": "e2d31764e3f77d68f9ccdf8efc0c36cf216fe3c89cc9244da02a74ea734a36ed",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter15-git-lab/README.md",
-      "source_sha256": "7af648a8a2fe8f0a756cce927fec8a6a90f2f0e79e3f937656988066b9a595e7",
-      "distribution_sha256": "e57545cc127293ffd6f2b008e7370ff46a953e47981121e338362e1e7effceb2",
+      "path": "assets/code/book-2-chapter-02-git-lab/README.md",
+      "source_sha256": "a4090942588455ea9fcf81844c2fdb4aab317fc53b6a25ff8c64d0bc01675af1",
+      "distribution_sha256": "7ca459b1ae55380a51feea5a8e7120347d12056ee2dfa2ab96b2ee6628378b57",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter15-git-lab/run_lab.py",
+      "path": "assets/code/book-2-chapter-02-git-lab/run_lab.py",
       "source_sha256": "13e10ec46edf60930285de8621885a5f091ef039304ed2a0ef701cdad127c8ca",
       "distribution_sha256": "e94bacd111bde043bb9a70ffafd53215393aa5aaaebb5dc6a2eb81b0c2b23666",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter15-git-lab/verification.json",
+      "path": "assets/code/book-2-chapter-02-git-lab/verification.json",
       "source_sha256": "992f141b7c4e2c06ba699ab82d900b40991c7782d0938b9789febefa12ae8c73",
       "distribution_sha256": "aef417eac5243c739244db0ff37b8d5a29203ac35179a25cac0f0a1246080444",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter16-share-report/.gitignore",
+      "path": "assets/code/book-2-chapter-03-share-report/.gitignore",
       "source_sha256": "0e3c7127b084b5096936b2539767e948ac0412142e4078ae1248ac5155a03bc5",
       "distribution_sha256": "8d68c297a4f2845748241cb96f22ebc57a90c4366698ec78f687632e1ae38673",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter16-share-report/README.md",
-      "source_sha256": "53a7e06a87e1b4b4373c597120100bf66d148bc154f6573a7ea33eab01e3adb6",
-      "distribution_sha256": "10315eff440f71a2ad8540a8726119f97521d786a9304714d31d21415e28d68a",
+      "path": "assets/code/book-2-chapter-03-share-report/README.md",
+      "source_sha256": "885a6bb8a7c5243e41f17a4e89ed031504fbc52ebc25c068adc9e652e9df2009",
+      "distribution_sha256": "8d8de19eb03f4dc899258501bf3ad906d0c1369a1aa5f5169541f62b37d18be4",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter16-share-report/baseline.json",
-      "source_sha256": "518632d3d73f9617b875a887f81df984f583023231a46f7e3748b824bea9ce62",
-      "distribution_sha256": "de5ccb2eafffc860d5b155fe0e5337cd8fdca7f3ff14bdb0e7c162aa217dda32",
+      "path": "assets/code/book-2-chapter-03-share-report/baseline.json",
+      "source_sha256": "cbd401bbd1e40e7fda0ff56667c250c52e939e28a1426d8d6f4763ed4cd786fb",
+      "distribution_sha256": "37d7156a4a6a85c57aebfe41a75fe3460f20d0bc8c7b79ef05b7c5e2066631f6",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter16-share-report/change.diff",
+      "path": "assets/code/book-2-chapter-03-share-report/change.diff",
       "source_sha256": "791f19b887cc094d5ad7210abea0ccedd26ecf530c58752b303dc914fb2cc669",
       "distribution_sha256": "61a4ab7fa2875075e852c4add2084d6229b5343884e3e971c9af54090ca0d98f",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter16-share-report/verification.json",
+      "path": "assets/code/book-2-chapter-03-share-report/verification.json",
       "source_sha256": "6f882d1ab9a29c3dda9eb0e2a7218795cc6f425ecab9e0cff87956dbd7a46cba",
       "distribution_sha256": "6c940168046c5692a97f6f93ac54f1e673eb635f9b415e6693ebf89f2ebed778",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter16-share-report/verify_review_examples.py",
+      "path": "assets/code/book-2-chapter-03-share-report/verify_review_examples.py",
       "source_sha256": "664781706d54f7debeddd361fc0238af7eb744e4d3c306f247e689e467b90574",
       "distribution_sha256": "edfe9b740d5252a939ff7ac09ed425c9568261065f24e00367eb87b0d7faec61",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter16-share-report/scripts/inspect_environment.py",
+      "path": "assets/code/book-2-chapter-03-share-report/scripts/inspect_environment.py",
       "source_sha256": "af7cf3fea096b48f7142becf8df5013988641f50395c3e51060a1963acb204d9",
       "distribution_sha256": "2d0c78fcc9d64dce27306c89347abd09ab06b63463a69945ecd266a151c8072a",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter16-share-report/tests/test_environment.py",
+      "path": "assets/code/book-2-chapter-03-share-report/tests/test_environment.py",
       "source_sha256": "0fa37eb2b02a94ce39f6405ab6b568541926aa53f99fb6d21501b196293edd6d",
       "distribution_sha256": "e2d31764e3f77d68f9ccdf8efc0c36cf216fe3c89cc9244da02a74ea734a36ed",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter16-share-report/tests/test_share_report.py",
+      "path": "assets/code/book-2-chapter-03-share-report/tests/test_share_report.py",
       "source_sha256": "7dcf022d22ab0c6fc02c0ac0196137ad89127393f1c1e932925e5a4053cfd551",
       "distribution_sha256": "81d18cdbd826f157e8d5cd73c1bfcfe3dbe78143179967ddb21c12f0126dd2d7",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter17-debug-lab/.gitignore",
+      "path": "assets/code/book-2-chapter-04-debug-lab/.gitignore",
       "source_sha256": "26c4fbb12cf4bb2bb70b3392f6e134ea8fecb6f0e98ed3f66c6412d2e18925d2",
       "distribution_sha256": "1faaa7621d729028b5070c0c77e203ca3f8998e3b525f48868e25ce57a69254a",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter17-debug-lab/README.md",
+      "path": "assets/code/book-2-chapter-04-debug-lab/README.md",
       "source_sha256": "829102f6003ac7569add3b5fbe947e9708044b8b8422d1fafba266983657477e",
-      "distribution_sha256": "7486637ff9501a8b49b147419519d27adbbc86d65fa3b4d4592c33c140184453",
+      "distribution_sha256": "25d3baafe306586698d9cb9ecaf0690b2f5c2633bb0cd3d9b608331f3b797f64",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter17-debug-lab/fix.diff",
+      "path": "assets/code/book-2-chapter-04-debug-lab/fix.diff",
       "source_sha256": "14436af34a5228436e01b2cf3b115d8c58bca8b327de526515c1a7d9e7e3c4dd",
       "distribution_sha256": "0d4ddbbc5be5d7d14c991a3a23599c72439ecff011e1d9826db927b4330fac55",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter17-debug-lab/minimal_repro.py",
+      "path": "assets/code/book-2-chapter-04-debug-lab/minimal_repro.py",
       "source_sha256": "f84f1252540cb72fb2afffefc50f4b668ad02921ef4dee7298b2b64bc6a03f26",
       "distribution_sha256": "244f5edada93c02240384d980c7cb526eca5e50f4d3745df0281a279c62fa86c",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter17-debug-lab/pdb-session.txt",
+      "path": "assets/code/book-2-chapter-04-debug-lab/pdb-session.txt",
       "source_sha256": "dc4eeef7e307a9f57398f407a18b71589cdb691dec3edfd4d6c223211e7874cc",
       "distribution_sha256": "737673b3fff274194f16cb55b710cf0e3fe7fb5e47e3b677732949da5718c10e",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter17-debug-lab/reproduce.py",
+      "path": "assets/code/book-2-chapter-04-debug-lab/reproduce.py",
       "source_sha256": "0074817c33316f7f562618005b4a091ac4526be8d62e9bad4a48d950414abccd",
       "distribution_sha256": "fd9d192632b8d2a6197a5aed4dc8de2ca931925f780d8f9eeb17a993d661f832",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter17-debug-lab/settings_faulty.py",
+      "path": "assets/code/book-2-chapter-04-debug-lab/settings_faulty.py",
       "source_sha256": "85808fc5b342074dce123fc264e7ba99e26939ab686e91e6552e55ab881d2619",
       "distribution_sha256": "9afbbb62ef1b5fbbbc15b3ede86f65194a1b0e70b026cf9d87032ae3ba692100",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter17-debug-lab/settings_fixed.py",
+      "path": "assets/code/book-2-chapter-04-debug-lab/settings_fixed.py",
       "source_sha256": "fac6087cfbda1fecff83e3b3b67e919ddc48f64537048b693dba46113a57854e",
       "distribution_sha256": "484c789960d977b56bf4c0547a21067e9b5533bffe00e9cb50e4015104a0f2c1",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter17-debug-lab/verification.json",
+      "path": "assets/code/book-2-chapter-04-debug-lab/verification.json",
       "source_sha256": "5698467c5f513808c62481427e311e305e324404f4443e591351c19f2628ded5",
       "distribution_sha256": "74ea2df3084954cfdb883501189de936a376f83ffbb76e621f53093dbedc27da",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter17-debug-lab/tests/test_debug_lab.py",
+      "path": "assets/code/book-2-chapter-04-debug-lab/tests/test_debug_lab.py",
       "source_sha256": "d3cc8927051c3926824503f32941733cb04224d0b5e39259942db07a5fde9851",
       "distribution_sha256": "5d3b769e84a06c7bcd027746f37c3773cf72cd0f28f737f2259e27a9028cd523",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter18-test-lab/.gitignore",
+      "path": "assets/code/book-2-chapter-05-test-lab/.gitignore",
       "source_sha256": "0e3c7127b084b5096936b2539767e948ac0412142e4078ae1248ac5155a03bc5",
       "distribution_sha256": "8d68c297a4f2845748241cb96f22ebc57a90c4366698ec78f687632e1ae38673",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter18-test-lab/README.md",
+      "path": "assets/code/book-2-chapter-05-test-lab/README.md",
       "source_sha256": "fe2f4f4ea9c9f1cc67bfd269bb257a0c29916c095d5e2c24166743c814399a19",
-      "distribution_sha256": "efd18f0b926b56988e3a523fb6d50e2d48249b2fca934dbf78dfa8cfa2a82b48",
+      "distribution_sha256": "332efefeca57113b56029981694e69ad7273079c67a72ba1d1e5c77bf4ee171f",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter18-test-lab/quality-result.json",
+      "path": "assets/code/book-2-chapter-05-test-lab/quality-result.json",
       "source_sha256": "d04c1fa40fd69c3d29a34f155212a25994d0c263c2e8ea6466f8d7c0be7bbd90",
       "distribution_sha256": "380fab05a78044a60f1aa81fd1b89f931ffc2b258ac16e13a571efa82731b947",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter18-test-lab/verification.json",
+      "path": "assets/code/book-2-chapter-05-test-lab/verification.json",
       "source_sha256": "c0af574425732b31a8b4b185da72e8bbec18366333fe9ee85d0aa20362f0b92a",
       "distribution_sha256": "d738c353c3008daef7d243aca70030967919f12de7acc8a5a73d101ba75c3a61",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter18-test-lab/verify_test_quality.py",
+      "path": "assets/code/book-2-chapter-05-test-lab/verify_test_quality.py",
       "source_sha256": "7f6959760135c8fba5fb5e03b04e1e8c5c480573915878eaf100f6ce38b07de8",
       "distribution_sha256": "3b9f377d5dd14788c7a875ecf54ed91d05cf183f3661017846486f41fdd92037",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter18-test-lab/quality_examples/settings_faulty.py",
+      "path": "assets/code/book-2-chapter-05-test-lab/quality_examples/settings_faulty.py",
       "source_sha256": "85808fc5b342074dce123fc264e7ba99e26939ab686e91e6552e55ab881d2619",
       "distribution_sha256": "9afbbb62ef1b5fbbbc15b3ede86f65194a1b0e70b026cf9d87032ae3ba692100",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter18-test-lab/quality_examples/settings_fixed.py",
+      "path": "assets/code/book-2-chapter-05-test-lab/quality_examples/settings_fixed.py",
       "source_sha256": "fac6087cfbda1fecff83e3b3b67e919ddc48f64537048b693dba46113a57854e",
       "distribution_sha256": "484c789960d977b56bf4c0547a21067e9b5533bffe00e9cb50e4015104a0f2c1",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter18-test-lab/scripts/inspect_environment.py",
+      "path": "assets/code/book-2-chapter-05-test-lab/scripts/inspect_environment.py",
       "source_sha256": "af7cf3fea096b48f7142becf8df5013988641f50395c3e51060a1963acb204d9",
       "distribution_sha256": "2d0c78fcc9d64dce27306c89347abd09ab06b63463a69945ecd266a151c8072a",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter18-test-lab/tests/test_environment.py",
+      "path": "assets/code/book-2-chapter-05-test-lab/tests/test_environment.py",
       "source_sha256": "0fa37eb2b02a94ce39f6405ab6b568541926aa53f99fb6d21501b196293edd6d",
       "distribution_sha256": "e2d31764e3f77d68f9ccdf8efc0c36cf216fe3c89cc9244da02a74ea734a36ed",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter18-test-lab/tests/test_package_metadata.py",
+      "path": "assets/code/book-2-chapter-05-test-lab/tests/test_package_metadata.py",
       "source_sha256": "7ee57955222f7f78463a3954cb3f68e0de8822d500c5164662f29546cd97919f",
       "distribution_sha256": "ea9c322160adb6e34467eff9147d9de33a6447fdcc14a24d24e0da1292b71a2e",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter18-test-lab/tests/test_share_report.py",
+      "path": "assets/code/book-2-chapter-05-test-lab/tests/test_share_report.py",
       "source_sha256": "7dcf022d22ab0c6fc02c0ac0196137ad89127393f1c1e932925e5a4053cfd551",
       "distribution_sha256": "81d18cdbd826f157e8d5cd73c1bfcfe3dbe78143179967ddb21c12f0126dd2d7",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter19-security-lab/.gitignore",
+      "path": "assets/code/book-2-chapter-06-security-lab/.gitignore",
       "source_sha256": "1faaa7621d729028b5070c0c77e203ca3f8998e3b525f48868e25ce57a69254a",
       "distribution_sha256": "1faaa7621d729028b5070c0c77e203ca3f8998e3b525f48868e25ce57a69254a",
       "adapted_for_readers": false
     },
     {
-      "path": "assets/code/chapter19-security-lab/README.md",
+      "path": "assets/code/book-2-chapter-06-security-lab/README.md",
       "source_sha256": "3b524da867fc77822746eb33c4843f71f1a04e183e88d894a7875963ec0b6888",
-      "distribution_sha256": "fd840ec63a4f43ff2d172b7266b29c58ab99dc9af3ea3a8d23bbd84aa30f5f01",
+      "distribution_sha256": "03ca89d83b9531bccc181964390d610c01f1523e47371f889cb1937bc03cd22f",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter19-security-lab/security_example.py",
+      "path": "assets/code/book-2-chapter-06-security-lab/security_example.py",
       "source_sha256": "706871c45a89935722fbc6c804957d12cc3879d0aa83ab139db2c555c2aa0b8a",
       "distribution_sha256": "706871c45a89935722fbc6c804957d12cc3879d0aa83ab139db2c555c2aa0b8a",
       "adapted_for_readers": false
     },
     {
-      "path": "assets/code/chapter19-security-lab/verification.json",
+      "path": "assets/code/book-2-chapter-06-security-lab/verification.json",
       "source_sha256": "4aea3a61a0cb59633250506cd9482c15635381225307ccc1b09019a86208a0ee",
       "distribution_sha256": "b79052036c56718a2a773bec121571de8ad1171bfe2b1a523daf6c6cab045a18",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/code/chapter19-security-lab/tests/test_security_example.py",
+      "path": "assets/code/book-2-chapter-06-security-lab/tests/test_security_example.py",
       "source_sha256": "6c682ccd816df04e5f6cfd448a1f9c89a0fc51b5ee3aa759b17a497bb3ecf5b3",
       "distribution_sha256": "6c682ccd816df04e5f6cfd448a1f9c89a0fc51b5ee3aa759b17a497bb3ecf5b3",
       "adapted_for_readers": false
     },
     {
-      "path": "assets/examples/chapter20-review/README.md",
+      "path": "assets/examples/book-2-chapter-07-review/README.md",
       "source_sha256": "d7a91f62feaab6cd77ae41b6a30c28d5f59c523d5b071e3f7e11614fed207115",
-      "distribution_sha256": "179adb38551e0c4c27b535aac80f249e82d94958a35b088967fb28b00c138225",
+      "distribution_sha256": "fe6f9550aa55a4840dc72998207ab2f87b4f884689801d19f9a80468eceb1793",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter20-review/review-cases.json",
+      "path": "assets/examples/book-2-chapter-07-review/review-cases.json",
       "source_sha256": "20cf3373306b79f0f7218e9b837999ac1b3b802ad4e01370908b3e3d44cdee02",
       "distribution_sha256": "007887258dfbfac844f23b973d0a1d78a1237ca0d160d3adde7e8ae314df3741",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter20-review/verification.json",
+      "path": "assets/examples/book-2-chapter-07-review/verification.json",
       "source_sha256": "4c9fe02456a84196df029aba75f6c4a1d5d4be6d72328001350277d8f9066020",
       "distribution_sha256": "9e269ca7a950c3efc690d09f0b01b10d562b5c82f8c68ce1c8c003cfb1d07e09",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter21-release/README.md",
+      "path": "assets/examples/book-2-chapter-08-release/README.md",
       "source_sha256": "856269d3b0affdf7172b4a6abced931f0d7c2b413d8c8352e38541b6f31a5e9f",
-      "distribution_sha256": "e57f3773627b7af95c9c6df11c59891c1233d7e5c8c77bef508b17845ffe35da",
+      "distribution_sha256": "8911484beb2fc256207e2fbb1fc465d1d31b2554f5a3e3ec72e96770867e694a",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter21-release/release-plan.json",
+      "path": "assets/examples/book-2-chapter-08-release/release-plan.json",
       "source_sha256": "0a973766f08a9e1807f2d2009797533f4727d5f06cc1ead76ef28ac478f15eac",
       "distribution_sha256": "b6d93c3f53937539a472030aa7e70db6e9e83038307a36cd03c38f77369523eb",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter21-release/runbook.md",
+      "path": "assets/examples/book-2-chapter-08-release/runbook.md",
       "source_sha256": "7e88deb42e66c8c0d6e372dcab4a55e377a52a3603f317567a7185d13eb57c80",
       "distribution_sha256": "e7dbccc4af6083687e499bf2fcf64be6a0d8a125230ad7da92e0d2780bbe6099",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter21-release/verification.json",
+      "path": "assets/examples/book-2-chapter-08-release/verification.json",
       "source_sha256": "fb7c43418758f00a83f49b1e01cc4f77fc9970ad07e977b6d9a339dfe15eac8d",
       "distribution_sha256": "b6d69325cb983783f30eb5b63cb776102af77e9669dd1de6c03bc78d764373f9",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter22-operations/README.md",
+      "path": "assets/examples/book-2-chapter-09-operations/README.md",
       "source_sha256": "cb434a1e90adaca7df6b8be6af490a492ace0a8e10e83c7ea437afc6db128890",
-      "distribution_sha256": "63b908aefef7838e171de4769ae2bcc1f97eb15bc58d81f91896050c49926218",
+      "distribution_sha256": "04d63943a82e9551db38c451b6be30c9abc0c418bcd751063d626b94d4bd9648",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter22-operations/measurement-examples.json",
+      "path": "assets/examples/book-2-chapter-09-operations/measurement-examples.json",
       "source_sha256": "ec1825211ec5d8940a5b1edc1776608a1a991bf96e7c9c80fd07fa4a23de7903",
       "distribution_sha256": "e1226cb36318f554b774c049941d4a5a2e66982df08d05b85a473c915a4224da",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter22-operations/operations-plan.json",
+      "path": "assets/examples/book-2-chapter-09-operations/operations-plan.json",
       "source_sha256": "3ebdbc3c19516795d129ff329b1ea76019e9a62d7533a8f8b5f5aea184cf1124",
       "distribution_sha256": "e9018d31d43d3782f18464fd8adce1248c80fbdb88d9535da55fb94366fe8a86",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter22-operations/verification.json",
+      "path": "assets/examples/book-2-chapter-09-operations/verification.json",
       "source_sha256": "797567ad2b9be38a668e863aca2bb7b6dd559f85c7832f1d61f017b2584e147a",
       "distribution_sha256": "8069ecab55340198eabb3e14742fbcac9bc5912289fa23b63c00f958c3bcb280",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter23-integration/README.md",
+      "path": "assets/examples/book-2-chapter-10-integration/README.md",
       "source_sha256": "f1520211c3d69d57d35c59b5fe837b686c733ab10b56b466d69053490a16ed68",
-      "distribution_sha256": "db1d521a0979cff39e7f3e0565e8bc018e7aa0220cb3b0b092ae2bbe3dc9b0ec",
+      "distribution_sha256": "1937985c53e611fd106bf74fbd8df3eb44e42dc54da68fb98ca25619d1e6ea7c",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter23-integration/acceptance-cases.json",
+      "path": "assets/examples/book-2-chapter-10-integration/acceptance-cases.json",
       "source_sha256": "602c3b451db9d6f3c7676bdf6f2ab27b93f752e8461ba3107f4c1a801b8ea921",
       "distribution_sha256": "235eb9a13c4d97c6836da17baf63af4f0450cd042475b4ce99e6a0a4bf1e84bc",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter23-integration/implementation-sequence.md",
+      "path": "assets/examples/book-2-chapter-10-integration/implementation-sequence.md",
       "source_sha256": "83984eee58624d99c7b4376db5e4877df60529b9234708c9e796827cfa725ba6",
       "distribution_sha256": "abc689ee7b371186a4eb1e69ce8d5718c30fde16e15172f420ee3ac64fe22547",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter23-integration/integration-plan.json",
+      "path": "assets/examples/book-2-chapter-10-integration/integration-plan.json",
       "source_sha256": "f6146ec445e85f56a020c84451aa730044b427c74fd83a160c55c75064ba831a",
       "distribution_sha256": "cf30a6569ebf524c115e678dddcd17eb357767c401f9f31904a2a71a8967eb83",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter23-integration/synthetic-data.json",
+      "path": "assets/examples/book-2-chapter-10-integration/synthetic-data.json",
       "source_sha256": "9a32c86d0b543bee4299dcec08cbe6f6408da714b4227b5d80eb71abb323c332",
       "distribution_sha256": "70c00e33bf47be809e4f996cbb7c181bd7cef2a95f0170759a07a3624dd872a5",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter23-integration/verification.json",
+      "path": "assets/examples/book-2-chapter-10-integration/verification.json",
       "source_sha256": "7defab304cdac288df12b335cec95ba1f08c5b406c28324357050324fc123b94",
       "distribution_sha256": "d051e9b75450ab95a72227f14409b0f0d3588f0861fb820866e7f10293bb7083",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter24-saas/README.md",
-      "source_sha256": "c43ded31dece6e5e2e7d5184170f778cb6462215f4f15c0879380a99f52193c0",
-      "distribution_sha256": "772f4d3cff58e775251a2a8dc97e9f3d65e5b017c9cca616ff3c392a944c52af",
+      "path": "assets/examples/book-2-chapter-11-saas/README.md",
+      "source_sha256": "082d58ca824bd0af3de6d930896b0727a07d64e35daa3f7b56debb8b419f172f",
+      "distribution_sha256": "5fa11ffb6944f7860ad359b34045466ad1a211817621c5b6605d370106ddb58b",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter24-saas/acceptance-cases.json",
+      "path": "assets/examples/book-2-chapter-11-saas/acceptance-cases.json",
       "source_sha256": "3087e0b16e7aab987fe96a556d2ac3ab64bad74e65c1cb346f1469594996522c",
       "distribution_sha256": "b132199219baae0093a5192542bef293e37c68da25f2f0e0f2c895534a6933ac",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter24-saas/synthetic-data.json",
+      "path": "assets/examples/book-2-chapter-11-saas/synthetic-data.json",
       "source_sha256": "b8be66b77bb5891fa6879caf65b836bcbd60c48bee6b4a98d05a03051b7d50c0",
       "distribution_sha256": "2754d68624270c9e82f14f29a4793a95145df9df12f1797820d4c99024e7a620",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter24-saas/transition-plan.json",
+      "path": "assets/examples/book-2-chapter-11-saas/transition-plan.json",
       "source_sha256": "3382a437cd8f27934a94d80bb8830709f3413e18aaaa4455c046b9db419c9860",
       "distribution_sha256": "5a35cabc69484484902be862c260278d2a6da2397fae12e723ec87543610de74",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter24-saas/verification.json",
+      "path": "assets/examples/book-2-chapter-11-saas/verification.json",
       "source_sha256": "c5c2f90c34234ae86ab0907b6055efa9cff0b80b6f289b4ef593dc04e9b8aca8",
       "distribution_sha256": "5bdec1a0f1e46331e3bc1a3d47f4dfd4c56c637464904943aef924d1f561a456",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter25-ai-team/README.md",
-      "source_sha256": "7470b825c51da61230bfde8371264b3ce685301793762d8d4d21883c58e12cf9",
-      "distribution_sha256": "3887392806dc104a192b01d966c3223966e0aa1cce612e2f81f8f4aed75a494c",
+      "path": "assets/examples/book-2-chapter-12-ai-team/README.md",
+      "source_sha256": "f15a924487fba332170619c5e9b5c75d111977d06ff3bcc55a8c60b038ddef31",
+      "distribution_sha256": "eeba1a6502a97a6b9a7f5746234c6b9abc8f12062024a0985ba4640a1d26fd1b",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter25-ai-team/evaluation-cases.json",
+      "path": "assets/examples/book-2-chapter-12-ai-team/evaluation-cases.json",
       "source_sha256": "4905f0f05a7e2a077c3ae907ed1773b0a8c69d1e47ea7c2e599dda71068eb6f1",
       "distribution_sha256": "faa755905ad92de1cd06d0a28a2317c3201ab4e754890ff61675006b69581f44",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter25-ai-team/evaluation-rubric.json",
+      "path": "assets/examples/book-2-chapter-12-ai-team/evaluation-rubric.json",
       "source_sha256": "1233e0f3ceb03beb856990ee628e8a72b75a763f83dc64ab60cc0133dfb078db",
       "distribution_sha256": "fc4f6ff399d106f51548ce1f542a331cc9c4373d4359a3c0798305c2e4a159d8",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter25-ai-team/handoff-template.json",
+      "path": "assets/examples/book-2-chapter-12-ai-team/handoff-template.json",
       "source_sha256": "0c1697f44ef00acac5dfd7d7f51cd43935fc0b7955db9ab06fb6a9150935242e",
       "distribution_sha256": "0467b991cfaf0a722c2a034f1ef91f68714838299952a55fcc1eba3775a33192",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter25-ai-team/oversight-plan.json",
-      "source_sha256": "e66a91b63ba3d4f25b7ef45e773bfefaaff1e0b83f22b5cd4b58da85712bcd44",
-      "distribution_sha256": "9d71d66300ff9ddde86149407ec0f94f8c30b1007229490fc16a1f41f179896d",
+      "path": "assets/examples/book-2-chapter-12-ai-team/oversight-plan.json",
+      "source_sha256": "1df9db37aa163a14653861fb1e426ee39d1ef7ad67d3ea66b48eddbfda07ec7d",
+      "distribution_sha256": "db00732a48d4607c12001a1d931968ec59c56cf6bf752cf9bcc8f69f38d5ca66",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter25-ai-team/task-cards.json",
+      "path": "assets/examples/book-2-chapter-12-ai-team/task-cards.json",
       "source_sha256": "9de20dd31de724b19645f37887b9dd1312e3922cd9a9c150bbab8c3031d4d27d",
       "distribution_sha256": "8a70a47b37af042cc9fbe655800fe0fd00d094715b9311f7d6c31e7e7f5050c2",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter25-ai-team/verification.json",
+      "path": "assets/examples/book-2-chapter-12-ai-team/verification.json",
       "source_sha256": "36b9c3d5bd4dca89ef74156fdb4874a407fed0bc649801079ef48ccf09ebdd8a",
       "distribution_sha256": "aece0cf310d57cbd6820a9b9fffc200525851e8f48d1b4833f933eb02f2646fb",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter26-future/README.md",
+      "path": "assets/examples/book-2-chapter-13-future/README.md",
       "source_sha256": "b37727dec698b801f1a85e1be3b79bc6a950a6dd5531d0e85d599320954bdcf5",
-      "distribution_sha256": "2f3a478e9efb80e4d251ba6b76eef0d50b9f90d509ee2e56833f707491ff450e",
+      "distribution_sha256": "a901d0480131085e55611190a1447f432d9f22f56c66a470168d5c325eb1a011",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter26-future/claim-cases.json",
+      "path": "assets/examples/book-2-chapter-13-future/claim-cases.json",
       "source_sha256": "433bd5a4a66b0f6947f94060b1ef15c2618a77f0c2f60ec1352f2296f0d90b05",
       "distribution_sha256": "92881ef997507b56cfe29e3122881e29b0a87460c5228e15d26594c5d4709a7d",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter26-future/future-plan.json",
+      "path": "assets/examples/book-2-chapter-13-future/future-plan.json",
       "source_sha256": "ecf0c125dbf54f2a210b80adfb3f6e32055171bc86785bd090cec9d11138fb6e",
       "distribution_sha256": "9160cf031775d28d09f05053884fa524319c278951106ae88e33612c851aad3e",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter26-future/learning-plan.json",
+      "path": "assets/examples/book-2-chapter-13-future/learning-plan.json",
       "source_sha256": "53da560d45645fcb579aa24d8ea519cb0402b66df6d524eab3981c5941c4727b",
       "distribution_sha256": "cf3a7971a0540a11eea5cf448eabfa95b650936eb33b7725077be129c1cc3752",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter26-future/measurement-examples.json",
+      "path": "assets/examples/book-2-chapter-13-future/measurement-examples.json",
       "source_sha256": "05faabc59531741689d255b34c9bdb59560ef73d9dec75db798008b749fd2bab",
       "distribution_sha256": "205a60de770a6b92acf6e26ddc38a35a0172a2c52661532b6334e11822bed6e3",
       "adapted_for_readers": true
     },
     {
-      "path": "assets/examples/chapter26-future/verification.json",
+      "path": "assets/examples/book-2-chapter-13-future/verification.json",
       "source_sha256": "8649b6c91e95a7235aefd411d78dff2ef822cbe411ac457a178a579ea9d11938",
       "distribution_sha256": "61bc2ae9ab170d42486365ec2028542f10c7a9c4f82448b5a7a23e7f914696d4",
       "adapted_for_readers": true
@@ -592,8 +592,8 @@
     },
     {
       "path": "ekler/kitap-1/ek-b-kontrol-listeleri.md",
-      "source_sha256": "b313dd87c7802c271dc2d56a1d993023333122fe3e43f59984309ae97056aa2d",
-      "distribution_sha256": "745cf03e0db77c66da8988ef066de7d09cbb9a36e0c674b2dbf5484c939e418a",
+      "source_sha256": "2c8b256249acf43767d9adf1c19fb6d388a17b21ab629330213f54b1ae525b54",
+      "distribution_sha256": "a905d0eba245f23a3d886a6d750ebcfccdbfee4179092231ec7190ee3cc82c37",
       "adapted_for_readers": true
     },
     {
@@ -610,8 +610,8 @@
     },
     {
       "path": "ekler/kitap-1/ek-e-ornek-proje.md",
-      "source_sha256": "a3c7c1bacb7c8ee432be12408c9b31655c340c8ad435c74ae9cb536baac8c35e",
-      "distribution_sha256": "2f56e948c1caae34adb89f9f03c4e70b44aeb8b5b3a7ea664cf2c8806ba62dd7",
+      "source_sha256": "9994d9c922c9d0271e41e4bf1708a69ed3309c06d5865c46b484b13cf5adf3a2",
+      "distribution_sha256": "bc10edfbe93937468aee8fc1383e847f6b53c1a31335ad9484b35aa4cc6002a9",
       "adapted_for_readers": true
     },
     {
@@ -628,14 +628,14 @@
     },
     {
       "path": "ekler/kitap-2/ek-b-kontrol-listeleri.md",
-      "source_sha256": "11538e4ea1cbfaba1062affac30984741dc03ac85cac36253d7a42d587cc14ff",
-      "distribution_sha256": "fd26c5af9b19de4643615d48fe69bc1271d280199d25c8b7b1b930306bfd45a5",
+      "source_sha256": "1c6334785b7d52dafcfbb6dd42db959e1b6793153855b6ff6d2e11d8ed42180e",
+      "distribution_sha256": "582c8fb6d7336cbbc561dcdedb20bb7b1a1bfb27449b7e47f258588a89a1e4c8",
       "adapted_for_readers": true
     },
     {
       "path": "ekler/kitap-2/ek-c-yapilandirilmis-ai-talimatlari.md",
-      "source_sha256": "674992fade938153dfab44a95b982ff8625d16ea7a1938fca2513f036e98a54d",
-      "distribution_sha256": "5bb3ebe46b6da0989d9ae7cd19f9ca0c2fab8373c20147f1fe553bec6c6ec26a",
+      "source_sha256": "3404f8d20072658b5dd93415a6c69814de8148ff564311e755151bcea1b03ec0",
+      "distribution_sha256": "241bb5ac539d61d9e66332a452294a5605238ea90f30612fe5d688d9b2c09edc",
       "adapted_for_readers": true
     },
     {
@@ -646,14 +646,14 @@
     },
     {
       "path": "ekler/kitap-2/ek-e-ornek-proje.md",
-      "source_sha256": "61e76e26159c5a190a567250a60b2121d0b3ddf8265a2c84656631f947faadeb",
-      "distribution_sha256": "761a1b203e2d847ec610dc0949d77abc06039fa3abb8a8f1f1b090f9157bccc5",
+      "source_sha256": "7e1abce413022375a2544cf3cfb2b196ed57d253cad62f516629fd0937aeb106",
+      "distribution_sha256": "52e2da0eeb73d4d9ff2814db5df313abc136586307d24fc14e2b32548d6a9eec",
       "adapted_for_readers": true
     },
     {
       "path": "ekler/kitap-2/ek-f-kodlar-ve-kayit-kimlikleri.md",
-      "source_sha256": "bd2ed6f5b21705b33a05a972bfb0eb73940265c527f56e813f9fab369edd146c",
-      "distribution_sha256": "17c17bcc137eb13cb827a89d7dbe0e674851c2ebfc693f5a0f425bcc57f604c9",
+      "source_sha256": "ac3d84f963b673f5fd5bad0f6e7ecc35d7fc288eae9f2bc15c4edcaa36589c8e",
+      "distribution_sha256": "72224055bbcd4dc373603f5d381962eb7ea26b3d386a62e5754b21e8d7cc85a6",
       "adapted_for_readers": true
     }
   ]

@@ -1,5 +1,10 @@
 # Değişiklik kaydı
 
+## v0.1.2 — 2026-11-10
+
+- Kitap 2’nin 13 örnek klasörü bölüm numaralarına göre yeniden adlandırıldı.
+- Dosya yolları, uygulama komutları ve ZIP paketi güncellendi.
+
 ## v0.1.1 — 2026-11-10
 
 - Uygulama paketlerinin başlıkları Kitap 2’deki bölüm adlarıyla eşleştirildi.

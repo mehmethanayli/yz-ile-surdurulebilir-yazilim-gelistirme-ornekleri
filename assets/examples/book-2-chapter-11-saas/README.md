@@ -2,9 +2,9 @@
 
 **SaaS Geçiş Taslağı**
 
-> **Bölüm numarası:** Bu paket Kitap 2’nin bağımsız 1–13 numaralandırmasına göre listelenir. Klasör adları ve GO-14-01 gibi kayıt kimlikleri kaynak dosyalarla uyum için korunmuştur.
+> **Bölüm numarası:** Bu paket Kitap 2’nin bağımsız 1–13 numaralandırmasına göre listelenir. Örnek klasörleri Kitap 2’nin bölüm numaralarını, GO-14-01 gibi kayıt kimlikleri ilk çalışma numaralarını kullanır.
 
-Bu paket [Bölüm 11](../../../docs/bolum-eslestirmesi.md#kitap-2-bolum-11) için hazırlanmış **SG-24-01** öğretim çıktısıdır. Gerçek SaaS uygulaması, ödeme entegrasyonu veya izolasyon testi değildir. [UÇ-23-01](../chapter23-integration/README.md) tek kurumlu ilk MVP sınırını korur; yeni ihtiyaçlar bu ayrı taslakta değerlendirilir.
+Bu paket [Bölüm 11](../../../docs/bolum-eslestirmesi.md#kitap-2-bolum-11) için hazırlanmış **SG-24-01** öğretim çıktısıdır. Gerçek SaaS uygulaması, ödeme entegrasyonu veya izolasyon testi değildir. [UÇ-23-01](../book-2-chapter-10-integration/README.md) tek kurumlu ilk MVP sınırını korur; yeni ihtiyaçlar bu ayrı taslakta değerlendirilir.
 
 - [Geçiş planı](transition-plan.json): 12 açık karar grubu, altı planlı aşama ve korunacak erişim kuralları.
 - [Sentetik veri](synthetic-data.json): iki kurum, beş aktör, beş üyelik, iki müşteri, üç görev ve aynı olayın iki teslim gösterimi.

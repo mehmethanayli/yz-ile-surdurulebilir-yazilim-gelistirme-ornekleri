@@ -44,7 +44,7 @@ Bu liste, işe başlanacak bağlamı görünür kılar. Kullanıcının problemi
 
 AI-CRM için kitap deposu, bağımsız öğretim laboratuvarı ve gelecekteki uygulama deposu ayrı tutulur. Hedef teknolojilerin adlarının bulunması bunların birlikte kurulduğunu göstermez. Başlangıç incelemesi neyin kararlaştırıldığını ve hangi kararın açık olduğunu belirlemelidir.
 
-Dayanak: [Gereksinim ve MVP](../../docs/bolum-eslestirmesi.md#kitap-1-bolum-4), [GO-14-01](../../docs/bolum-eslestirmesi.md#kitap-2-bolum-1), [UÇ-23-01](../../assets/examples/chapter23-integration/README.md).
+Dayanak: [Gereksinim ve MVP](../../docs/bolum-eslestirmesi.md#kitap-1-bolum-4), [GO-14-01](../../docs/bolum-eslestirmesi.md#kitap-2-bolum-1), [UÇ-23-01](../../assets/examples/book-2-chapter-10-integration/README.md).
 
 - [ ] **B01-01 — Çözülecek problem ve hedef kullanıcı açık mı?** **Kanıt:** Kimin hangi işini iyileştireceğini açıklayan problem kaydı. **Eksikse:** Teknoloji seçmeden önce ihtiyaç ifadesini düzeltin.
 
@@ -80,7 +80,7 @@ Bu liste kullanıcı isteğini uygulanabilir davranışa dönüştürürken kull
 
 AI-CRM'de ortak müşteri portföyü ve notlarla kişisel görevler arasındaki ayrım temel örnektir. Bir müşteri üzerinde ortak çalışmak, o müşteriye bağlı bütün görevleri ortak yapmaz. Gereksinim incelemesi bu ayrımı ekran, veri ve API kararlarına aynı anlamla taşır.
 
-Dayanak: [MVP kapsamı](../../docs/bolum-eslestirmesi.md#kitap-1-bolum-4), [API sözleşmesi](../../docs/bolum-eslestirmesi.md#kitap-1-bolum-8), [Bütünleştirme planı](../../assets/examples/chapter23-integration/integration-plan.json).
+Dayanak: [MVP kapsamı](../../docs/bolum-eslestirmesi.md#kitap-1-bolum-4), [API sözleşmesi](../../docs/bolum-eslestirmesi.md#kitap-1-bolum-8), [Bütünleştirme planı](../../assets/examples/book-2-chapter-10-integration/integration-plan.json).
 
 - [ ] **B02-01 — Gereksinimler kimlik ve kaynakla izleniyor mu?** **Kanıt:** FG-01–FG-05 ve ilgili ihtiyaç açıklamaları. **Eksikse:** Aynı işe çelişkili tanımlar eklemek yerine kaynak kaydı bağlayın.
 
@@ -152,7 +152,7 @@ Kavramsal model, saklama yapısı ve uygulama erişimi birlikte incelenir. Yaban
 
 AI-CRM notu doğru müşteri, doğrulanmış yazar ve sunucu zamanıyla ilişkilendirilir. Görev sahibine bağlıdır. Aynı adlı iki müşterinin ayrı kimlikleri olabilir; ad eşitliği kayıtları birleştirme gerekçesi değildir. Tasarım incelemesiyle gerçek veritabanı davranışı testi ayrı kanıtlardır.
 
-Dayanak: [Veri modeli](../../docs/bolum-eslestirmesi.md#kitap-1-bolum-7), [API sözleşmesi](../../docs/bolum-eslestirmesi.md#kitap-1-bolum-8), [Sentetik ilişkiler](../../assets/examples/chapter23-integration/synthetic-data.json).
+Dayanak: [Veri modeli](../../docs/bolum-eslestirmesi.md#kitap-1-bolum-7), [API sözleşmesi](../../docs/bolum-eslestirmesi.md#kitap-1-bolum-8), [Sentetik ilişkiler](../../assets/examples/book-2-chapter-10-integration/synthetic-data.json).
 
 - [ ] **B04-01 — Varlık ve alanlar ihtiyaçtan türetildi mi?** **Kanıt:** Müşteri, not, görev ve hesap modelinin gerekçesi. **Eksikse:** Gerekçesiz tablo ve alanları çıkarın.
 
@@ -224,7 +224,7 @@ YZ çıktısı kod, plan, test, belge veya açıklama olabilir. Doğrulama biçi
 
 AI-CRM örneğinde “testler geçti” diyen yanıtın hangi komutu, hangi sürümde çalıştırdığı aranır. Komut önerilmiş ancak yürütülmemişse sonuç plan düzeyindedir. İkinci modelin aynı görüşe katılması bağımsız ürün kanıtı sayılmaz. Kontrolün amacı her yanıtı reddetmek değil, iddiayı uygun kanıtla eşleştirmektir.
 
-Dayanak: [YZ ile çalışma yöntemi](../../docs/bolum-eslestirmesi.md#kitap-1-bolum-5), [YT-25-01](../../assets/examples/chapter25-ai-team/README.md), [GÖ-26-01](../../assets/examples/chapter26-future/README.md).
+Dayanak: [YZ ile çalışma yöntemi](../../docs/bolum-eslestirmesi.md#kitap-1-bolum-5), [YT-25-01](../../assets/examples/book-2-chapter-12-ai-team/README.md), [GÖ-26-01](../../assets/examples/book-2-chapter-13-future/README.md).
 
 - [ ] **B10-01 — Çıktı verilen göreve cevap veriyor mu?** **Kanıt:** Amaç, kapsam ve beklenen çıktı ile eşleştirme. **Eksikse:** İlgisiz genişlemeyi çıkarıp eksik görevi görünür kılın.
 

@@ -57,7 +57,7 @@ Alan uzunlukları, iletişim alanlarının dolu değer doğrulaması, zaman dili
 
 **E.5. Tasarımı sınamak için sentetik örnek**
 
-Aşağıdaki senaryo [ortak sentetik veri dosyasıyla](../../assets/examples/chapter23-integration/synthetic-data.json) uyumludur. Gerçek müşteri verisi içermez; bir kurulum veya veritabanına yükleme dosyası değildir.
+Aşağıdaki senaryo [ortak sentetik veri dosyasıyla](../../assets/examples/book-2-chapter-10-integration/synthetic-data.json) uyumludur. Gerçek müşteri verisi içermez; bir kurulum veya veritabanına yükleme dosyası değildir.
 
 | Aktör veya kayıt | Tasarımda incelenecek durum |
 |---|---|

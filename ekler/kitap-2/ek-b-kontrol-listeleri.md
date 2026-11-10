@@ -80,7 +80,7 @@ Güvenlik kontrolü, “güvenli görünüyor” yargısından somut aktör, kay
 
 AI-CRM örneğinde A ve B etkin ekip üyeleri, S yalnız hesap yöneticisi, D ise devre dışı hesaptır. A'nın kişisel görevine B'nin erişimi reddedilir. Hem ekip hem yönetici rolü taşıyan aktör de başkasının kişisel görevini açamaz. Kontrol bu davranışları arayüzden bağımsız, korumalı sunucu yollarında araştırır.
 
-Dayanak: [Güvenlik](../../docs/bolum-eslestirmesi.md#kitap-2-bolum-6), [Veri ve paylaşım incelemesi](../../docs/bolum-eslestirmesi.md#kitap-2-bolum-7), [Kabul senaryoları](../../assets/examples/chapter23-integration/acceptance-cases.json).
+Dayanak: [Güvenlik](../../docs/bolum-eslestirmesi.md#kitap-2-bolum-6), [Veri ve paylaşım incelemesi](../../docs/bolum-eslestirmesi.md#kitap-2-bolum-7), [Kabul senaryoları](../../assets/examples/book-2-chapter-10-integration/acceptance-cases.json).
 
 - [ ] **B06-01 — Varlık, aktör ve güven sınırı belirli mi?** **Kanıt:** Korunan veri, giriş yolları ve olası kötüye kullanım örnekleri. **Eksikse:** Yalnız genel güvenlik etiketiyle yetinmeyin.
 
@@ -116,7 +116,7 @@ Test incelemesi, test dosyasının bulunmasından beklenen davranışın doğru 
 
 AI-CRM için not kabul ölçütleriyle bütün ürün kapsamı ayrılır. Bölüm 10'teki senaryolar hazırlanmış planlardır; dosyalarının mevcut olması gerçek Django ve PostgreSQL üzerinde koştukları anlamına gelmez. Yerel öğretim laboratuvarının sonucu yalnız kendi sınırları içinde aktarılır.
 
-Dayanak: [Test stratejisi](../../docs/bolum-eslestirmesi.md#kitap-2-bolum-5), [Uygulama kabul planı](../../assets/examples/chapter23-integration/acceptance-cases.json), [Hata ayıklama](../../docs/bolum-eslestirmesi.md#kitap-2-bolum-4).
+Dayanak: [Test stratejisi](../../docs/bolum-eslestirmesi.md#kitap-2-bolum-5), [Uygulama kabul planı](../../assets/examples/book-2-chapter-10-integration/acceptance-cases.json), [Hata ayıklama](../../docs/bolum-eslestirmesi.md#kitap-2-bolum-4).
 
 - [ ] **B07-01 — Beklenti gereksinimden türetildi mi?** **Kanıt:** Gereksinim, girdi ve beklenen sonuç bağı. **Eksikse:** Mevcut çıktıyı sorgulamadan doğru sonuç kabul etmeyin.
 
@@ -152,7 +152,7 @@ Yayın incelemesi belirli aday, hedef ortam ve veri durumuna bağlanır. Aynı c
 
 Django'nun deployment listesi production ayarları, HTTPS, sırlar ve ortam farklarını kontrol etmeyi; dağıtım kontrollerini ilgili ayarlara karşı yürütmeyi açıklar (Django Software Foundation, t.y.). Kitaptaki hedef teknoloji tercihiyle gerçek ortam doğrulaması ayrıdır. Bu bölüm bir komut çalıştırmaz ve mevcut yayın onayı üretmez; gerçek yayın için YK-21-01'in somutlaştırılması gerekir.
 
-Dayanak: [Deployment ve CI/CD](../../docs/bolum-eslestirmesi.md#kitap-2-bolum-8), [YK-21-01](../../assets/examples/chapter21-release/README.md), [Ortam kararı](../../docs/bolum-eslestirmesi.md#kitap-2-bolum-1).
+Dayanak: [Deployment ve CI/CD](../../docs/bolum-eslestirmesi.md#kitap-2-bolum-8), [YK-21-01](../../assets/examples/book-2-chapter-08-release/README.md), [Ortam kararı](../../docs/bolum-eslestirmesi.md#kitap-2-bolum-1).
 
 - [ ] **B08-01 — Yayın adayı açıkça tanımlı mı?** **Kanıt:** Kaynak sürümü, build çıktısı ve artifact kimliği. **Eksikse:** Hangi çıktının yayına gideceği belirsizken işlemi başlatmayın.
 
@@ -188,7 +188,7 @@ Production kontrolü tek seferlik yayın kapanışı değildir. Hizmetin gerçek
 
 AI-CRM'de müşteriyi okumak başarılıyken not yazma yolu bozulabilir. Tek sağlık adresinin yanıt vermesi bütün işlevleri kapsamaz. Hata oranı için payda, zaman aralığı ve hangi retlerin beklenen davranış olduğu bilinmelidir. Bir modelin günlükleri özetlemesi de gerçek olay müdahalesi yapıldığı anlamına gelmez.
 
-Dayanak: [Production sonrası bakım](../../docs/bolum-eslestirmesi.md#kitap-2-bolum-9), [İB-22-01](../../assets/examples/chapter22-operations/README.md), [SaaS işletimi](../../docs/bolum-eslestirmesi.md#kitap-2-bolum-11).
+Dayanak: [Production sonrası bakım](../../docs/bolum-eslestirmesi.md#kitap-2-bolum-9), [İB-22-01](../../assets/examples/book-2-chapter-09-operations/README.md), [SaaS işletimi](../../docs/bolum-eslestirmesi.md#kitap-2-bolum-11).
 
 - [ ] **B09-01 — İzlenen kullanıcı yolları belirli mi?** **Kanıt:** Okuma, kayıt ve görev işlemleri için anlamlı hizmet kontrolleri. **Eksikse:** Tek sağlık adresinden tüm ürünün durumunu çıkarmayın.
 
@@ -224,7 +224,7 @@ YZ çıktısı kod, plan, test, belge veya açıklama olabilir. Doğrulama biçi
 
 AI-CRM örneğinde “testler geçti” diyen yanıtın hangi komutu, hangi sürümde çalıştırdığı aranır. Komut önerilmiş ancak yürütülmemişse sonuç plan düzeyindedir. İkinci modelin aynı görüşe katılması bağımsız ürün kanıtı sayılmaz. Kontrolün amacı her yanıtı reddetmek değil, iddiayı uygun kanıtla eşleştirmektir.
 
-Dayanak: [YZ ile çalışma yöntemi](../../docs/bolum-eslestirmesi.md#kitap-1-bolum-5), [YT-25-01](../../assets/examples/chapter25-ai-team/README.md), [GÖ-26-01](../../assets/examples/chapter26-future/README.md).
+Dayanak: [YZ ile çalışma yöntemi](../../docs/bolum-eslestirmesi.md#kitap-1-bolum-5), [YT-25-01](../../assets/examples/book-2-chapter-12-ai-team/README.md), [GÖ-26-01](../../assets/examples/book-2-chapter-13-future/README.md).
 
 - [ ] **B10-01 — Çıktı verilen göreve cevap veriyor mu?** **Kanıt:** Amaç, kapsam ve beklenen çıktı ile eşleştirme. **Eksikse:** İlgisiz genişlemeyi çıkarıp eksik görevi görünür kılın.
 

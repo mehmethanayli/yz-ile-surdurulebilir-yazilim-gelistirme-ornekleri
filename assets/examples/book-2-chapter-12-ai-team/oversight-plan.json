@@ -10,12 +10,12 @@
   "source_snapshot": [
     {
       "record_id": "UÇ-23-01",
-      "path": "../chapter23-integration/integration-plan.json",
+      "path": "../book-2-chapter-10-integration/integration-plan.json",
       "sha256": "cf30a6569ebf524c115e678dddcd17eb357767c401f9f31904a2a71a8967eb83"
     },
     {
       "record_id": "SG-24-01",
-      "path": "../chapter24-saas/transition-plan.json",
+      "path": "../book-2-chapter-11-saas/transition-plan.json",
       "sha256": "5a35cabc69484484902be862c260278d2a6da2397fae12e723ec87543610de74"
     }
   ],
