@@ -1,4 +1,6 @@
-# Bölüm 9 — İşletim planı ve sentetik ölçümler
+# Kitap 2 Bölüm 9 — Production Sonrası Hayat
+
+**İşletim planı ve sentetik ölçümler**
 
 > **Bölüm numarası:** Bu paket Kitap 2’nin bağımsız 1–13 numaralandırmasına göre listelenir. Klasör adları ve GO-14-01 gibi kayıt kimlikleri kaynak dosyalarla uyum için korunmuştur.
 

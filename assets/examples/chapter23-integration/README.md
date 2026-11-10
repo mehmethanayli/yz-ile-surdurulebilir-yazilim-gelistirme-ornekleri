@@ -1,4 +1,6 @@
-# Bölüm 10 — Uçtan uca bütünleştirme paketi
+# Kitap 2 Bölüm 10 — Baştan Sona AI Destekli Bir Uygulama Geliştirmek
+
+**Uçtan uca bütünleştirme paketi**
 
 > **Bölüm numarası:** Bu paket Kitap 2’nin bağımsız 1–13 numaralandırmasına göre listelenir. Klasör adları ve GO-14-01 gibi kayıt kimlikleri kaynak dosyalarla uyum için korunmuştur.
 

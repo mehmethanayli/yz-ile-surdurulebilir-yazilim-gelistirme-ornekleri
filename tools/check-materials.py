@@ -44,7 +44,7 @@ def main():
     prohibited=[p.relative_to(root).as_posix() for p in root.rglob('*') if p.is_file() and '.git' not in p.relative_to(root).parts and
                 (p.suffix in {'.docx','.pdf','.rar'} or p.name=='.env' or '__pycache__' in p.parts)]
     if prohibited:errors.append(f'Unexpected publishing files: {prohibited}')
-    with ZipFile(root/'indir/kitap-materyalleri-v0.1.0.zip') as z:
+    with ZipFile(root / 'indir' / f"kitap-materyalleri-{manifest['version']}.zip") as z:
         if z.testzip():errors.append('Corrupted ZIP')
         expected=set(manifest['files'])|{'distribution-manifest.json'}
         if set(z.namelist())!=expected:errors.append('ZIP manifest mismatch')

@@ -1,4 +1,6 @@
-# Bölüm 3 — Ortam raporunun isteğe bağlı paylaşım görünümü
+# Kitap 2 Bölüm 3 — AI ile Kod Geliştirme Stratejisi
+
+**Ortam raporunun isteğe bağlı paylaşım görünümü**
 
 > **Bölüm numarası:** Bu paket Kitap 2’nin bağımsız 1–13 numaralandırmasına göre listelenir. Klasör adları ve GO-14-01 gibi kayıt kimlikleri kaynak dosyalarla uyum için korunmuştur.
 

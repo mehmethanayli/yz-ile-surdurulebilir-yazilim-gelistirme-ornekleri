@@ -1,5 +1,10 @@
 # Değişiklik kaydı
 
+## v0.1.1 — 2026-11-10
+
+- Uygulama paketlerinin başlıkları Kitap 2’deki bölüm adlarıyla eşleştirildi.
+- İndirilebilir ZIP paketi güncellendi.
+
 ## v0.1.0 — 2026-11-02
 
 - Altı Python laboratuvarı ve yedi öğretim paketi bir araya getirildi.

@@ -1,6 +1,6 @@
 {
-  "version": "v0.1.0",
-  "prepared_on": "2026-11-02",
+  "version": "v0.1.1",
+  "prepared_on": "2026-11-10",
   "author": "Mehmet Can Hanaylı",
   "numbering": "Kitap 1: 1–13; Kitap 2: 1–13; original paths and record IDs retained",
   "files": {
@@ -8,17 +8,17 @@
     ".gitignore": "ff03c82a86aa515e2d65f72418f98d159fc29e2e9c0d8fedf9e733ed4e3f1245",
     "assets/code/chapter14-environment/.env.example": "ba7589f4acd83c2fc85b7a3d10e293555c6090456e48619ed78ce129a04873bb",
     "assets/code/chapter14-environment/.gitignore": "bc978724a742ba8c0d51e7bd3e2ca1b3b4ff023c0d09e866f2593716c6c1e652",
-    "assets/code/chapter14-environment/README.md": "3da31dbf88d40b8639eafd60d71c94cfa7de7f475d3b0893203bedf24bedb5f3",
+    "assets/code/chapter14-environment/README.md": "91c3953066d1ee5e0357ad78b1ef33a95cf47817ce740f5f6090a9c0748d7490",
     "assets/code/chapter14-environment/requirements.in": "dfaf0882844aef6b1c2c6d087a98bf5a733b795d1a837e347446481942e672e2",
     "assets/code/chapter14-environment/scripts/inspect_environment.py": "eb1e01b8ae5e770871d89c54c8a8ea4f34c5ebfdb422f60c16feb8bd57d95d2d",
     "assets/code/chapter14-environment/tests/test_environment.py": "e2d31764e3f77d68f9ccdf8efc0c36cf216fe3c89cc9244da02a74ea734a36ed",
-    "assets/code/chapter15-git-lab/README.md": "48922b364d338d46317deac55211b1e265d6b069eb53655045914404ff257d3c",
+    "assets/code/chapter15-git-lab/README.md": "e57545cc127293ffd6f2b008e7370ff46a953e47981121e338362e1e7effceb2",
     "assets/code/chapter15-git-lab/run_lab.py": "e94bacd111bde043bb9a70ffafd53215393aa5aaaebb5dc6a2eb81b0c2b23666",
     "assets/code/chapter15-git-lab/verification.json": "aef417eac5243c739244db0ff37b8d5a29203ac35179a25cac0f0a1246080444",
     "assets/code/chapter16-share-report/.gitignore": "8d68c297a4f2845748241cb96f22ebc57a90c4366698ec78f687632e1ae38673",
     "assets/code/chapter16-share-report/baseline.json": "de5ccb2eafffc860d5b155fe0e5337cd8fdca7f3ff14bdb0e7c162aa217dda32",
     "assets/code/chapter16-share-report/change.diff": "61a4ab7fa2875075e852c4add2084d6229b5343884e3e971c9af54090ca0d98f",
-    "assets/code/chapter16-share-report/README.md": "d9f59cbf560f7ee1f308d769300c1c9b8efd92dbad6f27f3905fc8ec22a106b3",
+    "assets/code/chapter16-share-report/README.md": "10315eff440f71a2ad8540a8726119f97521d786a9304714d31d21415e28d68a",
     "assets/code/chapter16-share-report/scripts/inspect_environment.py": "2d0c78fcc9d64dce27306c89347abd09ab06b63463a69945ecd266a151c8072a",
     "assets/code/chapter16-share-report/tests/test_environment.py": "e2d31764e3f77d68f9ccdf8efc0c36cf216fe3c89cc9244da02a74ea734a36ed",
     "assets/code/chapter16-share-report/tests/test_share_report.py": "81d18cdbd826f157e8d5cd73c1bfcfe3dbe78143179967ddb21c12f0126dd2d7",
@@ -28,7 +28,7 @@
     "assets/code/chapter17-debug-lab/fix.diff": "0d4ddbbc5be5d7d14c991a3a23599c72439ecff011e1d9826db927b4330fac55",
     "assets/code/chapter17-debug-lab/minimal_repro.py": "244f5edada93c02240384d980c7cb526eca5e50f4d3745df0281a279c62fa86c",
     "assets/code/chapter17-debug-lab/pdb-session.txt": "737673b3fff274194f16cb55b710cf0e3fe7fb5e47e3b677732949da5718c10e",
-    "assets/code/chapter17-debug-lab/README.md": "a1bc9718c3ffb3ec506127ef037d32b43d5f20f2411e3e5bef17aa65fbbc8738",
+    "assets/code/chapter17-debug-lab/README.md": "7486637ff9501a8b49b147419519d27adbbc86d65fa3b4d4592c33c140184453",
     "assets/code/chapter17-debug-lab/reproduce.py": "fd9d192632b8d2a6197a5aed4dc8de2ca931925f780d8f9eeb17a993d661f832",
     "assets/code/chapter17-debug-lab/settings_faulty.py": "9afbbb62ef1b5fbbbc15b3ede86f65194a1b0e70b026cf9d87032ae3ba692100",
     "assets/code/chapter17-debug-lab/settings_fixed.py": "484c789960d977b56bf4c0547a21067e9b5533bffe00e9cb50e4015104a0f2c1",
@@ -38,7 +38,7 @@
     "assets/code/chapter18-test-lab/quality-result.json": "380fab05a78044a60f1aa81fd1b89f931ffc2b258ac16e13a571efa82731b947",
     "assets/code/chapter18-test-lab/quality_examples/settings_faulty.py": "9afbbb62ef1b5fbbbc15b3ede86f65194a1b0e70b026cf9d87032ae3ba692100",
     "assets/code/chapter18-test-lab/quality_examples/settings_fixed.py": "484c789960d977b56bf4c0547a21067e9b5533bffe00e9cb50e4015104a0f2c1",
-    "assets/code/chapter18-test-lab/README.md": "e6d8c7023e80da3dff2b56857d56842ed7bbb64596efdf8ce46c9178aa6ceeac",
+    "assets/code/chapter18-test-lab/README.md": "efd18f0b926b56988e3a523fb6d50e2d48249b2fca934dbf78dfa8cfa2a82b48",
     "assets/code/chapter18-test-lab/scripts/inspect_environment.py": "2d0c78fcc9d64dce27306c89347abd09ab06b63463a69945ecd266a151c8072a",
     "assets/code/chapter18-test-lab/tests/test_environment.py": "e2d31764e3f77d68f9ccdf8efc0c36cf216fe3c89cc9244da02a74ea734a36ed",
     "assets/code/chapter18-test-lab/tests/test_package_metadata.py": "ea9c322160adb6e34467eff9147d9de33a6447fdcc14a24d24e0da1292b71a2e",
@@ -46,29 +46,29 @@
     "assets/code/chapter18-test-lab/verification.json": "d738c353c3008daef7d243aca70030967919f12de7acc8a5a73d101ba75c3a61",
     "assets/code/chapter18-test-lab/verify_test_quality.py": "3b9f377d5dd14788c7a875ecf54ed91d05cf183f3661017846486f41fdd92037",
     "assets/code/chapter19-security-lab/.gitignore": "1faaa7621d729028b5070c0c77e203ca3f8998e3b525f48868e25ce57a69254a",
-    "assets/code/chapter19-security-lab/README.md": "b59316f3d8fca690d62da1f5a0ea6a1599bc4d7520696baacb5f4d564bd803e2",
+    "assets/code/chapter19-security-lab/README.md": "fd840ec63a4f43ff2d172b7266b29c58ab99dc9af3ea3a8d23bbd84aa30f5f01",
     "assets/code/chapter19-security-lab/security_example.py": "706871c45a89935722fbc6c804957d12cc3879d0aa83ab139db2c555c2aa0b8a",
     "assets/code/chapter19-security-lab/tests/test_security_example.py": "6c682ccd816df04e5f6cfd448a1f9c89a0fc51b5ee3aa759b17a497bb3ecf5b3",
     "assets/code/chapter19-security-lab/verification.json": "b79052036c56718a2a773bec121571de8ad1171bfe2b1a523daf6c6cab045a18",
-    "assets/examples/chapter20-review/README.md": "0b934c5e022b946b97c8204c04492d80f532ebc60317deb9927d5944659c3cc4",
+    "assets/examples/chapter20-review/README.md": "179adb38551e0c4c27b535aac80f249e82d94958a35b088967fb28b00c138225",
     "assets/examples/chapter20-review/review-cases.json": "007887258dfbfac844f23b973d0a1d78a1237ca0d160d3adde7e8ae314df3741",
     "assets/examples/chapter20-review/verification.json": "9e269ca7a950c3efc690d09f0b01b10d562b5c82f8c68ce1c8c003cfb1d07e09",
-    "assets/examples/chapter21-release/README.md": "1d5c78b0f10a5fe1ac27656e8a0806ded4ac0ceb8e247aee923d9e518c426327",
+    "assets/examples/chapter21-release/README.md": "e57f3773627b7af95c9c6df11c59891c1233d7e5c8c77bef508b17845ffe35da",
     "assets/examples/chapter21-release/release-plan.json": "b6d93c3f53937539a472030aa7e70db6e9e83038307a36cd03c38f77369523eb",
     "assets/examples/chapter21-release/runbook.md": "e7dbccc4af6083687e499bf2fcf64be6a0d8a125230ad7da92e0d2780bbe6099",
     "assets/examples/chapter21-release/verification.json": "b6d69325cb983783f30eb5b63cb776102af77e9669dd1de6c03bc78d764373f9",
     "assets/examples/chapter22-operations/measurement-examples.json": "e1226cb36318f554b774c049941d4a5a2e66982df08d05b85a473c915a4224da",
     "assets/examples/chapter22-operations/operations-plan.json": "e9018d31d43d3782f18464fd8adce1248c80fbdb88d9535da55fb94366fe8a86",
-    "assets/examples/chapter22-operations/README.md": "ab4862d9298f848c483ae01fa57f9fd5f3c0e04dd86714c89bcdbab24eac3101",
+    "assets/examples/chapter22-operations/README.md": "63b908aefef7838e171de4769ae2bcc1f97eb15bc58d81f91896050c49926218",
     "assets/examples/chapter22-operations/verification.json": "8069ecab55340198eabb3e14742fbcac9bc5912289fa23b63c00f958c3bcb280",
     "assets/examples/chapter23-integration/acceptance-cases.json": "235eb9a13c4d97c6836da17baf63af4f0450cd042475b4ce99e6a0a4bf1e84bc",
     "assets/examples/chapter23-integration/implementation-sequence.md": "abc689ee7b371186a4eb1e69ce8d5718c30fde16e15172f420ee3ac64fe22547",
     "assets/examples/chapter23-integration/integration-plan.json": "cf30a6569ebf524c115e678dddcd17eb357767c401f9f31904a2a71a8967eb83",
-    "assets/examples/chapter23-integration/README.md": "28dba1c7264726ec9c81ea4908d66d2191b7bbac7fbf085c22cbe3e02b9d5ba1",
+    "assets/examples/chapter23-integration/README.md": "db1d521a0979cff39e7f3e0565e8bc018e7aa0220cb3b0b092ae2bbe3dc9b0ec",
     "assets/examples/chapter23-integration/synthetic-data.json": "70c00e33bf47be809e4f996cbb7c181bd7cef2a95f0170759a07a3624dd872a5",
     "assets/examples/chapter23-integration/verification.json": "d051e9b75450ab95a72227f14409b0f0d3588f0861fb820866e7f10293bb7083",
     "assets/examples/chapter24-saas/acceptance-cases.json": "b132199219baae0093a5192542bef293e37c68da25f2f0e0f2c895534a6933ac",
-    "assets/examples/chapter24-saas/README.md": "e2f8916d56f743cd9148a88aa7a1ae524b800f3d8d298cec9aa45dd627f97f5a",
+    "assets/examples/chapter24-saas/README.md": "772f4d3cff58e775251a2a8dc97e9f3d65e5b017c9cca616ff3c392a944c52af",
     "assets/examples/chapter24-saas/synthetic-data.json": "2754d68624270c9e82f14f29a4793a95145df9df12f1797820d4c99024e7a620",
     "assets/examples/chapter24-saas/transition-plan.json": "5a35cabc69484484902be862c260278d2a6da2397fae12e723ec87543610de74",
     "assets/examples/chapter24-saas/verification.json": "5bdec1a0f1e46331e3bc1a3d47f4dfd4c56c637464904943aef924d1f561a456",
@@ -76,16 +76,16 @@
     "assets/examples/chapter25-ai-team/evaluation-rubric.json": "fc4f6ff399d106f51548ce1f542a331cc9c4373d4359a3c0798305c2e4a159d8",
     "assets/examples/chapter25-ai-team/handoff-template.json": "0467b991cfaf0a722c2a034f1ef91f68714838299952a55fcc1eba3775a33192",
     "assets/examples/chapter25-ai-team/oversight-plan.json": "9d71d66300ff9ddde86149407ec0f94f8c30b1007229490fc16a1f41f179896d",
-    "assets/examples/chapter25-ai-team/README.md": "51b08bce4d033372beff04f34705fd08a7e97bf9b16c8ed1f9d87a1a875c56b6",
+    "assets/examples/chapter25-ai-team/README.md": "3887392806dc104a192b01d966c3223966e0aa1cce612e2f81f8f4aed75a494c",
     "assets/examples/chapter25-ai-team/task-cards.json": "8a70a47b37af042cc9fbe655800fe0fd00d094715b9311f7d6c31e7e7f5050c2",
     "assets/examples/chapter25-ai-team/verification.json": "aece0cf310d57cbd6820a9b9fffc200525851e8f48d1b4833f933eb02f2646fb",
     "assets/examples/chapter26-future/claim-cases.json": "92881ef997507b56cfe29e3122881e29b0a87460c5228e15d26594c5d4709a7d",
     "assets/examples/chapter26-future/future-plan.json": "9160cf031775d28d09f05053884fa524319c278951106ae88e33612c851aad3e",
     "assets/examples/chapter26-future/learning-plan.json": "cf3a7971a0540a11eea5cf448eabfa95b650936eb33b7725077be129c1cc3752",
     "assets/examples/chapter26-future/measurement-examples.json": "205a60de770a6b92acf6e26ddc38a35a0172a2c52661532b6334e11822bed6e3",
-    "assets/examples/chapter26-future/README.md": "0a01c877448849662f5d1e69d74af810d95365fa12cd00d61b4a88366ab5963a",
+    "assets/examples/chapter26-future/README.md": "2f3a478e9efb80e4d251ba6b76eef0d50b9f90d509ee2e56833f707491ff450e",
     "assets/examples/chapter26-future/verification.json": "61bc2ae9ab170d42486365ec2028542f10c7a9c4f82448b5a7a23e7f914696d4",
-    "CHANGELOG.md": "cbf6de67c663162dce0c2e62a241020a41d439bc96aa10555ad7b7f9ad8e546f",
+    "CHANGELOG.md": "cebfcf046ee18f94fb07da4f30e640a64a74fe52d3d11eb8319bb6d9b119b380",
     "docs/bolum-eslestirmesi.md": "b62df663a69869c937e63167e0a782fe3bd4832e83ef090da808835a26002a1c",
     "ekler/kitap-1/ek-a-terimler-sozlugu.md": "12db10c39f318a13c366146b3d1af05f453f011ed44660017a6ae777fa0984bb",
     "ekler/kitap-1/ek-b-kontrol-listeleri.md": "745cf03e0db77c66da8988ef066de7d09cbb9a36e0c674b2dbf5484c939e418a",
@@ -93,21 +93,21 @@
     "ekler/kitap-1/ek-d-onerilen-kaynaklar.md": "c99b001bb05c9b4476958fbfaade36831ba5253dd9f7d6fd6503efea547e3934",
     "ekler/kitap-1/ek-e-ornek-proje.md": "2f56e948c1caae34adb89f9f03c4e70b44aeb8b5b3a7ea664cf2c8806ba62dd7",
     "ekler/kitap-1/ek-f-kodlar-ve-kayit-kimlikleri.md": "c71f1e10e06783d193cacd57ecdf5acc37450348af91fef6afef46359e5ffb6b",
-    "ekler/kitap-1/README.md": "187de96caafb87843a636fd343591956c35628e1c3d63916028dd87204f5a319",
+    "ekler/kitap-1/README.md": "ca4674ffbebda9abecf8dd8bac9b146023e68ff62a2182189223610b87e0c7e5",
     "ekler/kitap-2/ek-a-terimler-sozlugu.md": "cac314031f2574c6038c00fd179525645c49c60450129db2b895246d67ff96ed",
     "ekler/kitap-2/ek-b-kontrol-listeleri.md": "fd26c5af9b19de4643615d48fe69bc1271d280199d25c8b7b1b930306bfd45a5",
     "ekler/kitap-2/ek-c-yapilandirilmis-ai-talimatlari.md": "5bb3ebe46b6da0989d9ae7cd19f9ca0c2fab8373c20147f1fe553bec6c6ec26a",
     "ekler/kitap-2/ek-d-onerilen-kaynaklar.md": "11d706e53043d316c6bb9e26e379ef9da8daa1c5fd7e3d34603b5fc6250a245a",
     "ekler/kitap-2/ek-e-ornek-proje.md": "761a1b203e2d847ec610dc0949d77abc06039fa3abb8a8f1f1b090f9157bccc5",
     "ekler/kitap-2/ek-f-kodlar-ve-kayit-kimlikleri.md": "17c17bcc137eb13cb827a89d7dbe0e674851c2ebfc693f5a0f425bcc57f604c9",
-    "ekler/kitap-2/README.md": "ba22a6a9bab092d6ac13c9314ee2dcf0feb15c6588de9a2154fc2556617d9334",
+    "ekler/kitap-2/README.md": "b94182f8509706bdce0babd8fc78a0316193ec8b56e8ee1a2533aa5489c0389c",
     "ekler/LICENSE.md": "4ec528a6313d9a62c03ade83cb442fbae95647de9f03806b911ad5a186ff098f",
     "ekler/README.md": "ba5927b222c85ee2c2d39c96c2cca0c46dcceab2bce24bda8bf847422cdee03f",
     "LICENSE": "c0ee11635e6aa86150092d7735a75f478d78287293ab07ea7883bc3647aca071",
-    "README.md": "0cd0d9399228bf4ce5bc7a0277be3fcdf656b43b38e325e9a19488ffcdd3eeb1",
+    "README.md": "442bdc3df9d24d42c1769f306e6e27cceaff39ef28ae52e38aa3b6effb14c2a2",
     "references/README.md": "73abb81bd1fac0b963bb982e5d31e3944ac6636254e0dbbfeb46effaad61ce15",
     "references/references.bib": "8c3d8b62801e5bd86456fca22833514c62496ec23b932c8cbdda656eab796417",
-    "tools/check-materials.py": "fc8cbec4e1573fb4be1897df42d94b259611bf5b9563fad5c86bd8e845a3896c"
+    "tools/check-materials.py": "7567eb4173e296089dcc69dd88657eaab11d077f8ee44387dd3f7facdfa69183"
   },
   "source_materials": [
     {
@@ -125,7 +125,7 @@
     {
       "path": "assets/code/chapter14-environment/README.md",
       "source_sha256": "531aa5562c0b72ea803d81fbfb6a6016a63ad5129810d79ad52c791652342418",
-      "distribution_sha256": "3da31dbf88d40b8639eafd60d71c94cfa7de7f475d3b0893203bedf24bedb5f3",
+      "distribution_sha256": "91c3953066d1ee5e0357ad78b1ef33a95cf47817ce740f5f6090a9c0748d7490",
       "adapted_for_readers": true
     },
     {
@@ -149,7 +149,7 @@
     {
       "path": "assets/code/chapter15-git-lab/README.md",
       "source_sha256": "7af648a8a2fe8f0a756cce927fec8a6a90f2f0e79e3f937656988066b9a595e7",
-      "distribution_sha256": "48922b364d338d46317deac55211b1e265d6b069eb53655045914404ff257d3c",
+      "distribution_sha256": "e57545cc127293ffd6f2b008e7370ff46a953e47981121e338362e1e7effceb2",
       "adapted_for_readers": true
     },
     {
@@ -173,7 +173,7 @@
     {
       "path": "assets/code/chapter16-share-report/README.md",
       "source_sha256": "53a7e06a87e1b4b4373c597120100bf66d148bc154f6573a7ea33eab01e3adb6",
-      "distribution_sha256": "d9f59cbf560f7ee1f308d769300c1c9b8efd92dbad6f27f3905fc8ec22a106b3",
+      "distribution_sha256": "10315eff440f71a2ad8540a8726119f97521d786a9304714d31d21415e28d68a",
       "adapted_for_readers": true
     },
     {
@@ -227,7 +227,7 @@
     {
       "path": "assets/code/chapter17-debug-lab/README.md",
       "source_sha256": "829102f6003ac7569add3b5fbe947e9708044b8b8422d1fafba266983657477e",
-      "distribution_sha256": "a1bc9718c3ffb3ec506127ef037d32b43d5f20f2411e3e5bef17aa65fbbc8738",
+      "distribution_sha256": "7486637ff9501a8b49b147419519d27adbbc86d65fa3b4d4592c33c140184453",
       "adapted_for_readers": true
     },
     {
@@ -287,7 +287,7 @@
     {
       "path": "assets/code/chapter18-test-lab/README.md",
       "source_sha256": "fe2f4f4ea9c9f1cc67bfd269bb257a0c29916c095d5e2c24166743c814399a19",
-      "distribution_sha256": "e6d8c7023e80da3dff2b56857d56842ed7bbb64596efdf8ce46c9178aa6ceeac",
+      "distribution_sha256": "efd18f0b926b56988e3a523fb6d50e2d48249b2fca934dbf78dfa8cfa2a82b48",
       "adapted_for_readers": true
     },
     {
@@ -353,7 +353,7 @@
     {
       "path": "assets/code/chapter19-security-lab/README.md",
       "source_sha256": "3b524da867fc77822746eb33c4843f71f1a04e183e88d894a7875963ec0b6888",
-      "distribution_sha256": "b59316f3d8fca690d62da1f5a0ea6a1599bc4d7520696baacb5f4d564bd803e2",
+      "distribution_sha256": "fd840ec63a4f43ff2d172b7266b29c58ab99dc9af3ea3a8d23bbd84aa30f5f01",
       "adapted_for_readers": true
     },
     {
@@ -377,7 +377,7 @@
     {
       "path": "assets/examples/chapter20-review/README.md",
       "source_sha256": "d7a91f62feaab6cd77ae41b6a30c28d5f59c523d5b071e3f7e11614fed207115",
-      "distribution_sha256": "0b934c5e022b946b97c8204c04492d80f532ebc60317deb9927d5944659c3cc4",
+      "distribution_sha256": "179adb38551e0c4c27b535aac80f249e82d94958a35b088967fb28b00c138225",
       "adapted_for_readers": true
     },
     {
@@ -395,7 +395,7 @@
     {
       "path": "assets/examples/chapter21-release/README.md",
       "source_sha256": "856269d3b0affdf7172b4a6abced931f0d7c2b413d8c8352e38541b6f31a5e9f",
-      "distribution_sha256": "1d5c78b0f10a5fe1ac27656e8a0806ded4ac0ceb8e247aee923d9e518c426327",
+      "distribution_sha256": "e57f3773627b7af95c9c6df11c59891c1233d7e5c8c77bef508b17845ffe35da",
       "adapted_for_readers": true
     },
     {
@@ -419,7 +419,7 @@
     {
       "path": "assets/examples/chapter22-operations/README.md",
       "source_sha256": "cb434a1e90adaca7df6b8be6af490a492ace0a8e10e83c7ea437afc6db128890",
-      "distribution_sha256": "ab4862d9298f848c483ae01fa57f9fd5f3c0e04dd86714c89bcdbab24eac3101",
+      "distribution_sha256": "63b908aefef7838e171de4769ae2bcc1f97eb15bc58d81f91896050c49926218",
       "adapted_for_readers": true
     },
     {
@@ -443,7 +443,7 @@
     {
       "path": "assets/examples/chapter23-integration/README.md",
       "source_sha256": "f1520211c3d69d57d35c59b5fe837b686c733ab10b56b466d69053490a16ed68",
-      "distribution_sha256": "28dba1c7264726ec9c81ea4908d66d2191b7bbac7fbf085c22cbe3e02b9d5ba1",
+      "distribution_sha256": "db1d521a0979cff39e7f3e0565e8bc018e7aa0220cb3b0b092ae2bbe3dc9b0ec",
       "adapted_for_readers": true
     },
     {
@@ -479,7 +479,7 @@
     {
       "path": "assets/examples/chapter24-saas/README.md",
       "source_sha256": "c43ded31dece6e5e2e7d5184170f778cb6462215f4f15c0879380a99f52193c0",
-      "distribution_sha256": "e2f8916d56f743cd9148a88aa7a1ae524b800f3d8d298cec9aa45dd627f97f5a",
+      "distribution_sha256": "772f4d3cff58e775251a2a8dc97e9f3d65e5b017c9cca616ff3c392a944c52af",
       "adapted_for_readers": true
     },
     {
@@ -509,7 +509,7 @@
     {
       "path": "assets/examples/chapter25-ai-team/README.md",
       "source_sha256": "7470b825c51da61230bfde8371264b3ce685301793762d8d4d21883c58e12cf9",
-      "distribution_sha256": "51b08bce4d033372beff04f34705fd08a7e97bf9b16c8ed1f9d87a1a875c56b6",
+      "distribution_sha256": "3887392806dc104a192b01d966c3223966e0aa1cce612e2f81f8f4aed75a494c",
       "adapted_for_readers": true
     },
     {
@@ -551,7 +551,7 @@
     {
       "path": "assets/examples/chapter26-future/README.md",
       "source_sha256": "b37727dec698b801f1a85e1be3b79bc6a950a6dd5531d0e85d599320954bdcf5",
-      "distribution_sha256": "0a01c877448849662f5d1e69d74af810d95365fa12cd00d61b4a88366ab5963a",
+      "distribution_sha256": "2f3a478e9efb80e4d251ba6b76eef0d50b9f90d509ee2e56833f707491ff450e",
       "adapted_for_readers": true
     },
     {

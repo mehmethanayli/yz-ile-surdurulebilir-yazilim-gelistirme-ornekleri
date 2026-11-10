@@ -1,4 +1,6 @@
-# Bölüm 5 — Test Laboratuvarı
+# Kitap 2 Bölüm 5 — Yazılım Testi
+
+**Test Laboratuvarı**
 
 > **Bölüm numarası:** Bu paket Kitap 2’nin bağımsız 1–13 numaralandırmasına göre listelenir. Klasör adları ve GO-14-01 gibi kayıt kimlikleri kaynak dosyalarla uyum için korunmuştur.
 

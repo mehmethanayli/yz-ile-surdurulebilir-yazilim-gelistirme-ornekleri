@@ -1,4 +1,6 @@
-# Bölüm 2 — Yerel Git laboratuvarı
+# Kitap 2 Bölüm 2 — Git ve Sürüm Kontrolü
+
+**Yerel Git laboratuvarı**
 
 > **Bölüm numarası:** Bu paket Kitap 2’nin bağımsız 1–13 numaralandırmasına göre listelenir. Klasör adları ve GO-14-01 gibi kayıt kimlikleri kaynak dosyalarla uyum için korunmuştur.
 

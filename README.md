@@ -10,7 +10,7 @@ başvuru materyallerini bir araya getirir.
 
 - [Kitap 1 Ek A–F](ekler/kitap-1/README.md)
 - [Kitap 2 Ek A–F](ekler/kitap-2/README.md)
-- [Bütün materyalleri ZIP olarak indir](indir/kitap-materyalleri-v0.1.0.zip)
+- [Bütün materyalleri ZIP olarak indir](indir/kitap-materyalleri-v0.1.1.zip)
 - [Kitap ve bölüm eşleştirmesi](docs/bolum-eslestirmesi.md)
 
 Ekler Markdown biçimindedir; GitHub üzerinde doğrudan okunabilir. ZIP paketini
@@ -26,7 +26,7 @@ paket plan, senaryo ve değerlendirme çalışmalarıdır. Dosyalar tamamlanmı�
 Kitap 2’nin bölüm numaraları 1–13’tür. Klasörlerdeki 14–26 sayıları ve kayıt
 kimlikleri dosya uyumluluğu için korunmuştur.
 
-| Kitap 2 bölümü | Konu | Dosyalar |
+| Kitap 2 bölümü | Kitaptaki bölüm adı | Dosyalar |
 |---|---|---|
 | 1 | Geliştirme Ortamını Anlamak | [Paketi aç](assets/code/chapter14-environment/README.md) |
 | 2 | Git ve Sürüm Kontrolü | [Paketi aç](assets/code/chapter15-git-lab/README.md) |
@@ -47,8 +47,7 @@ yararlanabilirsiniz. Bölüm metinleri kitaplarda okunur.
 
 ## Sürüm ve geri bildirim
 
-İlk dijital paket: **v0.1.0**, 2 Kasım 2026. Bu sürüm henüz belirli bir baskının
-değişmez karşılığı olarak etiketlenmemiştir. Güncellemeler [değişiklik kaydında](CHANGELOG.md) belirtilir.
+Güncel dijital paket **v0.1.1** (10 Kasım 2026). Bölüm başlıkları Word metinleriyle eşleştirildi. Güncellemeler [değişiklik kaydında](CHANGELOG.md) belirtilir.
 Hata bildirirken kitap, bölüm, dosya ve kullandığınız paket sürümünü yazın.
 
 Paketlerdeki `verification.json` dosyaları önceki laboratuvar incelemelerini

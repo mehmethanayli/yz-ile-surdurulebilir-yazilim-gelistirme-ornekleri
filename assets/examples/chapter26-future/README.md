@@ -1,4 +1,6 @@
-# GÖ-26-01 — Gelecek, Ölçüm ve Öğrenme Kaydı
+# Kitap 2 Bölüm 13 — Yazılım Geliştirmenin Geleceği
+
+**GÖ-26-01 — Gelecek, Ölçüm ve Öğrenme Kaydı**
 
 > **Bölüm numarası:** Bu paket Kitap 2’nin bağımsız 1–13 numaralandırmasına göre listelenir. Klasör adları ve GO-14-01 gibi kayıt kimlikleri kaynak dosyalarla uyum için korunmuştur.
 
